@@ -3,6 +3,7 @@ import json
 import random
 import re
 import time
+import threading
 import requests
 from urllib.parse import urlparse
 
@@ -22,19 +23,51 @@ class ProviderError(RuntimeError):
 
 
 # ============================================================
-# HTTP WITH EXPONENTIAL BACKOFF (rate limits / transient 5xx)
+# GROQ RATE LIMITER
+# ============================================================
+
+# 30 RPM = one request every 2 seconds.
+# Use a slightly longer interval to leave a safety margin.
+GROQ_MIN_REQUEST_INTERVAL = 2.15
+
+_groq_rate_lock = threading.Lock()
+_groq_next_request_time = 0.0
+
+
+def _wait_for_groq_slot():
+    """
+    Space Groq request starts within this Python process.
+    Every initial request and retry passes through this function.
+    """
+    global _groq_next_request_time
+
+    with _groq_rate_lock:
+        now = time.monotonic()
+        wait_time = max(0.0, _groq_next_request_time - now)
+
+        if wait_time > 0:
+            time.sleep(wait_time)
+
+        _groq_next_request_time = (
+            time.monotonic() + GROQ_MIN_REQUEST_INTERVAL
+        )
+
+
+# ============================================================
+# HTTP WITH EXPONENTIAL BACKOFF
 # ============================================================
 
 RETRY_STATUSES = (429, 500, 502, 503, 504)
-MAX_RETRY_WAIT = 45          # never sleep longer than this for one retry (seconds)
+MAX_RETRY_WAIT = 45
 
 
 def _retry_after_seconds(response):
-    """Seconds requested by the server's Retry-After header, or None."""
+    """Read Retry-After header if supplied by the provider."""
     try:
         value = response.headers.get("Retry-After")
-    except Exception:  # noqa: BLE001 - a mocked/odd response must not break retries
+    except Exception:
         return None
+
     try:
         return max(0.0, float(value))
     except (TypeError, ValueError):
@@ -42,31 +75,50 @@ def _retry_after_seconds(response):
 
 
 def _backoff_delay(attempt, retry_after=None, base=2.0):
-    """base * 2**attempt (+ up to 25% jitter), but at least what the server asked for; capped."""
+    """Exponential backoff with jitter and Retry-After support."""
     delay = base * (2 ** attempt)
     delay += random.uniform(0, delay * 0.25)
+
     if retry_after is not None:
         delay = max(delay, retry_after)
+
     return min(delay, MAX_RETRY_WAIT)
 
 
 def _post(url, retries=3, **kwargs):
-    """POST with exponential backoff on 429/5xx and transient network errors.
-
-    Honours Retry-After. After the last attempt the final response is returned so the caller can
-    turn it into a precise ProviderError; a persistent network error is re-raised.
     """
+    POST with exponential backoff on 429/5xx and network errors.
+
+    Groq requests are rate-limited before every attempt.
+    Tavily behavior remains unchanged.
+    """
+
     for attempt in range(retries + 1):
+
         try:
+            if url == GROQ_URL:
+                _wait_for_groq_slot()
+
             response = requests.post(url, **kwargs)
+
         except requests.RequestException:
+
             if attempt < retries:
                 time.sleep(_backoff_delay(attempt))
                 continue
+
             raise
+
         if response.status_code in RETRY_STATUSES and attempt < retries:
-            time.sleep(_backoff_delay(attempt, _retry_after_seconds(response)))
+
+            retry_after = _retry_after_seconds(response)
+
+            time.sleep(
+                _backoff_delay(attempt, retry_after)
+            )
+
             continue
+
         return response
 
 
@@ -101,18 +153,19 @@ def groq_json(prompt, key, model, system, max_tokens=650):
     payload = {
         "model": model,
         "messages": messages,
-        "max_completion_tokens": min(4096, max(256, int(max_tokens))),
+        "max_completion_tokens": min(
+            4096,
+            max(256, int(max_tokens))
+        ),
         "temperature": 0,
     }
 
     # GPT-OSS specific settings
     if model.startswith("openai/gpt-oss"):
-
         payload["reasoning_effort"] = "low"
         payload["include_reasoning"] = False
 
     try:
-
         response = _post(
             GROQ_URL,
             headers=headers,
@@ -121,7 +174,6 @@ def groq_json(prompt, key, model, system, max_tokens=650):
         )
 
     except requests.RequestException as e:
-
         raise ProviderError(
             "Groq",
             f"Network error: {e}"
@@ -129,7 +181,6 @@ def groq_json(prompt, key, model, system, max_tokens=650):
 
     # HTTP error handling
     if response.status_code == 401:
-
         raise ProviderError(
             "Groq",
             "Groq API key rejected. Check your API key.",
@@ -137,7 +188,6 @@ def groq_json(prompt, key, model, system, max_tokens=650):
         )
 
     if response.status_code == 403:
-
         raise ProviderError(
             "Groq",
             "Model access denied.",
@@ -145,15 +195,13 @@ def groq_json(prompt, key, model, system, max_tokens=650):
         )
 
     if response.status_code == 429:
-
         raise ProviderError(
             "Groq",
-            "Groq rate limit or token quota reached.",
+            "Groq rate limit or token quota reached. Please wait and retry.",
             429
         )
 
     if response.status_code == 413:
-
         raise ProviderError(
             "Groq",
             "Request payload is too large.",
@@ -161,7 +209,6 @@ def groq_json(prompt, key, model, system, max_tokens=650):
         )
 
     if response.status_code >= 400:
-
         raise ProviderError(
             "Groq",
             f"Groq API returned HTTP {response.status_code}.",
@@ -170,7 +217,6 @@ def groq_json(prompt, key, model, system, max_tokens=650):
 
     # Parse response
     try:
-
         data = response.json()
 
         choices = data.get("choices", [])
@@ -185,7 +231,6 @@ def groq_json(prompt, key, model, system, max_tokens=650):
 
         raw = message.get("content")
 
-        # Diagnose empty response
         if not raw or not raw.strip():
 
             finish_reason = choice.get("finish_reason")
@@ -209,7 +254,6 @@ def groq_json(prompt, key, model, system, max_tokens=650):
 
         # Direct JSON parsing
         try:
-
             result = json.loads(raw)
 
         except json.JSONDecodeError:
@@ -218,7 +262,6 @@ def groq_json(prompt, key, model, system, max_tokens=650):
             last = raw.rfind("}")
 
             if first == -1 or last <= first:
-
                 raise ValueError(
                     "No valid JSON object found in model response."
                 )
@@ -228,7 +271,6 @@ def groq_json(prompt, key, model, system, max_tokens=650):
             )
 
         if not isinstance(result, dict):
-
             raise ValueError(
                 "Expected a JSON object from Groq."
             )
@@ -236,7 +278,6 @@ def groq_json(prompt, key, model, system, max_tokens=650):
         return result
 
     except Exception as e:
-
         raise ProviderError(
             "Groq",
             f"Invalid model response: {e}"
@@ -247,43 +288,68 @@ def groq_json(prompt, key, model, system, max_tokens=650):
 # SOURCE CLASSIFICATION
 # ============================================================
 
-# Primary / institutional sources. Used to build the authority-only fallback search too.
 AUTHORITY_DOMAINS = (
-    "who.int", "worldbank.org", "imf.org", "un.org", "oecd.org", "nasa.gov", "noaa.gov", "nist.gov",
-    "canada.ca", "asc-csa.gc.ca", "esa.int", "ec.europa.eu", "europa.eu", "sec.gov", "bls.gov",
-    "census.gov", "ons.gov.uk", "wmo.int", "ipcc.ch", "iau.org", "ctbuh.org", "unfpa.org", "cdc.gov",
-    "nih.gov", "data.gov.in", "censusindia.gov.in",
+    "who.int", "worldbank.org", "imf.org", "un.org", "oecd.org",
+    "nasa.gov", "noaa.gov", "nist.gov", "canada.ca",
+    "asc-csa.gc.ca", "esa.int", "ec.europa.eu", "europa.eu",
+    "sec.gov", "bls.gov", "census.gov", "ons.gov.uk",
+    "wmo.int", "ipcc.ch", "iau.org", "ctbuh.org",
+    "unfpa.org", "cdc.gov", "nih.gov", "data.gov.in",
+    "censusindia.gov.in",
 )
-PUBLISHERS = ("reuters.com", "apnews.com", "bbc.com", "ft.com", "nature.com", "science.org")
-REFERENCE = ("wikipedia.org", "britannica.com", "worldometers.info", "nationalgeographic.com",
-             "ourworldindata.org", "encyclopedia.com")
+
+PUBLISHERS = (
+    "reuters.com", "apnews.com", "bbc.com",
+    "ft.com", "nature.com", "science.org"
+)
+
+REFERENCE = (
+    "wikipedia.org", "britannica.com", "worldometers.info",
+    "nationalgeographic.com", "ourworldindata.org",
+    "encyclopedia.com"
+)
+
 USER_GENERATED = (
-    "brainly.com", "quora.com", "reddit.com", "facebook.com", "instagram.com", "youtube.com", "youtu.be",
-    "tiktok.com", "x.com", "twitter.com", "pinterest.com", "medium.com", "answers.com", "answers.yahoo.com", "chegg.com",
-    "coursehero.com", "linkedin.com", "stackexchange.com", "tumblr.com",
+    "brainly.com", "quora.com", "reddit.com",
+    "facebook.com", "instagram.com", "youtube.com",
+    "youtu.be", "tiktok.com", "x.com", "twitter.com",
+    "pinterest.com", "medium.com", "answers.com",
+    "answers.yahoo.com", "chegg.com", "coursehero.com",
+    "linkedin.com", "stackexchange.com", "tumblr.com",
 )
 
 
 def _matches(domain, items):
-    return any(domain == item or domain.endswith("." + item) for item in items)
+    return any(
+        domain == item or domain.endswith("." + item)
+        for item in items
+    )
 
 
 def source_type(url):
-    domain = urlparse(url).netloc.lower().removeprefix("www.")
+    domain = (
+        urlparse(url).netloc.lower().removeprefix("www.")
+    )
 
     if domain.endswith((".gov", ".gov.uk", ".gov.in", ".gc.ca")):
         return "Government"
+
     if domain.endswith((".edu", ".ac.uk", ".edu.au")):
         return "Academic"
+
     if _matches(domain, AUTHORITY_DOMAINS):
         return "Official / institutional"
+
     if _matches(domain, PUBLISHERS):
         return "Established publisher"
+
     if _matches(domain, USER_GENERATED):
         return "User-generated"
+
     if _matches(domain, REFERENCE):
         return "Reference / secondary"
-    return "Other \u2014 review source"
+
+    return "Other — review source"
 
 
 # ============================================================
@@ -293,7 +359,6 @@ def source_type(url):
 def tavily_search(query, key, max_results=3, include_domains=None):
 
     if not key:
-
         raise ProviderError(
             "Tavily",
             "Tavily API key is missing."
@@ -308,11 +373,11 @@ def tavily_search(query, key, max_results=3, include_domains=None):
         "include_answer": False,
         "include_raw_content": False,
     }
+
     if include_domains:
         payload["include_domains"] = list(include_domains)
 
     try:
-
         response = _post(
             TAVILY_URL,
             json=payload,
@@ -320,14 +385,12 @@ def tavily_search(query, key, max_results=3, include_domains=None):
         )
 
     except requests.RequestException as e:
-
         raise ProviderError(
             "Tavily",
             f"Network error: {e}"
         ) from e
 
     if response.status_code in (401, 403):
-
         raise ProviderError(
             "Tavily",
             "Tavily API key rejected.",
@@ -335,7 +398,6 @@ def tavily_search(query, key, max_results=3, include_domains=None):
         )
 
     if response.status_code == 429:
-
         raise ProviderError(
             "Tavily",
             "Tavily rate limit or credit limit reached.",
@@ -343,7 +405,6 @@ def tavily_search(query, key, max_results=3, include_domains=None):
         )
 
     if response.status_code >= 400:
-
         raise ProviderError(
             "Tavily",
             f"Tavily API returned HTTP {response.status_code}.",
@@ -351,18 +412,22 @@ def tavily_search(query, key, max_results=3, include_domains=None):
         )
 
     try:
-
         response_data = response.json()
 
     except ValueError as e:
-
         raise ProviderError(
             "Tavily",
             "Invalid JSON response from Tavily."
         ) from e
 
-    if not isinstance(response_data, dict) or not isinstance(response_data.get("results", []), list):
-        raise ProviderError("Tavily", "Invalid response structure from Tavily.")
+    if (
+        not isinstance(response_data, dict)
+        or not isinstance(response_data.get("results", []), list)
+    ):
+        raise ProviderError(
+            "Tavily",
+            "Invalid response structure from Tavily."
+        )
 
     results = []
 
@@ -373,7 +438,13 @@ def tavily_search(query, key, max_results=3, include_domains=None):
 
         url = item.get("url", "")
 
-        if not isinstance(url, str) or urlparse(url).scheme.lower() not in {"http", "https"} or not urlparse(url).netloc:
+        parsed_url = urlparse(url) if isinstance(url, str) else None
+
+        if (
+            not parsed_url
+            or parsed_url.scheme.lower() not in {"http", "https"}
+            or not parsed_url.netloc
+        ):
             continue
 
         title = str(item.get("title") or "")
@@ -381,32 +452,29 @@ def tavily_search(query, key, max_results=3, include_domains=None):
 
         results.append({
 
-            "title": (
-                title[:160]
-            ),
+            "title": title[:160],
 
             "url": url,
 
-            "domain": (
-                urlparse(url).netloc.lower()
-            ),
+            "domain": parsed_url.netloc.lower(),
 
             "source_type": source_type(url),
 
-            "snippet": (
-                content
-            )[:500],
+            "snippet": content[:500],
 
-            # v1.4.1: a larger private text pool from which gather_evidence() picks the sentences that are
-            # relevant to the claim. It is removed again before anything is shown or saved.
-            "_pool": (
-                content
-            )[:1500],
+            # Private evidence text pool
+            "_pool": content[:1500],
 
-            # Tavily returns a publish date for some results; keep it so
-            # the reviewer (and the model) can judge how current a source is.
-            "published_date": str(item.get("published_date") or ""),
-            "relevance_score": item.get("score") if isinstance(item.get("score"), (int, float)) else None,
+            # Publication date and relevance
+            "published_date": str(
+                item.get("published_date") or ""
+            ),
+
+            "relevance_score": (
+                item.get("score")
+                if isinstance(item.get("score"), (int, float))
+                else None
+            ),
 
         })
 
