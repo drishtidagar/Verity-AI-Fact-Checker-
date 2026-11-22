@@ -126,8 +126,12 @@ elif page == "New audit":
          "Upload a text-based PDF. Verity extracts factual claims, searches live sources and records evidence-backed findings.")
     x, y = st.columns(2)
     with x:
-        model = st.selectbox("Groq model", ["openai/gpt-oss-20b", "openai/gpt-oss-120b"], index=0)
-    with y:
+model = st.selectbox(
+    "Groq model",
+    ["openai/gpt-oss-20b", "openai/gpt-oss-120b"],
+    index=1,
+    key="groq_model"
+)    with y:
         max_claims = st.slider("Max claims to review", 1, 20, 10,
                                help="Each claim costs one web search and one model call. Set this at or above the number of claims in your document.")
 
