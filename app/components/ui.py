@@ -129,6 +129,28 @@ def style():
     stroke: #ffffff !important;
 }
 
+/* Alerts - dark theme with readable white text */
+[data-testid="stAlert"] {
+    background: #111a2d !important;
+    border: 1px solid #526b96 !important;
+    border-radius: 12px !important;
+}
+
+[data-testid="stAlert"] p,
+[data-testid="stAlert"] span,
+[data-testid="stAlert"] div,
+[data-testid="stAlert"] [data-testid="stMarkdownContainer"],
+[data-testid="stAlert"] [data-testid="stMarkdownContainer"] * {
+    color: #ffffff !important;
+}
+
+/* Alert icons */
+[data-testid="stAlert"] svg {
+    color: #93b4ff !important;
+    fill: none !important;
+    stroke: #93b4ff !important;
+}
+
 /* SVG paths */
 [data-testid="stHeader"] svg path,
 [data-testid="stToolbar"] svg path {
@@ -162,7 +184,15 @@ def style():
         [data-testid="stSidebar"] h3 {
             color: #ffffff !important;
         }
+       div[data-testid="stFileUploaderDropzone"] button {
+    background: #eaf2ff !important;
+    color: #172554 !important;
+    border: 1px solid #b8cced !important;
+}
 
+div[data-testid="stFileUploaderDropzone"] button * {
+    color: #172554 !important;
+}
         /* Hero section */
         .hero {
             padding: 26px 30px;
