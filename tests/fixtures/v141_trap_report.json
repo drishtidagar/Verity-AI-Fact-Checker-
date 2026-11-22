@@ -1,0 +1,1805 @@
+{
+  "id": 1,
+  "filename": "Verity_Evaluation_Trap_Sample_v2 (1).pdf",
+  "created_at": "2026-11-22T02:42:36.889801+00:00",
+  "page_count": 1,
+  "claims_found": 13,
+  "filtered_candidates": 0,
+  "session_id": "aaa3e90267c44fb0a10ab2d6f188dced",
+  "summary": {
+    "VERIFIED": 4,
+    "INACCURATE": 4,
+    "FALSE": 4,
+    "INSUFFICIENT EVIDENCE": 1,
+    "AI REVIEW FAILED": 0,
+    "SEARCH FAILED": 0
+  },
+  "findings": [
+    {
+      "claim": {
+        "claim": "The chemical formula of water is H2O",
+        "excerpt": "1. The chemical formula of water is H2O.",
+        "page": 1,
+        "claim_type": "other"
+      },
+      "result": {
+        "verdict": "VERIFIED",
+        "confidence": 87,
+        "confidence_label": "Legacy heuristic score (not a probability); see evidence_rating",
+        "evidence_rating": "Strong",
+        "evidence_checks": [
+          {
+            "label": "A relevant primary / official source directly supports the claim",
+            "ok": true
+          },
+          {
+            "label": "At least 2 independent, relevant, non-user-generated domains",
+            "ok": true
+          },
+          {
+            "label": "Sources do not report conflicting values",
+            "ok": true
+          },
+          {
+            "label": "Corrected figure appears in the cited text",
+            "ok": null
+          },
+          {
+            "label": "A source date is visible (time-sensitive claims)",
+            "ok": null
+          }
+        ],
+        "explanation": "All supplied sources state that water’s chemical formula is H2O.",
+        "corrected_fact": "",
+        "correction_check": "n/a",
+        "correction_sources": [],
+        "correction_values": [],
+        "source_values": [],
+        "conflicting_values": "",
+        "evidence_quality": "HIGH",
+        "source_notes": [
+          {
+            "url": "https://cameochemicals.noaa.gov/chemical/30024",
+            "says": "Chemical Formula: H2O",
+            "stance": "supports"
+          },
+          {
+            "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=1E9F",
+            "says": "Formula: H2O Chemical structure: H2O",
+            "stance": "supports"
+          },
+          {
+            "url": "https://smartwatermagazine.com/q-a/what-formula-water",
+            "says": "The chemical formula of water is H₂O, meaning each water molecule consists of two hydrogen atoms bonded to one oxygen atom.",
+            "stance": "supports"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Water",
+            "says": "Water is an inorganic compound with the chemical formula H2O.",
+            "stance": "supports"
+          },
+          {
+            "url": "https://ijsrst.com/IJSRST2074161",
+            "says": "It has the chemical formula H2O, meaning that one molecule of water is composed of two hydrogen atoms and one oxygen atom.",
+            "stance": "supports"
+          }
+        ],
+        "used_urls": [
+          "https://cameochemicals.noaa.gov/chemical/30024",
+          "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=1E9F",
+          "https://smartwatermagazine.com/q-a/what-formula-water",
+          "https://en.wikipedia.org/wiki/Water",
+          "https://ijsrst.com/IJSRST2074161"
+        ],
+        "cited_urls": [
+          "https://cameochemicals.noaa.gov/chemical/30024",
+          "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=1E9F",
+          "https://smartwatermagazine.com/q-a/what-formula-water",
+          "https://en.wikipedia.org/wiki/Water",
+          "https://ijsrst.com/IJSRST2074161"
+        ],
+        "not_counted": [],
+        "evidence": [
+          {
+            "title": "WATER | CAMEO Chemicals | NOAA",
+            "url": "https://cameochemicals.noaa.gov/chemical/30024",
+            "domain": "cameochemicals.noaa.gov",
+            "source_type": "Government",
+            "snippet": "Chemical Formula: H2O",
+            "published_date": "",
+            "relevance_score": 0.77475387,
+            "via": "authority_search",
+            "date_in_text": "",
+            "snippet_raw": "|  |  |\n --- |\n| Chemical Formula: |  H2O |\n\nFlash Point: data unavailable\n\nLower Explosive Limit (LEL): data unavailable\n\nUpper Explosive Limit (UEL): data unavailable\n\nAutoignition Temperature: data unavailable\n\nMelting Point: 32°F\n\nVapor Pressure: data unavailable\n\nVapor Density (Relative to Air): data unavailable\n\nSpecific Gravity: 1\n\nBoiling Point: 212°F at 760 mmHg\n\nMolecular Weight: data unavailable\n\nWater Solubility: data unavailable\n\nIonization Energy/Potential: data unavailable",
+            "snippet_focused": true
+          },
+          {
+            "title": "Water",
+            "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=1E9F",
+            "domain": "webbook.nist.gov",
+            "source_type": "Government",
+            "snippet": "Formula: H2O Chemical structure: H2O",
+            "published_date": "",
+            "relevance_score": 0.7545535,
+            "via": "authority_search",
+            "date_in_text": "",
+            "snippet_raw": "Jump to content\n\nNational Institute of Standards and Technology \n\n# NIST Chemistry WebBook, SRD 69\n\n Home\n Search\n  + Name\n  + Formula\n  + IUPAC identifier\n  + CAS number\n  + More options\n NIST Data\n  + SRD Program\n  + Science Data Portal\n  + Material Data Division\n About\n  + FAQ\n  + Credits\n  + More documentation\n\n# Water\n\n Formula: H2O\n Molecular weight\"): 18.0153\n IUPAC Standard InChI: InChI=1S/H2O/h1H2 [...] By formula: (Cl- • 3H2O) + H2O = (Cl- • 4H2O)\n\nBond type: Hydrogen bond (negative io",
+            "snippet_focused": true
+          },
+          {
+            "title": "What is the formula of water? – Smart Water Magazine",
+            "url": "https://smartwatermagazine.com/q-a/what-formula-water",
+            "domain": "smartwatermagazine.com",
+            "source_type": "Other — review source",
+            "snippet": "The chemical formula of water is H₂O, meaning each water molecule consists of two hydrogen atoms bonded to one oxygen atom.",
+            "published_date": "",
+            "relevance_score": 0.8494724,
+            "date_in_text": "",
+            "snippet_raw": "The formula H₂O tells us exactly what a water molecule contains:\n\nThe subscript \"2\" indicates there are two hydrogen atoms for every one oxygen atom. This ratio is fixed – if the ratio changes, it's no longer water.\n\n| Component | Symbol | Number of atoms | Atomic weight |\n ---  --- |\n| Hydrogen | H | 2 | 1.008 × 2 = 2.016 |\n| Oxygen | O | 1 | 15.999 |\n| Water | H₂O | 3 total | 18.015 g/mol |\n\n## Structure of the water molecule [...] Smart Water Magazine\nWhat is the formula of water?\n\n# What is ",
+            "snippet_focused": true
+          },
+          {
+            "title": "Water - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Water",
+            "domain": "en.wikipedia.org",
+            "source_type": "Reference / secondary",
+            "snippet": "Water is an inorganic compound with the chemical formula H2O.",
+            "published_date": "",
+            "relevance_score": 0.8449215,
+            "date_in_text": "",
+            "snippet_raw": "Water is an inorganic compound with the chemical formula H2O. It is a transparent, tasteless, odorless, and nearly colorless chemical substance. It is the main constituent of Earth's streams, lakes, and oceans. Water is also the fluid of all known living organisms, in which it acts as a solvent. Water, being a polar molecule, undergoes strong intermolecular hydrogen bonding which is a large contributor to its physical and chemical properties. It is vital for all known forms of life, despite not ",
+            "snippet_focused": true
+          },
+          {
+            "title": "Water Molecule : Chemical and Physical Properties | IJSRST",
+            "url": "https://ijsrst.com/IJSRST2074161",
+            "domain": "ijsrst.com",
+            "source_type": "Other — review source",
+            "snippet": "It has the chemical formula H2O, meaning that one molecule of water is composed of two hydrogen atoms and one oxygen atom.",
+            "published_date": "",
+            "relevance_score": 0.8348113,
+            "date_in_text": "",
+            "snippet_raw": "Water is a chemical compound and polar molecule, which is liquid at standard temperature and pressure. It has the chemical formula H2O, meaning that one molecule of water is composed of two hydrogen atoms and one oxygen atom. Water is found almost everywhere on earth and is required by all known life. About 70% of the Earth's surface is covered by water. Water is known to exist, in ice form, on several other bodies in the solar system and beyond, and proof that it exists (or did exist) in",
+            "snippet_focused": true
+          }
+        ],
+        "search_query": "The chemical formula of water is H2O"
+      }
+    },
+    {
+      "claim": {
+        "claim": "The United Nations officially came into existence on 24 October 1945",
+        "excerpt": "2. The United Nations officially came into existence on 24 October 1945.",
+        "page": 1,
+        "claim_type": "date"
+      },
+      "result": {
+        "verdict": "VERIFIED",
+        "confidence": 87,
+        "confidence_label": "Legacy heuristic score (not a probability); see evidence_rating",
+        "evidence_rating": "Strong",
+        "evidence_checks": [
+          {
+            "label": "A relevant primary / official source directly supports the claim",
+            "ok": true
+          },
+          {
+            "label": "At least 2 independent, relevant, non-user-generated domains",
+            "ok": true
+          },
+          {
+            "label": "Sources do not report conflicting values",
+            "ok": true
+          },
+          {
+            "label": "Corrected figure appears in the cited text",
+            "ok": null
+          },
+          {
+            "label": "A source date is visible (time-sensitive claims)",
+            "ok": null
+          }
+        ],
+        "explanation": "All supplied sources state that the United Nations officially came into existence on 24 October 1945.",
+        "corrected_fact": "",
+        "correction_check": "n/a",
+        "correction_sources": [],
+        "correction_values": [],
+        "source_values": [],
+        "conflicting_values": "",
+        "evidence_quality": "HIGH",
+        "source_notes": [
+          {
+            "url": "https://www.un.org/en/about-us/history-of-the-un",
+            "says": "The United Nations officially began, on 24 October 1945, when it came into existence after its Charter had been ratified by China, France, the Soviet Union, the United Kingdom, the United States and by a majority of other signatories.",
+            "stance": "supports"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/United_Nations",
+            "says": "The UN officially came into existence at 20:07 (UTC) on 24 October 1945, upon ratification of the Charter by the five permanent members of the",
+            "stance": "supports"
+          },
+          {
+            "url": "https://www.cfr.org/ten-best-ten-worst-us-foreign-policy-decisions/creation-of-the-united-nations",
+            "says": "On October 24, 1945, the Charter of the United Nations came into force, establishing the United Nation’s structure, principles, and purpose. The United Nations was officially established on October 24, 1945, after twenty-nine",
+            "stance": "supports"
+          }
+        ],
+        "used_urls": [
+          "https://www.un.org/en/about-us/history-of-the-un",
+          "https://en.wikipedia.org/wiki/United_Nations",
+          "https://www.cfr.org/ten-best-ten-worst-us-foreign-policy-decisions/creation-of-the-united-nations"
+        ],
+        "cited_urls": [
+          "https://www.un.org/en/about-us/history-of-the-un",
+          "https://en.wikipedia.org/wiki/United_Nations",
+          "https://www.cfr.org/ten-best-ten-worst-us-foreign-policy-decisions/creation-of-the-united-nations"
+        ],
+        "not_counted": [],
+        "evidence": [
+          {
+            "title": "History of the United Nations | United Nations",
+            "url": "https://www.un.org/en/about-us/history-of-the-un",
+            "domain": "www.un.org",
+            "source_type": "Official / institutional",
+            "snippet": "Four months after the San Francisco Conference ended, the United Nations officially began, on 24 October 1945, when it came into existence after its Charter had been ratified by China, France, the Soviet Union, the United Kingdom, the United States and by a majority of other signatories.",
+            "published_date": "",
+            "relevance_score": 0.86408126,
+            "date_in_text": "October 1945",
+            "snippet_raw": "Four months after the San Francisco Conference ended, the United Nations officially began, on 24 October 1945, when it came into existence after its Charter had been ratified by China, France, the Soviet Union, the United Kingdom, the United States and by a majority of other signatories. [...] As World War II was about to end in 1945, nations were in ruins, and the world wanted peace. Representatives of 50 countries gathered at the United Nations Conference on International Organization in San F",
+            "snippet_focused": true
+          },
+          {
+            "title": "United Nations - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/United_Nations",
+            "domain": "en.wikipedia.org",
+            "source_type": "Reference / secondary",
+            "snippet": "The UN officially came into existence at 20:07 (UTC) on 24 October 1945, upon ratification of the Charter by the five permanent members of the",
+            "published_date": "",
+            "relevance_score": 0.8489722,
+            "date_in_text": "August 1944",
+            "snippet_raw": "in August 1944. The drafting of the Charter of the United Nations was completed over the following two months, and it was signed on 26 June 1945 by the representatives of the 50 countries. The UN officially came into existence at 20:07 (UTC) on 24 October 1945, upon ratification of the Charter by the five permanent members of the Security Council: the United States, the United Kingdom, France, the Soviet Union and China \"Republic of China (1912–1949)\") — and by a majority of the other 46 [...] |",
+            "snippet_focused": true
+          },
+          {
+            "title": "Creation of the United Nations - The 10 Best and 10 Worst U.S. Foreign Policy Decisions - The 10 Best and 10 Worst U.S. Foreign Policy Decisions",
+            "url": "https://www.cfr.org/ten-best-ten-worst-us-foreign-policy-decisions/creation-of-the-united-nations",
+            "domain": "www.cfr.org",
+            "source_type": "Other — review source",
+            "snippet": "On October 24, 1945, the Charter of the United Nations came into force, establishing the United Nation’s structure, principles, and purpose. The United Nations was officially established on October 24, 1945, after twenty-nine",
+            "published_date": "",
+            "relevance_score": 0.840521,
+            "date_in_text": "October 24, 1945",
+            "snippet_raw": "On October 24, 1945, the Charter of the United Nations came into force, establishing the United Nation’s structure, principles, and purpose. The new organization was the culmination of a yearslong effort led by President Franklin D. Roosevelt, who had died six months earlier. The objective had been to address the failures of the League of Nations, which was created after World War I, by developing a new international institution that could formalize common efforts to maintain global peace and [.",
+            "snippet_focused": true
+          }
+        ],
+        "search_query": "The United Nations officially came into existence on 24 October 1945"
+      }
+    },
+    {
+      "claim": {
+        "claim": "The Eiffel Tower is located in Berlin, Germany",
+        "excerpt": "3. The Eiffel Tower is located in Berlin, Germany.",
+        "page": 1,
+        "claim_type": "other"
+      },
+      "result": {
+        "verdict": "FALSE",
+        "confidence": 73,
+        "confidence_label": "Legacy heuristic score (not a probability); see evidence_rating",
+        "evidence_rating": "Moderate",
+        "evidence_checks": [
+          {
+            "label": "A relevant primary / official source directly supports the claim",
+            "ok": true
+          },
+          {
+            "label": "At least 2 independent, relevant, non-user-generated domains",
+            "ok": false
+          },
+          {
+            "label": "Sources do not report conflicting values",
+            "ok": true
+          },
+          {
+            "label": "Corrected figure appears in the cited text",
+            "ok": null
+          },
+          {
+            "label": "A source date is visible (time-sensitive claims)",
+            "ok": null
+          }
+        ],
+        "explanation": "The official European Parliament source explicitly lists the Eiffel Tower as located in Paris, not Berlin, directly contradicting the claim.",
+        "corrected_fact": "",
+        "correction_check": "n/a",
+        "correction_sources": [],
+        "correction_values": [],
+        "source_values": [],
+        "conflicting_values": "",
+        "evidence_quality": "HIGH",
+        "source_notes": [
+          {
+            "url": "https://www.europarl.europa.eu/news/sv/press-room/20160317IPR19848/earth-hour-european-parliament-to-switch-off-its-lights",
+            "says": "In Europe, these included the Eiffel Tower in Paris, the Brandenburg Gate in Berlin, the Acropolis in Athens, St.",
+            "stance": "contradicts"
+          },
+          {
+            "url": "https://www.europarl.europa.eu/news/en/press-room/20160317IPR19848/earth-hour-european-parliament-to-switch-off-its-lights",
+            "says": "In Europe, these included the Eiffel Tower in Paris, the Brandenburg Gate in Berlin, the Acropolis in Athens, St.",
+            "stance": "contradicts"
+          }
+        ],
+        "used_urls": [
+          "https://www.europarl.europa.eu/news/sv/press-room/20160317IPR19848/earth-hour-european-parliament-to-switch-off-its-lights",
+          "https://www.europarl.europa.eu/news/en/press-room/20160317IPR19848/earth-hour-european-parliament-to-switch-off-its-lights"
+        ],
+        "cited_urls": [
+          "https://www.europarl.europa.eu/news/sv/press-room/20160317IPR19848/earth-hour-european-parliament-to-switch-off-its-lights",
+          "https://www.europarl.europa.eu/news/en/press-room/20160317IPR19848/earth-hour-european-parliament-to-switch-off-its-lights"
+        ],
+        "not_counted": [],
+        "evidence": [
+          {
+            "title": "Earth Hour: European Parliament to switch off its lights | Nyheter | Europaparlamentet",
+            "url": "https://www.europarl.europa.eu/news/sv/press-room/20160317IPR19848/earth-hour-european-parliament-to-switch-off-its-lights",
+            "domain": "www.europarl.europa.eu",
+            "source_type": "Official / institutional",
+            "snippet": "In Europe, these included the Eiffel Tower in Paris, the Brandenburg Gate in Berlin, the Acropolis in Athens, St.",
+            "published_date": "",
+            "relevance_score": 0.4463741,
+            "via": "authority_search",
+            "date_in_text": "",
+            "snippet_raw": "In 2015, 172 countries and territories joined in Earth Hour and more than 10,000 other landmarks and monuments switched off their lights. In Europe, these included the Eiffel Tower in Paris, the Brandenburg Gate in Berlin, the Acropolis in Athens, St. Peter’s Basilica in the Vatican, the Colosseum in Rome, the Alhambra in Granada and the Houses of Parliament in London.",
+            "snippet_focused": true
+          },
+          {
+            "title": "Earth Hour: European Parliament to switch off its lights | News | European Parliament",
+            "url": "https://www.europarl.europa.eu/news/en/press-room/20160317IPR19848/earth-hour-european-parliament-to-switch-off-its-lights",
+            "domain": "www.europarl.europa.eu",
+            "source_type": "Official / institutional",
+            "snippet": "In Europe, these included the Eiffel Tower in Paris, the Brandenburg Gate in Berlin, the Acropolis in Athens, St.",
+            "published_date": "",
+            "relevance_score": 0.44546923,
+            "via": "authority_search",
+            "date_in_text": "",
+            "snippet_raw": "In 2015, 172 countries and territories joined in Earth Hour and more than 10,000 other landmarks and monuments switched off their lights. In Europe, these included the Eiffel Tower in Paris, the Brandenburg Gate in Berlin, the Acropolis in Athens, St. Peter’s Basilica in the Vatican, the Colosseum in Rome, the Alhambra in Granada and the Houses of Parliament in London.",
+            "snippet_focused": true
+          },
+          {
+            "title": "Did you know that Berlin has its own Eiffel Tower?! \n\nIt's located outside the German-French cultural centre on Müllerstraße in the district of Wedding, north o",
+            "url": "https://www.facebook.com/61573932416799/videos/did-you-know-that-berlin-has-its-own-eiffel-tower-its-located-outside-the-german/2139861276961546",
+            "domain": "www.facebook.com",
+            "source_type": "User-generated",
+            "snippet": "Berlin Wall fell! I'm Tina, your historical and cultural guide in Berlin! #berlinhistory #berlin #berlintourguide",
+            "published_date": "",
+            "relevance_score": 0.76960015,
+            "date_in_text": "",
+            "snippet_raw": "on my trip- stay tuned for more videos about these locations and the assassination attempt against Hitler which happened at the Wolf's Lair. #tourguide #berlintourguide #wwiihistory [...] Berlin Wall fell! Freedom of movement was reinstated for Germans both in East and West after 28 years. I'm Tina, your historical and cultural guide in Berlin! #berlinhistory #berlin #berlintourguide [...] was forced to abdicate and Germany was declared a Republic. 🛑 1923: Hitler’s Beer Hall Putsch failed in Mun",
+            "snippet_focused": true
+          },
+          {
+            "title": "Instagram",
+            "url": "https://www.instagram.com/reel/DbWKfhANHrG",
+            "domain": "www.instagram.com",
+            "source_type": "User-generated",
+            "snippet": "Did you know that Berlin has its own Eiffel Tower?!",
+            "published_date": "",
+            "relevance_score": 0.7411123,
+            "date_in_text": "",
+            "snippet_raw": "tinastoursberlin\n\nDid you know that Berlin has its own Eiffel Tower?!   \n  \nIt's located outside the German-French cultural centre on Müllerstraße in the district of Wedding, north of Berlin's city centre.   \n  \nI can confirm that Lidl croissants taste better when eaten underneath it.   \n  \n#berlin #berlinhistory #berlinguide\n\ntrimfoley\n\nEiffail to see why\n\nReply\n\nwhitlamsberlintours\n\nIt’s back! And with the funkturm you could say we have two 😎\n\nReply\n\ndannytaenzer",
+            "snippet_focused": true
+          },
+          {
+            "title": "German Consulate General Houston on Facebook: \"Did you know? Berlin has its own “Eiffel Tower”? On September 3, 1926, the Berlin Funkturm officiall…\"",
+            "url": "https://www.facebook.com/GermanConsulateHouston/posts/did-you-know-berlin-has-its-own-eiffel-tower-on-september-3-1926-the-berlin-funk/1545597010927928",
+            "domain": "www.facebook.com",
+            "source_type": "User-generated",
+            "snippet": "Berlin has its own “Eiffel Tower”? Berlin has its own “Eiffel Tower”?",
+            "published_date": "",
+            "relevance_score": 0.60632366,
+            "date_in_text": "September 3, 1926",
+            "snippet_raw": "Did you know? Berlin has its own “Eiffel Tower”? \nOn September 3, 1926, the Berlin Funkturm officially opened at the German Radio Exhibition in Westend.\nAt more than 146 meters (about 479 ft), the tower quickly became a landmark — and an important part of the history of radio and television in Germany.\nKnown affectionately as the “Langer Lulatsch” (“Long Skinny One”), it remains one of Berlin’s most recognizable sights. \nWould you go up? [...] - Author: German Consulate General Houston\n- Posted:",
+            "snippet_focused": true
+          }
+        ],
+        "search_query": "The Eiffel Tower is located in Berlin, Germany"
+      }
+    },
+    {
+      "claim": {
+        "claim": "The Great Wall of China is easily visible to the unaided human eye from the Moon",
+        "excerpt": "4. The Great Wall of China is easily visible to the unaided human eye from the Moon.",
+        "page": 1,
+        "claim_type": "other"
+      },
+      "result": {
+        "verdict": "FALSE",
+        "confidence": 87,
+        "confidence_label": "Legacy heuristic score (not a probability); see evidence_rating",
+        "evidence_rating": "Strong",
+        "evidence_checks": [
+          {
+            "label": "A relevant primary / official source directly supports the claim",
+            "ok": true
+          },
+          {
+            "label": "At least 2 independent, relevant, non-user-generated domains",
+            "ok": true
+          },
+          {
+            "label": "Sources do not report conflicting values",
+            "ok": true
+          },
+          {
+            "label": "Corrected figure appears in the cited text",
+            "ok": null
+          },
+          {
+            "label": "A source date is visible (time-sensitive claims)",
+            "ok": null
+          }
+        ],
+        "explanation": "All supplied sources state that the Great Wall of China is not visible from the Moon with the unaided human eye.",
+        "corrected_fact": "",
+        "correction_check": "n/a",
+        "correction_sources": [],
+        "correction_values": [],
+        "source_values": [],
+        "conflicting_values": "",
+        "evidence_quality": "HIGH",
+        "source_notes": [
+          {
+            "url": "https://www.brivience.com/blog/great-wall-from-space",
+            "says": "From the Moon, no—not with unaided human eyesight.",
+            "stance": "contradicts"
+          },
+          {
+            "url": "https://nibble-app.com/blog/is-the-great-wall-of-china-visible-from-space",
+            "says": "Great Wall of China - Can you see the Great Wall of China from space?",
+            "stance": "contradicts"
+          },
+          {
+            "url": "https://www.nasa.gov/image-article/great-wall",
+            "says": "Despite myths to the contrary, the wall isn’t visible from the moon, and is difficult or impossible to see from Earth orbit without the…",
+            "stance": "contradicts"
+          }
+        ],
+        "used_urls": [
+          "https://www.brivience.com/blog/great-wall-from-space",
+          "https://nibble-app.com/blog/is-the-great-wall-of-china-visible-from-space",
+          "https://www.nasa.gov/image-article/great-wall"
+        ],
+        "cited_urls": [
+          "https://www.brivience.com/blog/great-wall-from-space",
+          "https://nibble-app.com/blog/is-the-great-wall-of-china-visible-from-space",
+          "https://www.nasa.gov/image-article/great-wall"
+        ],
+        "not_counted": [],
+        "evidence": [
+          {
+            "title": "Can You See the Great Wall of China from Space?",
+            "url": "https://www.brivience.com/blog/great-wall-from-space",
+            "domain": "www.brivience.com",
+            "source_type": "Other — review source",
+            "snippet": "From the Moon, no—not with unaided human eyesight. Unaided eye from the Moon",
+            "published_date": "",
+            "relevance_score": 0.828523,
+            "date_in_text": "",
+            "snippet_raw": "From the Moon, no—not with unaided human eyesight. NASA gives an average Earth–Moon distance of about 384,400 kilometres, and Neil Armstrong said in a NASA oral history that he did not believe any human-made object was visible to his eyes at lunar distance. He also said the Shuttle astronauts he had personally asked had not seen the Wall. It supports a carefully scoped conclusion; it does not establish that no astronaut ever saw it. [...] | Optical satellite sensing | Yes, conditionally | Pixel ",
+            "snippet_focused": true
+          },
+          {
+            "title": "Is the Great Wall of China Visible From Space? Real Answer - Nibble Blog",
+            "url": "https://nibble-app.com/blog/is-the-great-wall-of-china-visible-from-space",
+            "domain": "nibble-app.com",
+            "source_type": "Other — review source",
+            "snippet": "Great Wall of China - Can you see the Great Wall of China from space?",
+            "published_date": "",
+            "relevance_score": 0.7892337,
+            "date_in_text": "",
+            "snippet_raw": "Spotting an object like this from low orbit is already a stretch, and it's impossible from the Moon. NASA has said plainly that no man-made object is visible to the naked eye at that distance.\n\nThe same distance rules affect facts about stars, since apparent size depends on distance, not true size.\n\n#### Space in 15 minutes?\n\nRead it. Watch it. Listen to it. Play with it.\n\n## How to fact-check any other space myth you hear [...] | Object | Visible from low Earth orbit? | Why |\n---\n| Great Wall o",
+            "snippet_focused": true
+          },
+          {
+            "title": "Great Wall - NASA",
+            "url": "https://www.nasa.gov/image-article/great-wall",
+            "domain": "www.nasa.gov",
+            "source_type": "Government",
+            "snippet": "The Great Wall of China and Inner Mongolia are featured in this image photographed by Expedition 10 Commander Leroy Chiao on the International Space Station. Despite myths to the contrary, the wall isn’t visible from the moon, and is difficult or impossible to see from Earth orbit without the…",
+            "published_date": "",
+            "relevance_score": 0.7550956,
+            "date_in_text": "",
+            "snippet_raw": "The Great Wall of China and Inner Mongolia are featured in this image photographed by Expedition 10 Commander Leroy Chiao on the International Space Station.  \nDespite myths to the contrary, the wall isn’t visible from the moon, and is difficult or impossible to see from Earth orbit without the high-powered lenses used for this photo.\n\nImage Credit: NASA",
+            "snippet_focused": true
+          }
+        ],
+        "search_query": "The Great Wall of China is easily visible to the unaided human eye from the Moon"
+      }
+    },
+    {
+      "claim": {
+        "claim": "An adult human skeleton typically contains 206 bones",
+        "excerpt": "5. An adult human skeleton typically contains 206 bones.",
+        "page": 1,
+        "claim_type": "other"
+      },
+      "result": {
+        "verdict": "VERIFIED",
+        "confidence": 80,
+        "confidence_label": "Legacy heuristic score (not a probability); see evidence_rating",
+        "evidence_rating": "Strong",
+        "evidence_checks": [
+          {
+            "label": "A relevant primary / official source directly supports the claim",
+            "ok": true
+          },
+          {
+            "label": "At least 2 independent, relevant, non-user-generated domains",
+            "ok": true
+          },
+          {
+            "label": "Sources do not report conflicting values",
+            "ok": true
+          },
+          {
+            "label": "Corrected figure appears in the cited text",
+            "ok": null
+          },
+          {
+            "label": "A source date is visible (time-sensitive claims)",
+            "ok": null
+          }
+        ],
+        "explanation": "Both the PubMed article and the Biology Insights page explicitly state that an adult human skeleton contains 206 bones.",
+        "corrected_fact": "",
+        "correction_check": "n/a",
+        "correction_sources": [],
+        "correction_values": [],
+        "source_values": [],
+        "conflicting_values": "",
+        "evidence_quality": "HIGH",
+        "source_notes": [
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30571018",
+            "says": "Of the 206 bones in the adult human body, 126 form the appendicular skeleton.",
+            "stance": "supports"
+          },
+          {
+            "url": "https://biologyinsights.com/how-many-bones-in-the-adult-human-body-206-explained",
+            "says": "An adult human body has 206 bones.",
+            "stance": "supports"
+          }
+        ],
+        "used_urls": [
+          "https://pubmed.ncbi.nlm.nih.gov/30571018",
+          "https://biologyinsights.com/how-many-bones-in-the-adult-human-body-206-explained"
+        ],
+        "cited_urls": [
+          "https://pubmed.ncbi.nlm.nih.gov/30571018",
+          "https://biologyinsights.com/how-many-bones-in-the-adult-human-body-206-explained"
+        ],
+        "not_counted": [],
+        "evidence": [
+          {
+            "title": "Anatomy, Appendicular Skeleton",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30571018",
+            "domain": "pubmed.ncbi.nlm.nih.gov",
+            "source_type": "Government",
+            "snippet": "Of the 206 bones in the adult human body, 126 form the appendicular skeleton.",
+            "published_date": "",
+            "relevance_score": 0.765418,
+            "via": "authority_search",
+            "date_in_text": "",
+            "snippet_raw": "Title: Anatomy, Appendicular Skeleton\n# Anatomy, Appendicular Skeleton. Anderson, John Ekblad, Asa C. In: StatPearls · StatPearls Publishing · 2024-04-21 · Bookshelf ID: NBK535397 · PMID: 30571018. ## Abstract. The appendicular skeleton is 1 of 2 major bone groups in the body, the other being the axial skeleton (see Image. The appendicular skeleton comprises the upper and lower extremities. The shoulder and hip are important limb segments connecting the appendicular and axial skeleton, essential",
+            "snippet_focused": true
+          },
+          {
+            "title": "Trending Science: Antikythera shipwreck yields human skeleton | News | CORDIS | European Commission",
+            "url": "https://cordis.europa.eu/article/id/120305-trending-science-antikythera-shipwreck-yields-human-skeleton",
+            "domain": "cordis.europa.eu",
+            "source_type": "Official / institutional",
+            "snippet": "The skeleton, known now as ‘Pamphilos’, was found in a jumble – arm bones overlay leg bones, with the skull, teeth, and piece of rib lying nearby.",
+            "published_date": "",
+            "relevance_score": 0.10502681,
+            "via": "authority_search",
+            "date_in_text": "",
+            "snippet_raw": "by age or from the uptake of iron leached from nearby artefacts. There is little wear on the teeth and bones in the skull are not fully fused, which indicates an upper age limit of 25 years. Some of the bones fell apart when being handled, whilst others, such as the leg bones, survived intact. Unlocking DNA secrets Following the discovery, Foley invited Hannes Schroeder, an expert in ancient-DNA analysis from the Natural History Museum of Denmark, Copenhagen, to assess whether genetic material [",
+            "snippet_focused": true
+          },
+          {
+            "title": "Human skeleton - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Human_skeleton",
+            "domain": "en.wikipedia.org",
+            "source_type": "Reference / secondary",
+            "snippet": "The human skeleton is the internal framework of the human body. The human skeleton can be divided into the axial skeleton and the appendicular skeleton.",
+            "published_date": "",
+            "relevance_score": 0.86748546,
+            "date_in_text": "",
+            "snippet_raw": "The human skeleton is the internal framework of the human body. It is composed of around 270 bones at birth – this total decreases to around 206 bones by adulthood after some bones fuse together, not counting accessory bones. The bone mass in the skeleton makes up about 14% of the total body weight (ca. 10–11 kg for an average person) and reaches maximum mass between the ages of 25 and 30. The human skeleton can be divided into the axial skeleton and the appendicular skeleton. The axial",
+            "snippet_focused": true
+          },
+          {
+            "title": "How Many Bones in the Adult Human Body: 206 Explained - Biology Insights",
+            "url": "https://biologyinsights.com/how-many-bones-in-the-adult-human-body-206-explained",
+            "domain": "biologyinsights.com",
+            "source_type": "Other — review source",
+            "snippet": "An adult human body has 206 bones.",
+            "published_date": "",
+            "relevance_score": 0.8669231,
+            "date_in_text": "",
+            "snippet_raw": "An adult human body has 206 bones. This number is standard across nearly all adults, though you actually started life with far more. The skeleton is divided into two main groups: 80 bones in the axial skeleton (your skull, spine, ribs, and breastbone) and 126 bones in the appendicular skeleton (your arms, legs, shoulders, and hips).\n\n## Why Babies Have More Bones Than Adults [...] The 206 figure is a standard count, but not everyone lands exactly on that number. The most common reason for variat",
+            "snippet_focused": true
+          },
+          {
+            "title": "[FREE] The adult skeleton of most men and women contains a total of:\n\nA) 206 bones \nB) 216 bones \nC) 226 bones \nD) - brainly.com",
+            "url": "https://brainly.com/question/46078821",
+            "domain": "brainly.com",
+            "source_type": "User-generated",
+            "snippet": "The adult human skeleton typically contains a total of 206 bones. The adult human skeleton contains a total of 206 bones, which is the result of bone fusion that occurs from infancy to adulthood.",
+            "published_date": "",
+            "relevance_score": 0.8631611,
+            "date_in_text": "",
+            "snippet_raw": "## Explanation\n\nThe adult human skeleton typically contains a total of 206 bones. This number represents the final count after a process of bone fusion that occurs as a person matures from infancy to adulthood.\n\nDuring the early stages of life, humans are born with approximately 305 bones. As children grow, some of these bones fuse together, leading to a reduction in the total number of bones. By the time a person reaches adulthood, they usually have 206 bones as a result of this process. [...] ",
+            "snippet_focused": true
+          }
+        ],
+        "search_query": "An adult human skeleton typically contains 206 bones"
+      }
+    },
+    {
+      "claim": {
+        "claim": "The Burj Khalifa is 1,250 metres tall",
+        "excerpt": "6. The Burj Khalifa is 1,250 metres tall.",
+        "page": 1,
+        "claim_type": "technical"
+      },
+      "result": {
+        "verdict": "FALSE",
+        "confidence": 80,
+        "confidence_label": "Legacy heuristic score (not a probability); see evidence_rating",
+        "evidence_rating": "Moderate",
+        "evidence_checks": [
+          {
+            "label": "A relevant primary / official source directly supports the claim",
+            "ok": true
+          },
+          {
+            "label": "At least 2 independent, relevant, non-user-generated domains",
+            "ok": true
+          },
+          {
+            "label": "Sources do not report conflicting values",
+            "ok": false
+          },
+          {
+            "label": "Corrected figure appears in the cited text",
+            "ok": true
+          },
+          {
+            "label": "Corrected figure appears in an official / institutional source",
+            "ok": false
+          },
+          {
+            "label": "A source date is visible (time-sensitive claims)",
+            "ok": null
+          }
+        ],
+        "explanation": "The Burj Khalifa’s official height is 828 m, not 1,250 m.",
+        "corrected_fact": "828 m",
+        "correction_check": "secondary_only",
+        "correction_sources": [
+          {
+            "url": "https://matadornetwork.com/read/burj-khalifa",
+            "domain": "matadornetwork.com",
+            "source_type": "Other — review source"
+          }
+        ],
+        "correction_values": [
+          {
+            "value": "828",
+            "official": false,
+            "found_in": [
+              {
+                "url": "https://matadornetwork.com/read/burj-khalifa",
+                "domain": "matadornetwork.com",
+                "source_type": "Other — review source"
+              }
+            ]
+          }
+        ],
+        "source_values": [
+          {
+            "value": "828",
+            "url": "https://matadornetwork.com/read/burj-khalifa",
+            "domain": "matadornetwork.com",
+            "source_type": "Other — review source",
+            "date": "date not stated"
+          }
+        ],
+        "conflicting_values": "Source 2 (CTBUH) lists 381 m (roof height) and 1,250 ft; Source 3 (Matador Network) lists 828 m (official height). The discrepancy is due to the former referencing roof height and the latter the total architectural height.",
+        "evidence_quality": "HIGH",
+        "source_notes": [
+          {
+            "url": "https://www.ctbuh.org/featured-buildings?page=5",
+            "says": "Burj Khalifa 381 m / 1,250 ft",
+            "stance": "contradicts"
+          },
+          {
+            "url": "https://matadornetwork.com/read/burj-khalifa",
+            "says": "Burj Khalifa is 2,716 feet tall or 828 meters tall",
+            "stance": "supports"
+          }
+        ],
+        "used_urls": [
+          "https://www.ctbuh.org/featured-buildings?page=5",
+          "https://matadornetwork.com/read/burj-khalifa"
+        ],
+        "cited_urls": [
+          "https://www.ctbuh.org/featured-buildings?page=5",
+          "https://matadornetwork.com/read/burj-khalifa"
+        ],
+        "not_counted": [],
+        "correction_warning": "The corrected figure appears only in secondary / non-official sources (for example Wikipedia or a reference site), not in a government, academic or institutional source, so it is not fully verified. Check it against a primary source.",
+        "evidence": [
+          {
+            "title": "Otis Elevator Company - The Skyscraper Center",
+            "url": "https://global.ctbuh.org/companies/1386",
+            "domain": "global.ctbuh.org",
+            "source_type": "Official / institutional",
+            "snippet": "Burj Khalifa Burj Khalifa",
+            "published_date": "",
+            "relevance_score": 0.58112484,
+            "via": "authority_search",
+            "date_in_text": "",
+            "snippet_raw": "| RANK | Name | Status Completed  Architecturally Topped Out  Structurally Topped Out  Under Construction  On Hold  Proposed  Vision  Never Completed  Demolished  Competition Entry  Canceled  Proposed Renovation  Under Renovation  Renovated  Under Demolition  See all status definitions | Height |\n ---  --- |\n| 1 | Burj Khalifa |  | 828 m / 2,717  ft |\n| 2 | Canton Tower |  | 604 m / 1,982  ft |\n| 3 | Ping An Finance Center |  | 599.1 m / 1,965  ft |\n| 4 | Tianjin 117 |  | 596.6 m / 1,957  ft | [",
+            "snippet_focused": true
+          },
+          {
+            "title": "The 100 Tallest Completed Buildings in the World in 2026 - The Skyscraper Center",
+            "url": "https://www.ctbuh.org/featured-buildings?page=5",
+            "domain": "www.ctbuh.org",
+            "source_type": "Official / institutional",
+            "snippet": "Burj Khalifa 381 m / 1,250 ft",
+            "published_date": "",
+            "relevance_score": 0.5621765,
+            "via": "authority_search",
+            "date_in_text": "",
+            "snippet_raw": "---  ---  ---  --- \n|  | Burj Khalifa |  |  |  | 828 m / 2,717 ft |  | Steel Over Concrete | Office / Residential / Hotel |\n|  | Menara Merdeka Maybank | Kuala Lumpur |  |  | 679 m / 2,227 ft |  | Concrete-Steel Composite | Hotel / Serviced Apartments / Office |\n| 3 | Shanghai Tower | Shanghai |  | 2015 | 632 m / 2,073 ft | 128 | Concrete-Steel Composite | Hotel / Office | [...] | 57 | Burj Mohammed Bin Rashid | Abu Dhabi |  | 2014 | 381 m / 1,251 ft | 88 | All-Concrete | Residential |\n| 58 | Em",
+            "snippet_focused": true
+          },
+          {
+            "title": "Burj Khalifa: Fun Facts and Visiting Tips for the World's Tallest Building",
+            "url": "https://matadornetwork.com/read/burj-khalifa",
+            "domain": "matadornetwork.com",
+            "source_type": "Other — review source",
+            "snippet": "How tall is Burj Khalifa? Burj Khalifa is 2716 feet tall or 828 meters tall.",
+            "published_date": "",
+            "relevance_score": 0.6474639,
+            "date_in_text": "",
+            "snippet_raw": "## Is Burj Khalifa the tallest building in the world?\n\nBurj Khalifa holds the Guinness World record for the tallest building in the world since 2010. China’s Shanghai Tower is the second-tallest building in the world.\n\n## How tall is Burj Khalifa?\n\nBurj Khalifa viewed from the observation deck\n\nPhoto: Kirk Fisher/Shutterstock\n\nBurj Khalifa is 2716 feet tall or 828 meters tall. In comparison, China’s Shanghai Tower, the second-tallest building in the world, is 2073 feet tall or 632 meters tall. [",
+            "snippet_focused": true
+          },
+          {
+            "title": "Burj Khalifa - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Burj_Khalifa",
+            "domain": "en.wikipedia.org",
+            "source_type": "Reference / secondary",
+            "snippet": "Without the spire, Burj Khalifa would be 585 metres (1,919ft) tall.",
+            "published_date": "",
+            "relevance_score": 0.6017106,
+            "date_in_text": "",
+            "snippet_raw": "The spire of Burj Khalifa is composed of more than 4,000 tonnes (4,400 short tons; 3,900 long tons) of structural steel. The central pinnacle pipe weighs 350 tonnes (390 short tons; 340 long tons) and has a height of 200m (660ft). The spire also houses communications equipment.\\ This 244-metre (801ft) spire is widely considered vanity height, since very little of its space is usable. Without the spire, Burj Khalifa would be 585 metres (1,919ft) tall. This was reported in a Council on Tall [...] ",
+            "snippet_focused": true
+          },
+          {
+            "title": "Dubai's Burj Khalifa Observation Deck - Business Insider",
+            "url": "https://www.businessinsider.com/dubais-burj-khalifa-observation-deck-2014-10",
+            "domain": "www.businessinsider.com",
+            "source_type": "Other — review source",
+            "snippet": "Dubai’s Burj Khalifa is the tallest tower in the world at 2,722 feet tall with 160 floors.",
+            "published_date": "",
+            "relevance_score": 0.6012424,
+            "date_in_text": "",
+            "snippet_raw": "Dubai’s Burj Khalifa is the tallest tower in the world at 2,722 feet tall with 160 floors.\n\nAnd now it also has the highest observation deck on level 148 — a stunning 1,821 feet above the ground. It beat out the previous world record holder Canton Tower with its 1,601 foot high observation deck in Guangzhou, China.\n\nThis makes the fourth Guinness World Records title for the Burj Khalifa, including the tallest building, tallest man-made structure, and highest restaurant.",
+            "snippet_focused": true
+          }
+        ],
+        "search_query": "The Burj Khalifa is 1,250 metres tall"
+      }
+    },
+    {
+      "claim": {
+        "claim": "The Amazon rainforest covers about 12 million square kilometres",
+        "excerpt": "7. The Amazon rainforest covers about 12 million square kilometres.",
+        "page": 1,
+        "claim_type": "statistic"
+      },
+      "result": {
+        "verdict": "FALSE",
+        "confidence": 87,
+        "confidence_label": "Legacy heuristic score (not a probability); see evidence_rating",
+        "evidence_rating": "Moderate",
+        "evidence_checks": [
+          {
+            "label": "A relevant primary / official source directly supports the claim",
+            "ok": true
+          },
+          {
+            "label": "At least 2 independent, relevant, non-user-generated domains",
+            "ok": true
+          },
+          {
+            "label": "Sources do not report conflicting values",
+            "ok": false
+          },
+          {
+            "label": "Corrected figure appears in the cited text",
+            "ok": null
+          },
+          {
+            "label": "A source date is visible (time-sensitive claims)",
+            "ok": false
+          }
+        ],
+        "explanation": "All supplied sources state the Amazon rainforest covers roughly 6–6.7 million sq km, not 12 million sq km.",
+        "corrected_fact": "",
+        "correction_check": "n/a",
+        "correction_sources": [],
+        "correction_values": [],
+        "source_values": [],
+        "conflicting_values": "ESA (6 million sq km), WWF (6.7 million sq km), Business Insider (6.7 million sq km)",
+        "evidence_quality": "HIGH",
+        "source_notes": [
+          {
+            "url": "https://www.esa.int/ESA_Multimedia/Images/2021/03/Amazon_rainforest",
+            "says": "covers an area of around six million sq km",
+            "stance": "contradicts"
+          },
+          {
+            "url": "https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_Amazon_rainforest",
+            "says": "covers an area of around six million sq km",
+            "stance": "contradicts"
+          },
+          {
+            "url": "https://www.wwf.org.uk/learn/fascinating-facts/amazon",
+            "says": "covers an enormous 6.7 million square kilometres",
+            "stance": "contradicts"
+          },
+          {
+            "url": "https://www.businessinsider.com/amazon-losing-3-football-fields-worth-of-rainforest-per-minute-2019-8",
+            "says": "covers approximately 2.6 million square miles (6.7 million square kilometres)",
+            "stance": "contradicts"
+          }
+        ],
+        "used_urls": [
+          "https://www.esa.int/ESA_Multimedia/Images/2021/03/Amazon_rainforest",
+          "https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_Amazon_rainforest",
+          "https://www.wwf.org.uk/learn/fascinating-facts/amazon",
+          "https://www.businessinsider.com/amazon-losing-3-football-fields-worth-of-rainforest-per-minute-2019-8"
+        ],
+        "cited_urls": [
+          "https://www.esa.int/ESA_Multimedia/Images/2021/03/Amazon_rainforest",
+          "https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_Amazon_rainforest",
+          "https://www.wwf.org.uk/learn/fascinating-facts/amazon",
+          "https://www.businessinsider.com/amazon-losing-3-football-fields-worth-of-rainforest-per-minute-2019-8"
+        ],
+        "not_counted": [],
+        "evidence": [
+          {
+            "title": "Amazon rainforest",
+            "url": "https://www.esa.int/ESA_Multimedia/Images/2021/03/Amazon_rainforest",
+            "domain": "www.esa.int",
+            "source_type": "Official / institutional",
+            "snippet": "As its name implies, the Amazonas is almost entirely covered by the Amazon rainforest – the world’s largest tropical rainforest covering an area of around six million sq km. Ahead of the International Day of Forests, the Copernicus Sentinel-2 mission takes us over part of the Amazon rainforest in…",
+            "published_date": "",
+            "relevance_score": 0.47714305,
+            "via": "authority_search",
+            "date_in_text": "",
+            "snippet_raw": "As its name implies, the Amazonas is almost entirely covered by the Amazon rainforest – the world’s largest tropical rainforest covering an area of around six million sq km. The Amazon is the world’s richest and most-varied biological reservoir, containing several million species of insects, birds, plants and other forms of life. [...] Ahead of the International Day of Forests, the Copernicus Sentinel-2 mission takes us over part of the Amazon rainforest in the Amazonas – the largest state in Br",
+            "snippet_focused": true
+          },
+          {
+            "title": "ESA - Earth from Space: Amazon rainforest",
+            "url": "https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_Amazon_rainforest",
+            "domain": "www.esa.int",
+            "source_type": "Official / institutional",
+            "snippet": "As its name implies, the Amazonas is almost entirely covered by the Amazon rainforest – the world’s largest tropical rainforest covering an area of around six million sq km. Amazon rainforest",
+            "published_date": "",
+            "relevance_score": 0.4764883,
+            "via": "authority_search",
+            "date_in_text": "",
+            "snippet_raw": "As its name implies, the Amazonas is almost entirely covered by the Amazon rainforest – the world’s largest tropical rainforest covering an area of around six million sq km. The Amazon is the world’s richest and most-varied biological reservoir, containing several million species of insects, birds, plants and other forms of life. [...] ESA title\n\nESA logo\n\nAmazon rainforest\n\nApplications\n\n# Earth from Space: Amazon rainforest\n\n19/03/2021 11561 views 66 likes\n\nESA / Applications / Observing the E",
+            "snippet_focused": true
+          },
+          {
+            "title": "Amazon rainforest - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Amazon_rainforest",
+            "domain": "en.wikipedia.org",
+            "source_type": "Reference / secondary",
+            "snippet": "The Amazon rainforest,\\[a] also called the Amazon jungle, Amazonia, or simply the Amazon, is a moist broadleaf tropical rainforest in the Amazon biome that covers most of the Amazon basin of South America. Nine countries share the Amazon basin—most of the rainforest, 58.4%, is contained within the…",
+            "published_date": "",
+            "relevance_score": 0.5134016,
+            "date_in_text": "January 2024",
+            "snippet_raw": "The Amazon rainforest,\\[a] also called the Amazon jungle, Amazonia, or simply the Amazon, is a moist broadleaf tropical rainforest in the Amazon biome that covers most of the Amazon basin of South America. This basin encompasses 7 million km2 (2.7 million sq mi),\\ of which 6 million km2 (2.3 million sq mi) are covered by the rainforest.\\ This region includes territory belonging to nine nations and 3,344 indigenous territories. [...] In January 2024 published data showed a 50% decline in deforest",
+            "snippet_focused": true
+          },
+          {
+            "title": "Here are our top facts about the Amazon | WWF",
+            "url": "https://www.wwf.org.uk/learn/fascinating-facts/amazon",
+            "domain": "www.wwf.org.uk",
+            "source_type": "Other — review source",
+            "snippet": "The Amazon rainforest covers an enormous 6.7 million square kilometres",
+            "published_date": "",
+            "relevance_score": 0.51280695,
+            "date_in_text": "",
+            "snippet_raw": "© Andre Dib\n\n## 1. The Amazon rainforest covers an enormous 6.7 million square kilometres\n\nSpanning 8 countries and one overseas territory in South America and representing an area twice the size of India – or roughly 28 times the side of the UK!\n\nButterflies and yellow-spotted river turtle\n\n© Day's Edge Productions / WWF-US\n\n## 2. The Amazon is thought to be home to 10% of known species on earth [...] This is an area the size of France.\n\n© André Bärtschi / WWF\n\n## 8. Science is pointing to the ",
+            "snippet_focused": true
+          },
+          {
+            "title": "Amazon Losing About 3 Football Fields' Worth of Rainforest Per Minute - Business Insider",
+            "url": "https://www.businessinsider.com/amazon-losing-3-football-fields-worth-of-rainforest-per-minute-2019-8",
+            "domain": "www.businessinsider.com",
+            "source_type": "Other — review source",
+            "snippet": "The \"lungs of the planet,\" as the Amazon has been commonly referred, covers approximately 2.6 million square miles (6.7 million square kilometers), according to the World Wildlife Fund.",
+            "published_date": "",
+            "relevance_score": 0.50907797,
+            "date_in_text": "",
+            "snippet_raw": "The \"lungs of the planet,\" as the Amazon has been commonly referred, covers approximately 2.6 million square miles (6.7 million square kilometers), according to the World Wildlife Fund. Through the process of photosynthesis, the Amazon converts 20% of the Earth's oxygen, thus storing 80 to 140 billion metric tons of carbon.",
+            "snippet_focused": true
+          }
+        ],
+        "search_query": "The Amazon rainforest covers about 12 million square kilometres latest figure 2026"
+      }
+    },
+    {
+      "claim": {
+        "claim": "The world's population is approximately 7 billion people",
+        "excerpt": "8. The world's population is approximately 7 billion people.",
+        "page": 1,
+        "claim_type": "statistic"
+      },
+      "result": {
+        "verdict": "INACCURATE",
+        "confidence": 73,
+        "confidence_label": "Legacy heuristic score (not a probability); see evidence_rating",
+        "evidence_rating": "Moderate",
+        "evidence_checks": [
+          {
+            "label": "A relevant primary / official source directly supports the claim",
+            "ok": true
+          },
+          {
+            "label": "At least 2 independent, relevant, non-user-generated domains",
+            "ok": false
+          },
+          {
+            "label": "Sources do not report conflicting values",
+            "ok": true
+          },
+          {
+            "label": "Corrected figure appears in the cited text",
+            "ok": true
+          },
+          {
+            "label": "Corrected figure appears in an official / institutional source",
+            "ok": true
+          },
+          {
+            "label": "A source date is visible (time-sensitive claims)",
+            "ok": true
+          }
+        ],
+        "explanation": "The claim that the world population is approximately 7 billion is outdated; recent official estimates place it at about 8.2 billion as of mid‑2026.",
+        "corrected_fact": "8.2 billion",
+        "correction_check": "supported",
+        "correction_sources": [
+          {
+            "url": "https://www.census.gov/newsroom/stories/world-population-day.html",
+            "domain": "census.gov",
+            "source_type": "Government"
+          }
+        ],
+        "correction_values": [
+          {
+            "value": "8.2 billion",
+            "official": true,
+            "found_in": [
+              {
+                "url": "https://www.census.gov/newsroom/stories/world-population-day.html",
+                "domain": "census.gov",
+                "source_type": "Government"
+              }
+            ]
+          }
+        ],
+        "source_values": [
+          {
+            "value": "8.2 billion",
+            "url": "https://www.census.gov/newsroom/stories/world-population-day.html",
+            "domain": "census.gov",
+            "source_type": "Government",
+            "date": "July 11, 2026"
+          }
+        ],
+        "conflicting_values": "",
+        "evidence_quality": "HIGH",
+        "source_notes": [
+          {
+            "url": "https://www.census.gov/newsroom/stories/world-population-day.html",
+            "says": "The world population reached 8 billion in 2023, and the IDB projects it will reach 8.2 billion in July 2026",
+            "stance": "supports"
+          },
+          {
+            "url": "https://www.census.gov/newsroom/blogs/random-samplings/2011/10/the-world-population-at-7-billion.html",
+            "says": "The Earth’s population reached 4 billion in 1974, 5 billion in 1987, and 6 billion in 1999",
+            "stance": "context"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/World_population",
+            "says": "As of 2026, the world population is approximately 8.3 billion",
+            "stance": "context"
+          }
+        ],
+        "used_urls": [
+          "https://www.census.gov/newsroom/stories/world-population-day.html"
+        ],
+        "cited_urls": [
+          "https://www.census.gov/newsroom/stories/world-population-day.html"
+        ],
+        "not_counted": [],
+        "evidence": [
+          {
+            "title": "The World Population at 7 Billion",
+            "url": "https://www.census.gov/newsroom/blogs/random-samplings/2011/10/the-world-population-at-7-billion.html",
+            "domain": "www.census.gov",
+            "source_type": "Government",
+            "snippet": "For instance, according to Census Bureau estimates, the Earth’s population reached 4 billion in 1974, 5 billion in 1987, and 6 billion in 1999 (these figures are derived from the International Data Base, which compiles demographic estimates for 228 countries and areas of the world).",
+            "published_date": "",
+            "relevance_score": 0.71977776,
+            "via": "authority_search",
+            "date_in_text": "",
+            "snippet_raw": "of 8 billion (in 2026) and then another 16 years before it reaches 9 billion (in 2042). The exact date at which such thresholds will be passed is uncertain, of course, since it depends on future birth and death rates. Even more uncertain is the future year at which the Earth’s population may reach a tipping point and begin to decline. [...] While the true world total population is not known, it is independently estimated by both the United Nations and the Census Bureau. Both organizations begin ",
+            "snippet_focused": true
+          },
+          {
+            "title": "World Population Day: July 11, 2026",
+            "url": "https://www.census.gov/newsroom/stories/world-population-day.html",
+            "domain": "www.census.gov",
+            "source_type": "Government",
+            "snippet": "The world population reached 8 billion in 2023, and the IDB projects it will reach 8.2 billion in July 2026, 9 billion by 2039, 10 billion by 2060, and peak at 10.6 billion in 2092 before declining. The Census Bureau estimates the number of people in the world by combining past population growth…",
+            "published_date": "",
+            "relevance_score": 0.62245935,
+            "via": "authority_search",
+            "date_in_text": "July 11, 2026",
+            "snippet_raw": "The world population reached 8 billion in 2023, and the IDB projects it will reach 8.2 billion in July 2026, 9 billion by 2039, 10 billion by 2060, and peak at 10.6 billion in 2092 before declining. [...] CB26-SFS.9\n\nWorld Population Day has been observed on July 11 every year since 1990.\n\nOur World Population Clock provides a real-time estimate of the global population as well as an indication of how fast it is growing.\n\nThe Census Bureau estimates the number of people in the world by combining",
+            "snippet_focused": true
+          },
+          {
+            "title": "World population - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/World_population",
+            "domain": "en.wikipedia.org",
+            "source_type": "Reference / secondary",
+            "snippet": "As of 2026, the world population is approximately 8.3 billion.\\ However, this figure is only a very rough approximation (see § History). According to the UN, the global population reached eight billion in November 2022,\\ but because the growth rate is slowing, it will take another 15 years to reach…",
+            "published_date": "",
+            "relevance_score": 0.831066912,
+            "date_in_text": "",
+            "snippet_raw": "Population growth in the Western world became more rapid after the introduction of vaccination and other improvements in medicine and sanitation.\\ Improved material conditions led to the population of Britain increasing from 10 million to 40 million in the 19th century.\\ The population of the United Kingdom reached 60 million in 2006.\\ The United States saw its population grow from around 5.3 million in 1800 to 106 million in 1920, exceeding 307 million in 2010.\\\n\n### 20th century [...] In world",
+            "snippet_focused": true
+          },
+          {
+            "title": "World Population Clock: 8.3 Billion People (LIVE, October 2026)",
+            "url": "https://worldpopulationclock.net",
+            "domain": "worldpopulationclock.net",
+            "source_type": "Other — review source",
+            "snippet": "Population growth then accelerated rapidly, with the world reaching 2 billion around 1930, 3 billion in 1960, 4 billion in 1974, 5 billion in 1987, 6 billion in 1999, 7 billion in 2011, and 8 billion in 2022. When did the world population reach 8 billion?",
+            "published_date": "",
+            "relevance_score": 0.71869314,
+            "date_in_text": "October 2026",
+            "snippet_raw": "The transformation of the global population over the past two centuries has been extraordinary. Around 1800, humanity numbered approximately 1 billion people. Population growth then accelerated rapidly, with the world reaching 2 billion around 1930, 3 billion in 1960, 4 billion in 1974, 5 billion in 1987, 6 billion in 1999, 7 billion in 2011, and 8 billion in 2022. By 2026, the global population stands at approximately 8.3 billion. The speed at which successive billion-person milestones were [..",
+            "snippet_focused": true
+          },
+          {
+            "title": "World Population Clock: 8.3 Billion People (LIVE, 2026) - Worldometer",
+            "url": "https://www.worldometers.info/world-population",
+            "domain": "www.worldometers.info",
+            "source_type": "Reference / secondary",
+            "snippet": "Obviously, the UN data is based on estimates and can't be 100% accurate, so in all honesty nobody can possibly say with any degree of certainty on which day world population reached 7 billion (or any other exact number), let alone at what time. The World at Six Billion, World Population, Year 0 to…",
+            "published_date": "",
+            "relevance_score": 0.7036513,
+            "date_in_text": "",
+            "snippet_raw": "Obviously, the UN data is based on estimates and can't be 100% accurate, so in all honesty nobody can possibly say with any degree of certainty on which day world population reached 7 billion (or any other exact number), let alone at what time. But once an estimate is made (based on the best data and analysis available), the world population clock should be showing the same number at any given time anywhere around the world. [...] Sources:\n\n World Population Prospects: The 2024 Revision  - Unite",
+            "snippet_focused": true
+          }
+        ],
+        "search_query": "The world's population is approximately 7 billion people latest figure 2026"
+      }
+    },
+    {
+      "claim": {
+        "claim": "India's population is about 1.2 billion people",
+        "excerpt": "9. India's population is about 1.2 billion people.",
+        "page": 1,
+        "claim_type": "statistic"
+      },
+      "result": {
+        "verdict": "INACCURATE",
+        "confidence": 70,
+        "confidence_label": "Legacy heuristic score (not a probability); see evidence_rating",
+        "evidence_rating": "Moderate",
+        "evidence_checks": [
+          {
+            "label": "A relevant primary / official source directly supports the claim",
+            "ok": true
+          },
+          {
+            "label": "At least 2 independent, relevant, non-user-generated domains",
+            "ok": true
+          },
+          {
+            "label": "Sources do not report conflicting values",
+            "ok": false
+          },
+          {
+            "label": "Corrected figure appears in the cited text",
+            "ok": true
+          },
+          {
+            "label": "Corrected figure appears in an official / institutional source",
+            "ok": false
+          },
+          {
+            "label": "A source date is visible (time-sensitive claims)",
+            "ok": true
+          }
+        ],
+        "explanation": "The claim that India’s population is about 1.2 billion is outdated; all supplied sources report figures well above 1.2 billion for the current period.",
+        "corrected_fact": "1,476,625,576",
+        "correction_check": "secondary_only",
+        "correction_sources": [
+          {
+            "url": "https://www.worldometers.info/world-population/india-population",
+            "domain": "worldometers.info",
+            "source_type": "Reference / secondary"
+          }
+        ],
+        "correction_values": [
+          {
+            "value": "1,476,625,576",
+            "official": false,
+            "found_in": [
+              {
+                "url": "https://www.worldometers.info/world-population/india-population",
+                "domain": "worldometers.info",
+                "source_type": "Reference / secondary"
+              }
+            ]
+          }
+        ],
+        "source_values": [
+          {
+            "value": "1.426 billion",
+            "url": "https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects",
+            "domain": "un.org",
+            "source_type": "Official / institutional",
+            "date": "April 2023"
+          },
+          {
+            "value": "1.4 billion",
+            "url": "https://www.cnn.com/2026/04/07/india/india-census-population-explainer-intl-hnk",
+            "domain": "cnn.com",
+            "source_type": "Other — review source",
+            "date": "date not stated"
+          },
+          {
+            "value": "1,476,625,576",
+            "url": "https://www.worldometers.info/world-population/india-population",
+            "domain": "worldometers.info",
+            "source_type": "Reference / secondary",
+            "date": "November 4, 2026"
+          }
+        ],
+        "conflicting_values": "1.426 billion in un.org (April 2023); 1.4 billion in cnn.com (date not stated); 1,476,625,576 in worldometers.info (November 4, 2026). They may differ because of measurement date, method or rounding; Verity does not treat one of them as certain.",
+        "evidence_quality": "MEDIUM",
+        "source_notes": [
+          {
+            "url": "https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects",
+            "says": "India’s population is expected to reach 1,425,775,850 people by the end of April 2023",
+            "stance": "supports"
+          },
+          {
+            "url": "https://www.cnn.com/2026/04/07/india/india-census-population-explainer-intl-hnk",
+            "says": "India plans to count 1.4 billion people for its 2026 census",
+            "stance": "supports"
+          },
+          {
+            "url": "https://www.worldometers.info/world-population/india-population",
+            "says": "India 2026 population is estimated at 1,476,625,576 people at mid‑year",
+            "stance": "supports"
+          }
+        ],
+        "used_urls": [
+          "https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects",
+          "https://www.cnn.com/2026/04/07/india/india-census-population-explainer-intl-hnk",
+          "https://www.worldometers.info/world-population/india-population"
+        ],
+        "cited_urls": [
+          "https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects",
+          "https://www.cnn.com/2026/04/07/india/india-census-population-explainer-intl-hnk",
+          "https://www.worldometers.info/world-population/india-population"
+        ],
+        "not_counted": [],
+        "correction_warning": "The corrected figure appears only in secondary / non-official sources (for example Wikipedia or a reference site), not in a government, academic or institutional source, so it is not fully verified. Check it against a primary source.",
+        "evidence": [
+          {
+            "title": "India to overtake China as world’s most populous country in April 2023, United Nations projects | United Nations",
+            "url": "https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects",
+            "domain": "www.un.org",
+            "source_type": "Official / institutional",
+            "snippet": "By the end of this month, India’s population is expected to reach 1,425,775,850 people, matching and then surpassing the population of mainland China. China’s population reached its peak size of 1.426 billion in 2022 and has started to fall.",
+            "published_date": "",
+            "relevance_score": 0.36116472,
+            "via": "authority_search",
+            "date_in_text": "April 2023",
+            "snippet_raw": "24 April 2023 - China will soon cede its long-held status as the world’s most populous country. By the end of this month, India’s population is expected to reach 1,425,775,850 people, matching and then surpassing the population of mainland China. This forecast is based on the latest United Nations estimates and projections of the global population. [...] China’s population reached its peak size of 1.426 billion in 2022 and has started to fall. Projections indicate that the size of the Chinese po",
+            "snippet_focused": true
+          },
+          {
+            "title": "UN DESA Policy Brief No. 153: India overtakes China as the world’s most populous country | UN DESA Publications",
+            "url": "https://desapublications.un.org/policy-briefs/un-desa-policy-brief-no-153-india-overtakes-china-worlds-most-populous-country",
+            "domain": "desapublications.un.org",
+            "source_type": "Official / institutional",
+            "snippet": "had one of the world’s lowest fertility rates; India’s fertility rate, at 2.0 births per woman, was just below the “replacement” threshold of 2.1, the level required for population stabilization in the long run.",
+            "published_date": "",
+            "relevance_score": 0.31880316,
+            "via": "authority_search",
+            "date_in_text": "",
+            "snippet_raw": "had one of the world’s lowest fertility rates; India’s fertility rate, at 2.0 births per woman, was just below the “replacement” threshold of 2.1, the level required for population stabilization in the long run. According to the United Nations’ latest projections, India’s population is expected to reach its peak size around 2064 and then to decline gradually. China and India offer contrasting examples of national trajectories through the demographic transition towards longer lives and smaller [.",
+            "snippet_focused": true
+          },
+          {
+            "title": "Key facts about India’s growing population as it surpasses China’s population | Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2023/02/09/key-facts-as-india-surpasses-china-as-the-worlds-most-populous-country",
+            "domain": "www.pewresearch.org",
+            "source_type": "Other — review source",
+            "snippet": "India’s population has grown by more than 1 billion people since 1950, the year the UN population data begins. China, too, has more than 1.4 billion people, but while China’s population is declining, India’s continues to grow.",
+            "published_date": "",
+            "relevance_score": 0.5306469,
+            "date_in_text": "",
+            "snippet_raw": "India’s population has grown by more than 1 billion people since 1950, the year the UN population data begins. The exact size of the country’s population is not easily known, given that India has not conducted a census since 2011, but it is estimated to have more than 1.4 billion people – greater than the entire population of Europe (744 million) or the Americas (1.04 billion). China, too, has more than 1.4 billion people, but while China’s population is declining, India’s continues to grow.",
+            "snippet_focused": true
+          },
+          {
+            "title": "How India plans to count 1.4 billion people for its 2026 census | CNN",
+            "url": "https://www.cnn.com/2026/04/07/india/india-census-population-explainer-intl-hnk",
+            "domain": "www.cnn.com",
+            "source_type": "Other — review source",
+            "snippet": "During the last official census in 2011, India counted just over 1.2 billion people. How India plans to count 1.4 billion people",
+            "published_date": "",
+            "relevance_score": 0.74558365,
+            "date_in_text": "",
+            "snippet_raw": "During the last official census in 2011, India counted just over 1.2 billion people. The United Nations Department of Economic and Social Affairs now estimates it’s overtaken China to become the world’s most populous nation with 1.4 billion people.\n\nIts demographics have also undergone an epochal shift. Currently, more than 40% of India’s residents are under the age of 25, and UN data placed the country’s estimated median age in 2023 at just 28, nearly a decade younger than China’s. [...] The fi",
+            "snippet_focused": true
+          },
+          {
+            "title": "India Population (2026) - Worldometer",
+            "url": "https://www.worldometers.info/world-population/india-population",
+            "domain": "www.worldometers.info",
+            "source_type": "Reference / secondary",
+            "snippet": "India 2026 population is estimated at 1,476,625,576 people at mid-year. The population density in India is 497 per km² (1,286 people per mi²).",
+            "published_date": "",
+            "relevance_score": 0.7397986,
+            "date_in_text": "November 4, 2026",
+            "snippet_raw": "The current population of India is  1,481,124,730  as of Wednesday, November 4, 2026, based on Worldometer's elaboration of the latest United Nations data1.\n India 2026 population is estimated at  1,476,625,576  people at mid-year.\n India population is equivalent to  17.8%  of the  total world population .\n India ranks number  1  in the list of  countries and other entities by population .\n The population density in India is 497 per km² (1,286 people per mi²). [...] | Year | Population | Yearly ",
+            "snippet_focused": true
+          }
+        ],
+        "search_query": "India's population is about 1.2 billion people latest figure 2026"
+      }
+    },
+    {
+      "claim": {
+        "claim": "The concentration of carbon dioxide in Earth's atmosphere is about 400 parts per million",
+        "excerpt": "10. The concentration of carbon dioxide in Earth's atmosphere is about 400 parts per million.",
+        "page": 1,
+        "claim_type": "statistic"
+      },
+      "result": {
+        "verdict": "INACCURATE",
+        "confidence": 56,
+        "confidence_label": "Legacy heuristic score (not a probability); see evidence_rating",
+        "evidence_rating": "Moderate",
+        "evidence_checks": [
+          {
+            "label": "A relevant primary / official source directly supports the claim",
+            "ok": true
+          },
+          {
+            "label": "At least 2 independent, relevant, non-user-generated domains",
+            "ok": false
+          },
+          {
+            "label": "Sources do not report conflicting values",
+            "ok": true
+          },
+          {
+            "label": "Corrected figure appears in the cited text",
+            "ok": true
+          },
+          {
+            "label": "Corrected figure appears in an official / institutional source",
+            "ok": true
+          },
+          {
+            "label": "A source date is visible (time-sensitive claims)",
+            "ok": true
+          }
+        ],
+        "explanation": "The claim states 400 ppm, but the supplied MIT academic source reports 429 ppm for February 2026.",
+        "corrected_fact": "429 parts per million",
+        "correction_check": "supported",
+        "correction_sources": [
+          {
+            "url": "https://climate.mit.edu/ask-mit/how-can-such-small-amount-carbon-dioxide-atmosphere-only-around-420-parts-million-cause-so",
+            "domain": "climate.mit.edu",
+            "source_type": "Academic"
+          }
+        ],
+        "correction_values": [
+          {
+            "value": "429",
+            "official": true,
+            "found_in": [
+              {
+                "url": "https://climate.mit.edu/ask-mit/how-can-such-small-amount-carbon-dioxide-atmosphere-only-around-420-parts-million-cause-so",
+                "domain": "climate.mit.edu",
+                "source_type": "Academic"
+              }
+            ]
+          }
+        ],
+        "source_values": [
+          {
+            "value": "429",
+            "url": "https://climate.mit.edu/ask-mit/how-can-such-small-amount-carbon-dioxide-atmosphere-only-around-420-parts-million-cause-so",
+            "domain": "climate.mit.edu",
+            "source_type": "Academic",
+            "date": "February 2026"
+          }
+        ],
+        "conflicting_values": "",
+        "evidence_quality": "MEDIUM",
+        "source_notes": [
+          {
+            "url": "https://climate.mit.edu/ask-mit/how-can-such-small-amount-carbon-dioxide-atmosphere-only-around-420-parts-million-cause-so",
+            "says": "In February 2026, measurements of CO₂ at Mauna Loa reached 429 ppm",
+            "stance": "supports"
+          }
+        ],
+        "used_urls": [
+          "https://climate.mit.edu/ask-mit/how-can-such-small-amount-carbon-dioxide-atmosphere-only-around-420-parts-million-cause-so"
+        ],
+        "cited_urls": [
+          "https://climate.mit.edu/ask-mit/how-can-such-small-amount-carbon-dioxide-atmosphere-only-around-420-parts-million-cause-so"
+        ],
+        "not_counted": [],
+        "evidence": [
+          {
+            "title": "Carbon dioxide in the atmosphere of Earth - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth",
+            "domain": "en.wikipedia.org",
+            "source_type": "Reference / secondary",
+            "snippet": "In the atmosphere of Earth, carbon dioxide (CO2) is a trace gas that plays an integral part in the greenhouse effect, carbon cycle, photosynthesis, and oceanic carbon cycle. Each part per million of CO2 in the atmosphere represents approximately 2.13 gigatonnes of carbon, or 7.82 gigatonnes of CO2.",
+            "published_date": "",
+            "relevance_score": 0.7550956,
+            "date_in_text": "",
+            "snippet_raw": "In the atmosphere of Earth, carbon dioxide (CO2) is a trace gas that plays an integral part in the greenhouse effect, carbon cycle, photosynthesis, and oceanic carbon cycle. It is one of three main greenhouse gases in the atmosphere of Earth. In 2026, the concentration of carbon dioxide in the atmosphere reached 432 ppm or 0.0432% (on a molar basis), representing a mass of 3380 gigatonnes. This is an increase of 54% since the start of the Industrial Revolution, up from 280 ppm during the 10,000 ",
+            "snippet_focused": true
+          },
+          {
+            "title": "How can such a small amount of carbon dioxide in the atmosphere—only around 420 parts per million—cause so much warming? | MIT Climate Portal",
+            "url": "https://climate.mit.edu/ask-mit/how-can-such-small-amount-carbon-dioxide-atmosphere-only-around-420-parts-million-cause-so",
+            "domain": "climate.mit.edu",
+            "source_type": "Academic",
+            "snippet": "In February 2026, the National Oceanic and Atmospheric Administration announced that measurements of carbon dioxide (CO2) at their Mauna Loa Atmospheric Baseline Observatory had reached 429 parts per million (ppm).1 How can such a small amount of carbon dioxide in the atmosphere—only around 420…",
+            "published_date": "",
+            "relevance_score": 0.7409249,
+            "date_in_text": "February 2026",
+            "snippet_raw": "In February 2026, the National Oceanic and Atmospheric Administration announced that measurements of carbon dioxide (CO2) at their Mauna Loa Atmospheric Baseline Observatory had reached 429 parts per million (ppm).1 [...] Submit your own question to Ask MIT Climate\n\nGet the latest from Ask MIT Climate monthly in your inbox\n\nRead more Ask MIT Climate\n\nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International license (CC BY-NC-SA 4.0).\n\nFootnotes\n\n1 NASA: \"Carbon Dioxide - Earth Indi",
+            "snippet_focused": true
+          },
+          {
+            "title": "Carbon Dioxide - Earth Indicator - NASA Science",
+            "url": "https://science.nasa.gov/earth/explore/earth-indicators/carbon-dioxide",
+            "domain": "science.nasa.gov",
+            "source_type": "Government",
+            "snippet": "Key Takeaway: The amount of carbon dioxide in Earth's atmosphere has increased sharply in the past 100 years as measured from the ground and from satellites. It's important to note that “parts per million” refers to the number of carbon dioxide molecules per million molecules of dry air.",
+            "published_date": "",
+            "relevance_score": 0.54213613,
+            "date_in_text": "September 2026",
+            "snippet_raw": "# Carbon Dioxide - Earth Indicator\n\nKey Takeaway:  \nThe amount of carbon dioxide in Earth's atmosphere has increased sharply in the past 100 years as measured from the ground and from satellites. Since carbon dioxide is a greenhouse gas, this increase has warmed the planet.\n\n## Latest Measurement\n\n426ppm\n\n## Latest Measurement Date\n\nSeptember 2026 [...] The animated map below shows the historical changes in global carbon dioxide over time. Note the colors change as the amount of CO2 rises from 3",
+            "snippet_focused": true
+          }
+        ],
+        "search_query": "The concentration of carbon dioxide in Earth's atmosphere is about 400 parts per million latest figure 2026"
+      }
+    },
+    {
+      "claim": {
+        "claim": "Pluto is classified as the ninth planet of the solar system",
+        "excerpt": "11. Pluto is classified as the ninth planet of the solar system.",
+        "page": 1,
+        "claim_type": "other"
+      },
+      "result": {
+        "verdict": "INACCURATE",
+        "confidence": 73,
+        "confidence_label": "Legacy heuristic score (not a probability); see evidence_rating",
+        "evidence_rating": "Moderate",
+        "evidence_checks": [
+          {
+            "label": "A relevant primary / official source directly supports the claim",
+            "ok": true
+          },
+          {
+            "label": "At least 2 independent, relevant, non-user-generated domains",
+            "ok": false
+          },
+          {
+            "label": "Sources do not report conflicting values",
+            "ok": true
+          },
+          {
+            "label": "Corrected figure appears in the cited text",
+            "ok": null
+          },
+          {
+            "label": "A source date is visible (time-sensitive claims)",
+            "ok": null
+          }
+        ],
+        "explanation": "The claim that Pluto is the ninth planet is outdated; official sources now classify it as a dwarf planet.",
+        "corrected_fact": "Pluto is classified as a dwarf planet.",
+        "correction_check": "n/a",
+        "correction_sources": [],
+        "correction_values": [],
+        "source_values": [],
+        "conflicting_values": "",
+        "evidence_quality": "HIGH",
+        "source_notes": [
+          {
+            "url": "https://science.nasa.gov/dwarf-planets/pluto",
+            "says": "Pluto was once our solar system's ninth planet, but has been reclassified as a dwarf planet.",
+            "stance": "contradicts"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Pluto",
+            "says": "Marsden had first suggested in 1980 that \"we should drop the appellation 'ninth planet' and classify Pluto",
+            "stance": "contradicts"
+          },
+          {
+            "url": "https://www.instagram.com/reel/DYmjCKcshd1?hl=en",
+            "says": "Discovered in 1930, Pluto was long celebrated as our solar system’s ninth planet.",
+            "stance": "context"
+          }
+        ],
+        "used_urls": [
+          "https://science.nasa.gov/dwarf-planets/pluto"
+        ],
+        "cited_urls": [
+          "https://science.nasa.gov/dwarf-planets/pluto"
+        ],
+        "not_counted": [],
+        "evidence": [
+          {
+            "title": "Pluto",
+            "url": "https://en.wikipedia.org/wiki/Pluto",
+            "domain": "en.wikipedia.org",
+            "source_type": "Reference / secondary",
+            "snippet": "Marsden had first suggested in 1980 that \"we should \"[drop] the appellation 'ninth planet' and [classify] Pluto",
+            "published_date": "",
+            "relevance_score": 0.78727776,
+            "date_in_text": "",
+            "snippet_raw": "The object was immediately hailed as the ninth planet. However,( its planetary status was questioned when it was found to be much smaller than expected.\n\nOne Plutonian year corresponds to 247.94 Earth years;( thus, in 2178, Pluto will complete its first orbit since its discovery.\n\n### Name\n\nThe name _Pluto_ came from the Roman god of the underworld \"Pluto (mythology)\"); and it is also an epithet for Hades (the Greek equivalent of Pluto). [...] 65.   ↑\"Is Pluto a giant comet?\". Central Bureau for",
+            "snippet_focused": true
+          },
+          {
+            "title": "Pluto",
+            "url": "https://science.nasa.gov/dwarf-planets/pluto",
+            "domain": "science.nasa.gov",
+            "source_type": "Government",
+            "snippet": "Pluto was once our solar system's ninth planet, but has been reclassified as a dwarf planet.",
+            "published_date": "",
+            "relevance_score": 0.8609547,
+            "date_in_text": "",
+            "snippet_raw": "# Pluto\n\nPluto was once our solar system's ninth planet, but has been reclassified as a dwarf planet. It's located in the Kuiper Belt.\n\n## Pluto Facts\n\nPluto is a dwarf planet located in a distant region of our solar system beyond Neptune known as the Kuiper Belt.\n\nPluto was long considered our ninth planet, but the International Astronomical Union reclassified Pluto as a dwarf planet in 2006. NASA's New Horizons was the first spacecraft to explore Pluto up close, flying by in 2015.",
+            "snippet_focused": true
+          },
+          {
+            "title": "Instagram",
+            "url": "https://www.instagram.com/reel/DYmjCKcshd1?hl=en",
+            "domain": "www.instagram.com",
+            "source_type": "User-generated",
+            "snippet": "Discovered in 1930, Pluto was long celebrated as our solar system’s ninth planet.",
+            "published_date": "",
+            "relevance_score": 0.8269914,
+            "date_in_text": "",
+            "snippet_raw": "Pluto was the ninth planet... until it wasn’t!   \n  \nDiscovered in 1930, Pluto was long celebrated as our solar system’s ninth planet. But in 2006, the rules changed! To be classified as a planet, a celestial body must orbit the Sun, be nearly round and clear its neighborhood of objects of similar size, except for its moons.",
+            "snippet_focused": true
+          }
+        ],
+        "search_query": "Pluto is classified as the ninth planet of the solar system"
+      }
+    },
+    {
+      "claim": {
+        "claim": "The Pacific Ocean is the largest ocean on Earth",
+        "excerpt": "12. The Pacific Ocean is the largest ocean on Earth.",
+        "page": 1,
+        "claim_type": "other"
+      },
+      "result": {
+        "verdict": "VERIFIED",
+        "confidence": 87,
+        "confidence_label": "Legacy heuristic score (not a probability); see evidence_rating",
+        "evidence_rating": "Strong",
+        "evidence_checks": [
+          {
+            "label": "A relevant primary / official source directly supports the claim",
+            "ok": true
+          },
+          {
+            "label": "At least 2 independent, relevant, non-user-generated domains",
+            "ok": true
+          },
+          {
+            "label": "Sources do not report conflicting values",
+            "ok": true
+          },
+          {
+            "label": "Corrected figure appears in the cited text",
+            "ok": null
+          },
+          {
+            "label": "A source date is visible (time-sensitive claims)",
+            "ok": null
+          }
+        ],
+        "explanation": "All supplied sources state that the Pacific Ocean is the largest ocean on Earth.",
+        "corrected_fact": "",
+        "correction_check": "n/a",
+        "correction_sources": [],
+        "correction_values": [],
+        "source_values": [],
+        "conflicting_values": "",
+        "evidence_quality": "HIGH",
+        "source_notes": [
+          {
+            "url": "https://www.cpc.ncep.noaa.gov/products/international/ocean_monitoring/pacific/PO_monitoring_fcsts/overview.html",
+            "says": "The Pacific Ocean is the largest and deepest ocean on Earth, covering 32% of Earth’s total surface area and 46% of Earth’s ocean surface area.",
+            "stance": "supports"
+          },
+          {
+            "url": "https://oceanexplorer.noaa.gov/ocean-fact/pacific-size",
+            "says": "Covering more than 30 percent of the Earth’s surface, the Pacific Ocean is the largest water mass on the planet. The Pacific Ocean is the largest and deepest ocean basin on Earth, covering more than 155 million square kilometers (60 million",
+            "stance": "supports"
+          },
+          {
+            "url": "https://www.ebsco.com/research-starters/environmental-sciences/pacific-ocean",
+            "says": "The Pacific Ocean is the largest ocean on Earth, covering approximately 182 million square kilometers, which is more than double the size of the next largest ocean, the Atlantic.",
+            "stance": "supports"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Pacific_Ocean",
+            "says": "At 165,250,000 square kilometers (63,800,000 square miles) in area (as defined with a southern Antarctic border), the Pacific Ocean is the largest division of the World Ocean and the hydrosphere and covers approximately 46% of Earth's water",
+            "stance": "supports"
+          },
+          {
+            "url": "https://www.nationalgeographic.com/environment/article/pacific-ocean",
+            "says": "The Pacific Ocean is the largest and deepest ocean on Earth.",
+            "stance": "supports"
+          }
+        ],
+        "used_urls": [
+          "https://www.cpc.ncep.noaa.gov/products/international/ocean_monitoring/pacific/PO_monitoring_fcsts/overview.html",
+          "https://oceanexplorer.noaa.gov/ocean-fact/pacific-size",
+          "https://www.ebsco.com/research-starters/environmental-sciences/pacific-ocean",
+          "https://en.wikipedia.org/wiki/Pacific_Ocean",
+          "https://www.nationalgeographic.com/environment/article/pacific-ocean"
+        ],
+        "cited_urls": [
+          "https://www.cpc.ncep.noaa.gov/products/international/ocean_monitoring/pacific/PO_monitoring_fcsts/overview.html",
+          "https://oceanexplorer.noaa.gov/ocean-fact/pacific-size",
+          "https://www.ebsco.com/research-starters/environmental-sciences/pacific-ocean",
+          "https://en.wikipedia.org/wiki/Pacific_Ocean",
+          "https://www.nationalgeographic.com/environment/article/pacific-ocean"
+        ],
+        "not_counted": [],
+        "evidence": [
+          {
+            "title": "Pacific Ocean Overview",
+            "url": "https://www.cpc.ncep.noaa.gov/products/international/ocean_monitoring/pacific/PO_monitoring_fcsts/overview.html",
+            "domain": "www.cpc.ncep.noaa.gov",
+            "source_type": "Government",
+            "snippet": "The Pacific Ocean is the largest and deepest ocean on Earth, covering 32% of Earth’s total surface area and 46% of Earth’s ocean surface area.",
+            "published_date": "",
+            "relevance_score": 0.87546796,
+            "via": "authority_search",
+            "date_in_text": "",
+            "snippet_raw": "## Overview\n\nThe Pacific Ocean is the largest and deepest ocean on Earth, covering 32% of Earth’s total surface area and 46% of Earth’s ocean surface area. It stretches from the Arctic to the Southern Ocean, and from Asia/Australia to the Americas. The Pacific Ocean is central to the global climate system because it is the largest ocean basin, storing and transporting vast amounts of heat and moisture. The Pacific Ocean strongly influences global weather, climate, and ecosystems.",
+            "snippet_focused": true
+          },
+          {
+            "title": "How big is the Pacific Ocean? - NOAA Ocean Exploration",
+            "url": "https://oceanexplorer.noaa.gov/ocean-fact/pacific-size",
+            "domain": "oceanexplorer.noaa.gov",
+            "source_type": "Government",
+            "snippet": "Covering more than 30 percent of the Earth’s surface, the Pacific Ocean is the largest water mass on the planet. The Pacific Ocean is the largest and deepest ocean basin on Earth, covering more than 155 million square kilometers (60 million square miles) and averaging a depth of 4,000 meters…",
+            "published_date": "",
+            "relevance_score": 0.8601343,
+            "via": "authority_search",
+            "date_in_text": "",
+            "snippet_raw": "Covering more than 30 percent of the Earth’s surface, the Pacific Ocean is the largest water mass on the planet. With a surface area of more than 155 million square kilometers (60 million square miles), this ocean basin is larger than the landmass of all the continents combined. Additionally, it contains almost twice as much water as the world’s second largest body of water, the Atlantic Ocean. [...] LIVE VIDEO: The 2026 American Samoa ROV + Mapping Exploration expedition is underway. Watch live",
+            "snippet_focused": true
+          },
+          {
+            "title": "Pacific Ocean | Environmental Sciences | Research Starters | EBSCOhost",
+            "url": "https://www.ebsco.com/research-starters/environmental-sciences/pacific-ocean",
+            "domain": "www.ebsco.com",
+            "source_type": "Other — review source",
+            "snippet": "The Pacific Ocean is the largest ocean on Earth, covering approximately 182 million square kilometers, which is more than double the size of the next largest ocean, the Atlantic.",
+            "published_date": "",
+            "relevance_score": 0.86647177,
+            "date_in_text": "",
+            "snippet_raw": "The Pacific Ocean is the largest ocean on Earth, covering approximately 182 million square kilometers, which is more than double the size of the next largest ocean, the Atlantic. It spans from Antarctica in the south to the Bering Strait, separating North America from Asia, and stretches from the western coast of Colombia to the Malay Peninsula in Asia. With a mean depth of 4,255 meters and a maximum depth of 10,970 meters, it is characterized by vast underwater plains and significant [...] ## F",
+            "snippet_focused": true
+          },
+          {
+            "title": "Pacific Ocean - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pacific_Ocean",
+            "domain": "en.wikipedia.org",
+            "source_type": "Reference / secondary",
+            "snippet": "At 165,250,000 square kilometers (63,800,000 square miles) in area (as defined with a southern Antarctic border), the Pacific Ocean is the largest division of the World Ocean and the hydrosphere and covers approximately 46% of Earth's water surface and about 32% of the planet's total surface area…",
+            "published_date": "",
+            "relevance_score": 0.8465777,
+            "date_in_text": "",
+            "snippet_raw": "At 165,250,000 square kilometers (63,800,000 square miles) in area (as defined with a southern Antarctic border), the Pacific Ocean is the largest division of the World Ocean and the hydrosphere and covers approximately 46% of Earth's water surface and about 32% of the planet's total surface area, larger than its entire land area combined (148,940,000 square kilometers or 57,510,000 square miles).\\ The centers of both the water hemisphere and the Western Hemisphere, as well as the oceanic pole [",
+            "snippet_focused": true
+          },
+          {
+            "title": "The Pacific Ocean—facts and information | National Geographic",
+            "url": "https://www.nationalgeographic.com/environment/article/pacific-ocean",
+            "domain": "www.nationalgeographic.com",
+            "source_type": "Reference / secondary",
+            "snippet": "The Pacific Ocean is the largest and deepest ocean on Earth.",
+            "published_date": "",
+            "relevance_score": 0.84273374,
+            "date_in_text": "",
+            "snippet_raw": "•8 min read\n\nThe Pacific Ocean is the largest and deepest ocean on Earth. It spans 60 million square miles from California to China, and in certain regions extends tens of thousands of feet below the surface of the water.\n\nTo get a sense of just how immense the Pacific Ocean is, you could put all of Earth's landmasses together, and the Pacific would still be larger.",
+            "snippet_focused": true
+          }
+        ],
+        "search_query": "The Pacific Ocean is the largest ocean on Earth"
+      }
+    },
+    {
+      "claim": {
+        "claim": "Acme Industries recorded an internal customer churn rate of 4.1% in its 2023 fiscal year",
+        "excerpt": "13. Acme Industries recorded an internal customer churn rate of 4.1% in its 2023 fiscal year.",
+        "page": 1,
+        "claim_type": "financial"
+      },
+      "result": {
+        "verdict": "INSUFFICIENT EVIDENCE",
+        "confidence": 15,
+        "confidence_label": "Legacy heuristic score (not a probability); see evidence_rating",
+        "evidence_rating": "Not rated",
+        "evidence_checks": [],
+        "explanation": "None of the supplied sources provide a statement of Acme Industries’ internal customer churn rate for FY 2023.",
+        "corrected_fact": "",
+        "correction_check": "n/a",
+        "correction_sources": [],
+        "correction_values": [],
+        "source_values": [],
+        "conflicting_values": "",
+        "evidence_quality": "LOW",
+        "source_notes": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/733269/000073326923000024/ramp-20230331.htm",
+            "says": "Mentions churn activity but does not give a churn rate.",
+            "stance": "context"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/29905/000002990524000008/dov-20231231.htm",
+            "says": "Discusses revenue impact of customer pricing, not churn rate.",
+            "stance": "context"
+          },
+          {
+            "url": "https://tracxn.com/d/legal-entities/india/acme-metal-industries-private-limited/__Szc1LVM3cpA0MWa4pDfUaFuPzbEM1IdESTMhs_fgA5g",
+            "says": "Provides FY 2023‑24 financials but no churn figure.",
+            "stance": "context"
+          },
+          {
+            "url": "https://pipeline.zoominfo.com/sales/how-to-calculate-churn-rate",
+            "says": "Explains churn rate formula, not Acme’s data.",
+            "stance": "context"
+          },
+          {
+            "url": "https://tavily.com/knowledge/company/Vj0vBt2aQihn",
+            "says": "LinkedIn profile, no churn data.",
+            "stance": "context"
+          }
+        ],
+        "used_urls": [],
+        "cited_urls": [],
+        "not_counted": [],
+        "evidence": [
+          {
+            "title": "ramp-20230331",
+            "url": "https://www.sec.gov/Archives/edgar/data/733269/000073326923000024/ramp-20230331.htm",
+            "domain": "www.sec.gov",
+            "source_type": "Government",
+            "snippet": "The decline of SNR in fiscal year 2023 was primarily attributable to downsell and churn activity offsetting customer upsell revenue, as well as lower contribution from variable usage.",
+            "published_date": "",
+            "relevance_score": 0.11318691,
+            "via": "authority_search",
+            "date_in_text": "",
+            "snippet_raw": "The decline of SNR in fiscal year 2023 was primarily attributable to downsell and churn activity offsetting customer upsell revenue, as well as lower contribution from variable usage. The increase in downsell and churn activity was driven in part by budget and economic pressures on our customers.\n\nAnnualized Recurring Revenue [...] Our ARR growth of 6.1%, or $24.3 million, was primarily attributable to new client revenue as growth from upsell was more than offset by downsell and churn. Our ARR g",
+            "snippet_focused": true
+          },
+          {
+            "title": "dov-20231231",
+            "url": "https://www.sec.gov/Archives/edgar/data/29905/000002990524000008/dov-20231231.htm",
+            "domain": "www.sec.gov",
+            "source_type": "Government",
+            "snippet": "Customer pricing favorably impacted revenue by approximately 4.1% in 2023 and by 3.9% in the prior year. Customer pricing favorably impacted revenue in 2023 by approximately 5.0% and by 4.1% in the prior year.",
+            "published_date": "",
+            "relevance_score": 0.09186979,
+            "via": "authority_search",
+            "date_in_text": "December 31, 2023",
+            "snippet_raw": "Production Controls business in the fourth quarter of 2023. Customer pricing favorably impacted revenue by approximately 4.1% in 2023 and by 3.9% in the prior year. [...] 2023 Versus 2022\n\nImaging & Identification segment revenue for the year ended December 31, 2023 decreased $7.1 million, or 0.6% compared to the prior year, comprised of an unfavorable impact from foreign currency translation of 0.8%, partially offset by organic growth of 0.2%. Customer pricing favorably impacted revenue in 2023",
+            "snippet_focused": true
+          },
+          {
+            "title": "ACME METAL INDUSTRIES PRIVATE LIMITED - 2026 Company Profile & Financials - Tracxn",
+            "url": "https://tracxn.com/d/legal-entities/india/acme-metal-industries-private-limited/__Szc1LVM3cpA0MWa4pDfUaFuPzbEM1IdESTMhs_fgA5g",
+            "domain": "tracxn.com",
+            "source_type": "Other — review source",
+            "snippet": "FY 2023-24 FY 2023-24",
+            "published_date": "",
+            "relevance_score": 0.14151853,
+            "date_in_text": "",
+            "snippet_raw": "| Metrics | FY 2024-25 | FY 2023-24 | FY 2022-23 | FY 2021-22 | FY 2020-21 |\n ---  ---  --- |\n| Income Statement |  |  |  |  |  |\n| Revenue | 8954 | 8191 | 5662 | 2441 | 8612 |\n| Total Sales | 1873 | 2285 | 6496 | 1932 | 9490 |\n| Total Expenses | 7902 | 8377 | 8687 | 8958 | 2880 |\n| Operating Expenses | 2154 | 5577 | 5614 | 9649 | 6540 |\n| Employee Expenses | 7779 | 1544 | 4322 | 6491 | 7846 |\n| Operating Income (EBIT) | 5041 | 3053 | 8835 | 2121 | 7999 | [...] | Metrics | FY 2024-25 | FY 2023-2",
+            "snippet_focused": true
+          },
+          {
+            "title": "How to Calculate Churn Rate: Formulas and Benchmarks",
+            "url": "https://pipeline.zoominfo.com/sales/how-to-calculate-churn-rate",
+            "domain": "pipeline.zoominfo.com",
+            "source_type": "Other — review source",
+            "snippet": "Customer churn rate formula Customer Churn Rate (%) = Customers Lost ÷ Customers at Start of Period × 100",
+            "published_date": "",
+            "relevance_score": 0.112405084,
+            "date_in_text": "",
+            "snippet_raw": "Customer churn rate measures the percentage of customers who terminated their contract or failed to renew in a given period. The focus is purely on account count, regardless of how much revenue each account represented.\n\n### Customer churn rate formula\n\nCustomer Churn Rate (%) = Customers Lost ÷ Customers at Start of Period × 100\n\nIn plain terms: divide the number of customers you lost by the number you started with, then multiply by 100.\n\nExample calculation: [...] Churn rate is the percentage ",
+            "snippet_focused": true
+          },
+          {
+            "title": "Acme Industries",
+            "url": "https://tavily.com/knowledge/company/Vj0vBt2aQihn",
+            "domain": "tavily.com",
+            "source_type": "Other — review source",
+            "snippet": "In: www.linkedin.com/company/acme-industries · 1,991 followers",
+            "published_date": "",
+            "relevance_score": 0.08035747,
+            "date_in_text": "",
+            "snippet_raw": "# Acme Industries\nID: Vj0vBt2aQihn\nWebsite: www.acmeind.com\nHeadquarters: Elk Grove Village, IL, United States\nLinkedIn: www.linkedin.com/company/acme-industries · 1,991 followers\nIndustry: Machinery Manufacturing\nIndustry codes: SIC 35, 359, NAICS 33, 332\nCompany type: Privately Held\nFounded: 1948\nBusiness model: B2B\nSaaS: no\nSocial profiles: www.facebook.com/acmeindustriesinc, www.crunchbase.com/organization/acme-industries, www.youtube.com/@acmeindus, www.youtube.com/user/acmeindus [...] ## W",
+            "snippet_focused": true
+          }
+        ],
+        "search_query": "Acme Industries recorded an internal customer churn rate of 4.1% in its 2023 fiscal year latest figure 2026"
+      }
+    }
+  ]
+}

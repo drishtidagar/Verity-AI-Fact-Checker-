@@ -1,0 +1,429 @@
+{
+ "eiffel": {
+  "claim": {
+   "claim": "The Eiffel Tower is located in Berlin, Germany",
+   "excerpt": "3. The Eiffel Tower is located in Berlin, Germany.",
+   "page": 1,
+   "claim_type": "other"
+  },
+  "evidence": [
+   {
+    "title": "€2 commemorative coins - 2024",
+    "url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
+    "domain": "www.ecb.europa.eu",
+    "source_type": "Official / institutional",
+    "snippet": "represents an expression of France through iconic buildings; the Eiffel Tower and the Notre Dame de la Garde Basilica situated in Marseille are united there. In the background, a tiare flower represents the island of Tahiti where the surfing competitions will take place. The Eiffel Tower is in motion, she carries the values of sport. Its arms are represented by 73 rivets signifying the host communities. For the first time, the Olympic and Paralympic symbols are brought together, to celebrate [..",
+    "published_date": "",
+    "relevance_score": 0.21027938,
+    "via": "authority_search",
+    "date_in_text": ""
+   },
+   {
+    "title": "2021 2025 2020 2019 2018 2017 ...",
+    "url": "https://global.ctbuh.org/embed/featured-buildings",
+    "domain": "global.ctbuh.org",
+    "source_type": "Official / institutional",
+    "snippet": "|  |\n\n| Capital Gate Tower, Abu Dhabi    Posted July 2012    Throughout history, a strong link has existed between iconic architecture and exhibitions. One of the best known examples is Paris’ Eiffel Tower, Capital Gate is Abu Dhabi's icon. |\n\n  \n\n|  |\n\n| Eleven Times Square, New York City    Posted June 2012    Eleven Times Square attempts to make a more sustainable model for an urban building. |\n\n  \n\n|  |",
+    "published_date": "",
+    "relevance_score": 0.14306793,
+    "via": "authority_search",
+    "date_in_text": "July 2012"
+   },
+   {
+    "title": "Did you know that Berlin has its own Eiffel Tower?! \n\nIt's located outside the German-French cultural centre on Müllerstraße in the district of Wedding, north o",
+    "url": "https://www.facebook.com/61573932416799/videos/did-you-know-that-berlin-has-its-own-eiffel-tower-its-located-outside-the-german/2139861276961546",
+    "domain": "www.facebook.com",
+    "source_type": "User-generated",
+    "snippet": "on my trip- stay tuned for more videos about these locations and the assassination attempt against Hitler which happened at the Wolf's Lair. #tourguide #berlintourguide #wwiihistory [...] Berlin Wall fell! Freedom of movement was reinstated for Germans both in East and West after 28 years. I'm Tina, your historical and cultural guide in Berlin! #berlinhistory #berlin #berlintourguide [...] was forced to abdicate and Germany was declared a Republic. 🛑 1923: Hitler’s Beer Hall Putsch failed in Mun",
+    "published_date": "",
+    "relevance_score": 0.76960015,
+    "date_in_text": ""
+   },
+   {
+    "title": "Instagram",
+    "url": "https://www.instagram.com/reel/DbWKfhANHrG",
+    "domain": "www.instagram.com",
+    "source_type": "User-generated",
+    "snippet": "tinastoursberlin\n\nDid you know that Berlin has its own Eiffel Tower?!   \n  \nIt's located outside the German-French cultural centre on Müllerstraße in the district of Wedding, north of Berlin's city centre.   \n  \nI can confirm that Lidl croissants taste better when eaten underneath it.   \n  \n#berlin #berlinhistory #berlinguide\n\ntrimfoley\n\nEiffail to see why\n\nReply\n\nwhitlamsberlintours\n\nIt’s back! And with the funkturm you could say we have two 😎\n\nReply\n\ndannytaenzer",
+    "published_date": "",
+    "relevance_score": 0.7411123,
+    "date_in_text": ""
+   },
+   {
+    "title": "German Consulate General Houston on Facebook: \"Did you know? Berlin has its own “Eiffel Tower”? On September 3, 1926, the Berlin Funkturm officiall…\"",
+    "url": "https://www.facebook.com/GermanConsulateHouston/posts/did-you-know-berlin-has-its-own-eiffel-tower-on-september-3-1926-the-berlin-funk/1545597010927928",
+    "domain": "www.facebook.com",
+    "source_type": "User-generated",
+    "snippet": "Did you know? Berlin has its own “Eiffel Tower”? \nOn September 3, 1926, the Berlin Funkturm officially opened at the German Radio Exhibition in Westend.\nAt more than 146 meters (about 479 ft), the tower quickly became a landmark — and an important part of the history of radio and television in Germany.\nKnown affectionately as the “Langer Lulatsch” (“Long Skinny One”), it remains one of Berlin’s most recognizable sights. \nWould you go up? [...] - Author: German Consulate General Houston\n- Posted:",
+    "published_date": "",
+    "relevance_score": 0.60632366,
+    "date_in_text": "September 3, 1926"
+   }
+  ],
+  "model_response": {
+   "verdict": "FALSE",
+   "evidence_quality": "HIGH",
+   "explanation": "All provided sources either refer to a different tower in Berlin or describe the Eiffel Tower as a French icon, not its location.",
+   "corrected_fact": "",
+   "conflicting_values": "",
+   "source_notes": [
+    {
+     "url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
+     "says": "The Eiffel Tower is an iconic building of France, not located in Berlin",
+     "stance": "contradicts"
+    },
+    {
+     "url": "https://global.ctbuh.org/embed/featured-buildings",
+     "says": "Mentions Paris’ Eiffel Tower, not Berlin",
+     "stance": "contradicts"
+    },
+    {
+     "url": "https://www.facebook.com/61573932416799/videos/did-you-know-that-berlin-has-its-own-eiffel-tower-its-located-outside-the-german/2139861276961546",
+     "says": "Berlin has its own Eiffel Tower, but it is a different structure",
+     "stance": "contradicts"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DbWKfhANHrG",
+     "says": "Berlin has its own Eiffel Tower, a different structure",
+     "stance": "contradicts"
+    },
+    {
+     "url": "https://www.facebook.com/GermanConsulateHouston/posts/did-you-know-berlin-has-its-own-eiffel-tower-on-september-3-1926-the-berlin-funk/1545597010927928",
+     "says": "Berlin Funkturm is a different tower, not the Eiffel Tower",
+     "stance": "contradicts"
+    }
+   ],
+   "used_urls": [
+    "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
+    "https://global.ctbuh.org/embed/featured-buildings",
+    "https://www.facebook.com/61573932416799/videos/did-you-know-that-berlin-has-its-own-eiffel-tower-its-located-outside-the-german/2139861276961546",
+    "https://www.instagram.com/reel/DbWKfhANHrG",
+    "https://www.facebook.com/GermanConsulateHouston/posts/did-you-know-berlin-has-its-own-eiffel-tower-on-september-3-1926-the-berlin-funk/1545597010927928"
+   ]
+  },
+  "v13_rating": "Strong"
+ },
+ "skeleton": {
+  "claim": {
+   "claim": "An adult human skeleton typically contains 206 bones",
+   "excerpt": "5. An adult human skeleton typically contains 206 bones.",
+   "page": 1,
+   "claim_type": "other"
+  },
+  "evidence": [
+   {
+    "title": "Divisions of the Skeleton | SEER Training",
+    "url": "https://training.seer.cancer.gov/anatomy/skeletal/divisions",
+    "domain": "training.seer.cancer.gov",
+    "source_type": "Government",
+    "snippet": "The adult human skeleton usually consists of 206 named bones. These bones can be grouped in two divisions: axial skeleton and appendicular skeleton. The 80 bones of the axial skeleton form the vertical axis of the body. They include the bones of the head, vertebral column, ribs and breastbone or sternum. The appendicular skeleton consists of 126 bones and includes the free appendages and their attachments to the axial skeleton. The free appendages are the upper and lower extremities, or limbs,",
+    "published_date": "",
+    "relevance_score": 0.8645393,
+    "date_in_text": ""
+   },
+   {
+    "title": "[FREE] The adult skeleton of most men and women contains a total of:\n\nA) 206 bones \nB) 216 bones \nC) 226 bones \nD) - brainly.com",
+    "url": "https://brainly.com/question/46078821",
+    "domain": "brainly.com",
+    "source_type": "User-generated",
+    "snippet": "## Explanation\n\nThe adult human skeleton typically contains a total of 206 bones. This number represents the final count after a process of bone fusion that occurs as a person matures from infancy to adulthood.\n\nDuring the early stages of life, humans are born with approximately 305 bones. As children grow, some of these bones fuse together, leading to a reduction in the total number of bones. By the time a person reaches adulthood, they usually have 206 bones as a result of this process. [...] ",
+    "published_date": "",
+    "relevance_score": 0.8631611,
+    "date_in_text": ""
+   },
+   {
+    "title": "Divisions of the Skeletal System | Anatomy and Physiology I",
+    "url": "https://courses.lumenlearning.com/suny-ap1/chapter/divisions-of-the-skeletal-system",
+    "domain": "courses.lumenlearning.com",
+    "source_type": "Other — review source",
+    "snippet": "The skeletal system includes all of the bones, cartilages, and ligaments of the body that support and give shape to the body and body structures. The skeleton consists of the bones of the body. For adults, there are 206 bones in the skeleton. Younger individuals have higher numbers of bones because some bones fuse together during childhood and adolescence to form an adult bone. The primary functions of the skeleton are to provide a rigid, internal structure that can support the weight of the",
+    "published_date": "",
+    "relevance_score": 0.8546422,
+    "date_in_text": ""
+   }
+  ],
+  "model_response": {
+   "verdict": "VERIFIED",
+   "evidence_quality": "HIGH",
+   "explanation": "All cited sources state that an adult human skeleton contains 206 bones.",
+   "corrected_fact": "",
+   "conflicting_values": "",
+   "source_notes": [
+    {
+     "url": "https://training.seer.cancer.gov/anatomy/skeletal/divisions",
+     "says": "The adult human skeleton usually consists of 206 named bones.",
+     "stance": "supports"
+    },
+    {
+     "url": "https://brainly.com/question/46078821",
+     "says": "The adult human skeleton typically contains a total of 206 bones.",
+     "stance": "supports"
+    },
+    {
+     "url": "https://courses.lumenlearning.com/suny-ap1/chapter/divisions-of-the-skeletal-system",
+     "says": "For adults, there are 206 bones in the skeleton.",
+     "stance": "supports"
+    }
+   ],
+   "used_urls": [
+    "https://training.seer.cancer.gov/anatomy/skeletal/divisions",
+    "https://brainly.com/question/46078821",
+    "https://courses.lumenlearning.com/suny-ap1/chapter/divisions-of-the-skeletal-system"
+   ]
+  },
+  "v13_rating": "Strong"
+ },
+ "world_population": {
+  "claim": {
+   "claim": "The world's population is approximately 7 billion people",
+   "excerpt": "8. The world's population is approximately 7 billion people.",
+   "page": 1,
+   "claim_type": "statistic"
+  },
+  "evidence": [
+   {
+    "title": "World Population Day: July 11, 2026",
+    "url": "https://www.census.gov/newsroom/stories/world-population-day.html",
+    "domain": "www.census.gov",
+    "source_type": "Government",
+    "snippet": "The world population reached 8 billion in 2023, and the IDB projects it will reach 8.2 billion in July 2026, 9 billion by 2039, 10 billion by 2060, and peak at 10.6 billion in 2092 before declining. [...] CB26-SFS.9\n\nWorld Population Day has been observed on July 11 every year since 1990.\n\nOur World Population Clock provides a real-time estimate of the global population as well as an indication of how fast it is growing.\n\nThe Census Bureau estimates the number of people in the world by combining",
+    "published_date": "",
+    "relevance_score": 0.62245935,
+    "via": "authority_search",
+    "date_in_text": "July 11, 2026"
+   },
+   {
+    "title": "World Population Day | United Nations",
+    "url": "https://www.un.org/en/observances/world-population-day",
+    "domain": "www.un.org",
+    "source_type": "Official / institutional",
+    "snippet": "It took hundreds of thousands of years for the world population to grow to 1 billion – then in just another 200 years or so, it grew sevenfold. In 2011, the global population reached the 7 billion mark, it stands at almost 7.9 billion in 2021, and it's expected to grow to around 8.5 billion in 2030, 9.7 billion in 2050, and 10.9 billion in 2100.",
+    "published_date": "",
+    "relevance_score": 0.4889773,
+    "via": "authority_search",
+    "date_in_text": ""
+   },
+   {
+    "title": "World population - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/World_population",
+    "domain": "en.wikipedia.org",
+    "source_type": "Reference / secondary",
+    "snippet": "Population growth in the Western world became more rapid after the introduction of vaccination and other improvements in medicine and sanitation.\\ Improved material conditions led to the population of Britain increasing from 10 million to 40 million in the 19th century.\\ The population of the United Kingdom reached 60 million in 2006.\\ The United States saw its population grow from around 5.3 million in 1800 to 106 million in 1920, exceeding 307 million in 2010.\\\n\n### 20th century [...] In world",
+    "published_date": "",
+    "relevance_score": 0.831066912,
+    "date_in_text": ""
+   },
+   {
+    "title": "World Population 2026: How Many People Are on Earth? | LiveHumans",
+    "url": "https://livehumans.net/world-population",
+    "domain": "livehumans.net",
+    "source_type": "Other — review source",
+    "snippet": "- 2011 7 Billion. 12 years. Global fertility rates were dropping, but the large youth population in high-growth countries meant momentum continued.\n- 2022 8 Billion. 11 years. A historic milestone reached in November 2022, though the pace of growth has clearly been slowing. [...] # World Population 2025–2026: Growth, Trends & What Comes Next\n\nIn November 2022, the world's population crossed eight billion people for the first time in human history. Today in 2026, we sit at approximately 8.25 bill",
+    "published_date": "",
+    "relevance_score": 0.7541916,
+    "date_in_text": "November 2022"
+   },
+   {
+    "title": "World Population Clock: 8.3 Billion People (LIVE, October 2026)",
+    "url": "https://worldpopulationclock.net",
+    "domain": "worldpopulationclock.net",
+    "source_type": "Other — review source",
+    "snippet": "The transformation of the global population over the past two centuries has been extraordinary. Around 1800, humanity numbered approximately 1 billion people. Population growth then accelerated rapidly, with the world reaching 2 billion around 1930, 3 billion in 1960, 4 billion in 1974, 5 billion in 1987, 6 billion in 1999, 7 billion in 2011, and 8 billion in 2022. By 2026, the global population stands at approximately 8.3 billion. The speed at which successive billion-person milestones were [..",
+    "published_date": "",
+    "relevance_score": 0.71869314,
+    "date_in_text": "October 2026"
+   }
+  ],
+  "model_response": {
+   "verdict": "INACCURATE",
+   "evidence_quality": "HIGH",
+   "explanation": "The claim that the world population is approximately 7 billion is outdated; current estimates place it above 8 billion.",
+   "corrected_fact": "8.2 billion (as of July 2026)",
+   "conflicting_values": "7 billion (2011) vs 8.2 billion (2026)",
+   "source_notes": [
+    {
+     "url": "https://www.census.gov/newsroom/stories/world-population-day.html",
+     "says": "The world population reached 8 billion in 2023, and the IDB projects it will reach 8.2 billion in July 2026",
+     "stance": "supports"
+    },
+    {
+     "url": "https://www.un.org/en/observances/world-population-day",
+     "says": "In 2011, the global population reached the 7 billion mark, it stands at almost 7.9 billion in 2021",
+     "stance": "contradicts"
+    },
+    {
+     "url": "https://worldpopulationclock.net",
+     "says": "8 billion in 2022; by 2026, the global population s…",
+     "stance": "context"
+    }
+   ],
+   "used_urls": [
+    "https://www.census.gov/newsroom/stories/world-population-day.html"
+   ]
+  },
+  "v13_rating": "Moderate"
+ },
+ "india_population": {
+  "claim": {
+   "claim": "India's population is about 1.2 billion people",
+   "excerpt": "9. India's population is about 1.2 billion people.",
+   "page": 1,
+   "claim_type": "statistic"
+  },
+  "evidence": [
+   {
+    "title": "India to overtake China as world’s most populous country in April 2023, United Nations projects | United Nations",
+    "url": "https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects",
+    "domain": "www.un.org",
+    "source_type": "Official / institutional",
+    "snippet": "24 April 2023 - China will soon cede its long-held status as the world’s most populous country. By the end of this month, India’s population is expected to reach 1,425,775,850 people, matching and then surpassing the population of mainland China. This forecast is based on the latest United Nations estimates and projections of the global population. [...] China’s population reached its peak size of 1.426 billion in 2022 and has started to fall. Projections indicate that the size of the Chinese po",
+    "published_date": "",
+    "relevance_score": 0.36116472,
+    "via": "authority_search",
+    "date_in_text": "April 2023"
+   },
+   {
+    "title": "World Population Prospects 2024: Summary of Results",
+    "url": "https://population.un.org/wpp/assets/Files/WPP2024_Summary-of-Results.pdf",
+    "domain": "population.un.org",
+    "source_type": "Official / institutional",
+    "snippet": "In addition, the population of 10 countries in this group, mostly in Eastern and South-Eastern Asia and in Latin \n\nAmerica and the Caribbean, is projected to decline by 10 per cent or more by 2100 after peaking in size. The \n\npopulation of India, which is expected to remain the world’s largest throughout the century, will likely decline by \n\n12 per cent after reaching its peak in the early 2060s at about 1.7 billion (figure 4.3). Other countries in this group",
+    "published_date": "",
+    "relevance_score": 0.34964374,
+    "via": "authority_search",
+    "date_in_text": ""
+   },
+   {
+    "title": "Key facts about India’s growing population as it surpasses China’s population | Pew Research Center",
+    "url": "https://www.pewresearch.org/short-reads/2023/02/09/key-facts-as-india-surpasses-china-as-the-worlds-most-populous-country",
+    "domain": "www.pewresearch.org",
+    "source_type": "Other — review source",
+    "snippet": "India’s population has grown by more than 1 billion people since 1950, the year the UN population data begins. The exact size of the country’s population is not easily known, given that India has not conducted a census since 2011, but it is estimated to have more than 1.4 billion people – greater than the entire population of Europe (744 million) or the Americas (1.04 billion). China, too, has more than 1.4 billion people, but while China’s population is declining, India’s continues to grow. [..",
+    "published_date": "",
+    "relevance_score": 0.5306469,
+    "date_in_text": ""
+   },
+   {
+    "title": "India Population (2026) - Worldometer",
+    "url": "https://www.worldometers.info/world-population/india-population",
+    "domain": "www.worldometers.info",
+    "source_type": "Reference / secondary",
+    "snippet": "The current population of India is  1,481,124,730  as of Wednesday, November 4, 2026, based on Worldometer's elaboration of the latest United Nations data1.\n India 2026 population is estimated at  1,476,625,576  people at mid-year.\n India population is equivalent to  17.8%  of the  total world population .\n India ranks number  1  in the list of  countries and other entities by population .\n The population density in India is 497 per km² (1,286 people per mi²). [...] | Year | Population | Yearly ",
+    "published_date": "",
+    "relevance_score": 0.7397986,
+    "date_in_text": "November 4, 2026"
+   },
+   {
+    "title": "Demographics of India - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Demographics_of_India",
+    "domain": "en.wikipedia.org",
+    "source_type": "Reference / secondary",
+    "snippet": "| Demographics of India |  |\n---|\n| Population | 1,414,203,889 (2021)\\ 1,476,625,576 (2026) |\n| Density | 483.68 people/km2 (2023 est.)\\ |\n| Growth rate | 0.89% (2023 est.)\\ |\n| Birth rate | 15.6 births/1,000 population (2026 est.)\\ |\n| Death rate | 6.7 deaths/1,000 population (2026 est.)\\ |\n| Lifeexpectancy | 72.03 years (2023 est.)\\ |\n| •male | 70.52 years (2023 est.)\\ |\n| •female | 73.60 years (2023 est.)\\ |\n| Fertility rate | 1.93 children born/woman (2026)\\\\ | [...] Between 1975 and 2010, t",
+    "published_date": "",
+    "relevance_score": 0.66257817,
+    "date_in_text": ""
+   }
+  ],
+  "model_response": {
+   "verdict": "INACCURATE",
+   "evidence_quality": "HIGH",
+   "explanation": "All credible sources report India’s population well above 1.2 billion, with the most recent estimates around 1.48 billion.",
+   "corrected_fact": "1.48 billion (mid‑2026 estimate)",
+   "conflicting_values": "",
+   "source_notes": [
+    {
+     "url": "https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects",
+     "says": "India’s population is expected to reach 1,425,775,850 people by the end of April 2023",
+     "stance": "supports"
+    },
+    {
+     "url": "https://population.un.org/wpp/assets/Files/WPP2024_Summary-of-Results.pdf",
+     "says": "India’s population will remain the world’s largest throughout the century, with a peak in the early 2060s",
+     "stance": "supports"
+    },
+    {
+     "url": "https://www.worldometers.info/world-population/india-population",
+     "says": "The current population of India is 1,481,124,730 as of November 4, 2026",
+     "stance": "supports"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_India",
+     "says": "Population 1,476,625,576 (2026 est.)",
+     "stance": "supports"
+    }
+   ],
+   "used_urls": [
+    "https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects",
+    "https://population.un.org/wpp/assets/Files/WPP2024_Summary-of-Results.pdf",
+    "https://www.worldometers.info/world-population/india-population",
+    "https://en.wikipedia.org/wiki/Demographics_of_India"
+   ]
+  },
+  "v13_rating": "Strong"
+ },
+ "co2": {
+  "claim": {
+   "claim": "The concentration of carbon dioxide in Earth's atmosphere is about 400 parts per million",
+   "excerpt": "10. The concentration of carbon dioxide in Earth's atmosphere is about 400 parts per million.",
+   "page": 1,
+   "claim_type": "statistic"
+  },
+  "evidence": [
+   {
+    "title": "Carbon dioxide in the atmosphere of Earth - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth",
+    "domain": "en.wikipedia.org",
+    "source_type": "Reference / secondary",
+    "snippet": "In the atmosphere of Earth, carbon dioxide (CO2) is a trace gas that plays an integral part in the greenhouse effect, carbon cycle, photosynthesis, and oceanic carbon cycle. It is one of three main greenhouse gases in the atmosphere of Earth. In 2026, the concentration of carbon dioxide in the atmosphere reached 432 ppm or 0.0432% (on a molar basis), representing a mass of 3380 gigatonnes. This is an increase of 54% since the start of the Industrial Revolution, up from 280 ppm during the 10,000 ",
+    "published_date": "",
+    "relevance_score": 0.7550956,
+    "date_in_text": ""
+   },
+   {
+    "title": "How can such a small amount of carbon dioxide in the atmosphere—only around 420 parts per million—cause so much warming? | MIT Climate Portal",
+    "url": "https://climate.mit.edu/ask-mit/how-can-such-small-amount-carbon-dioxide-atmosphere-only-around-420-parts-million-cause-so",
+    "domain": "climate.mit.edu",
+    "source_type": "Academic",
+    "snippet": "In February 2026, the National Oceanic and Atmospheric Administration announced that measurements of carbon dioxide (CO2) at their Mauna Loa Atmospheric Baseline Observatory had reached 429 parts per million (ppm).1 [...] Submit your own question to Ask MIT Climate\n\nGet the latest from Ask MIT Climate monthly in your inbox\n\nRead more Ask MIT Climate\n\nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International license (CC BY-NC-SA 4.0).\n\nFootnotes\n\n1 NASA: \"Carbon Dioxide - Earth Indi",
+    "published_date": "",
+    "relevance_score": 0.7409249,
+    "date_in_text": "February 2026"
+   },
+   {
+    "title": "Carbon Dioxide - Earth Indicator - NASA Science",
+    "url": "https://science.nasa.gov/earth/explore/earth-indicators/carbon-dioxide",
+    "domain": "science.nasa.gov",
+    "source_type": "Government",
+    "snippet": "article  8 months ago 6 min read\n\n### La NASA refuerza Artemis: añade una misión y perfecciona su arquitectura general\n\narticle  9 months ago\n\n# Carbon Dioxide - Earth Indicator\n\nKey Takeaway:   \nThe amount of carbon dioxide in Earth's atmosphere has increased sharply in the past 100 years as measured from the ground and from satellites. Since carbon dioxide is a greenhouse gas, this increase has warmed the planet.\n\n## Latest Measurement\n\n426ppm\n\n## Latest Measurement Date\n\nSeptember 2026 [...] ",
+    "published_date": "",
+    "relevance_score": 0.5289897,
+    "date_in_text": "September 2026"
+   }
+  ],
+  "model_response": {
+   "verdict": "INACCURATE",
+   "evidence_quality": "MEDIUM",
+   "explanation": "The claim states the CO₂ concentration is about 400 ppm, but the most recent data in the supplied evidence shows 432 ppm in 2026.",
+   "corrected_fact": "432 ppm (2026)",
+   "conflicting_values": "400 ppm (claim) vs 432 ppm (2026)",
+   "source_notes": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth",
+     "says": "In 2026, the concentration of carbon dioxide in the atmosphere reached 432 ppm",
+     "stance": "supports"
+    },
+    {
+     "url": "https://climate.mit.edu/ask-mit/how-can-such-small-amount-carbon-dioxide-atmosphere-only-around-420-parts-million-cause-so",
+     "says": "In February 2026, measurements of carbon dioxide (CO₂) ... reached 429 ppm",
+     "stance": "supports"
+    }
+   ],
+   "used_urls": [
+    "https://en.wikipedia.org/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth",
+    "https://climate.mit.edu/ask-mit/how-can-such-small-amount-carbon-dioxide-atmosphere-only-around-420-parts-million-cause-so"
+   ]
+  },
+  "v13_rating": "Moderate"
+ },
+ "_about": "Claims 3,5,8,9,10 copied from the user's own v1.3 live audit (verity_1.json, 21 Nov 2026). Used to replay the model's answer through the v1.4 logic without any API call."
+}

@@ -1,0 +1,6 @@
+streamlit>=1.67,<2
+pypdf>=5,<7
+requests>=2.32,<3
+python-dotenv>=1,<2
+plotly>=5.20,<7
+pandas>=2.1,<3

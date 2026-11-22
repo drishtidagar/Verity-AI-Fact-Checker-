@@ -1,0 +1,296 @@
+{
+  "burj": {
+    "claim": {
+      "claim": "The Burj Khalifa is 1,250 metres tall",
+      "excerpt": "6. The Burj Khalifa is 1,250 metres tall.",
+      "page": 1,
+      "claim_type": "technical"
+    },
+    "evidence": [
+      {
+        "title": "Otis Elevator Company - The Skyscraper Center",
+        "url": "https://global.ctbuh.org/companies/1386",
+        "domain": "global.ctbuh.org",
+        "source_type": "Official / institutional",
+        "snippet": "Burj Khalifa Burj Khalifa",
+        "published_date": "",
+        "relevance_score": 0.58112484,
+        "via": "authority_search",
+        "date_in_text": "",
+        "snippet_raw": "| RANK | Name | Status Completed  Architecturally Topped Out  Structurally Topped Out  Under Construction  On Hold  Proposed  Vision  Never Completed  Demolished  Competition Entry  Canceled  Proposed Renovation  Under Renovation  Renovated  Under Demolition  See all status definitions | Height |\n ---  --- |\n| 1 | Burj Khalifa |  | 828 m / 2,717  ft |\n| 2 | Canton Tower |  | 604 m / 1,982  ft |\n| 3 | Ping An Finance Center |  | 599.1 m / 1,965  ft |\n| 4 | Tianjin 117 |  | 596.6 m / 1,957  ft | [",
+        "snippet_focused": true
+      },
+      {
+        "title": "The 100 Tallest Completed Buildings in the World in 2026 - The Skyscraper Center",
+        "url": "https://www.ctbuh.org/featured-buildings?page=5",
+        "domain": "www.ctbuh.org",
+        "source_type": "Official / institutional",
+        "snippet": "Burj Khalifa 381 m / 1,250 ft",
+        "published_date": "",
+        "relevance_score": 0.5621765,
+        "via": "authority_search",
+        "date_in_text": "",
+        "snippet_raw": "---  ---  ---  --- \n|  | Burj Khalifa |  |  |  | 828 m / 2,717 ft |  | Steel Over Concrete | Office / Residential / Hotel |\n|  | Menara Merdeka Maybank | Kuala Lumpur |  |  | 679 m / 2,227 ft |  | Concrete-Steel Composite | Hotel / Serviced Apartments / Office |\n| 3 | Shanghai Tower | Shanghai |  | 2015 | 632 m / 2,073 ft | 128 | Concrete-Steel Composite | Hotel / Office | [...] | 57 | Burj Mohammed Bin Rashid | Abu Dhabi |  | 2014 | 381 m / 1,251 ft | 88 | All-Concrete | Residential |\n| 58 | Em",
+        "snippet_focused": true
+      },
+      {
+        "title": "Burj Khalifa: Fun Facts and Visiting Tips for the World's Tallest Building",
+        "url": "https://matadornetwork.com/read/burj-khalifa",
+        "domain": "matadornetwork.com",
+        "source_type": "Other — review source",
+        "snippet": "How tall is Burj Khalifa? Burj Khalifa is 2716 feet tall or 828 meters tall.",
+        "published_date": "",
+        "relevance_score": 0.6474639,
+        "date_in_text": "",
+        "snippet_raw": "## Is Burj Khalifa the tallest building in the world?\n\nBurj Khalifa holds the Guinness World record for the tallest building in the world since 2010. China’s Shanghai Tower is the second-tallest building in the world.\n\n## How tall is Burj Khalifa?\n\nBurj Khalifa viewed from the observation deck\n\nPhoto: Kirk Fisher/Shutterstock\n\nBurj Khalifa is 2716 feet tall or 828 meters tall. In comparison, China’s Shanghai Tower, the second-tallest building in the world, is 2073 feet tall or 632 meters tall. [",
+        "snippet_focused": true
+      },
+      {
+        "title": "Burj Khalifa: The tallest building in the world | Guinness World Records",
+        "url": "https://www.guinnessworldrecords.com/records/hall-of-fame/burj-khalifa-tallest-building-in-the-world",
+        "domain": "www.guinnessworldrecords.com",
+        "source_type": "Other — review source",
+        "snippet": "All over the globe, people were asking whether it was even possible to construct a building that high – and that was when the Burj was designed to be 'just' 518 metres tall, 10 metres taller than the Taipei.",
+        "published_date": "",
+        "relevance_score": 0.61196184,
+        "date_in_text": "September 2004",
+        "snippet_raw": "It actually grew by a whopping 310 metres during the design process – aproximately the height of the Eiffel Tower in France.\n\nConstruction began on 21 September 2004, with the exterior of the structure completed on 1 October 2009.\n\nThe taller a building is the greater the effects of weather, but the neo-Futurist-style Burj Khalifa was designed with a complex Y-shaped cross section to reduce the effect of wind. [...] \"It’s a very impressive building with a very unique design,\" said Talal Omar, Co",
+        "snippet_focused": true
+      },
+      {
+        "title": "Burj Khalifa | The Skyscraper Museum",
+        "url": "https://www.skyscraper.org/exhibitions/worlds-tallest-building-burj-dubai",
+        "domain": "www.skyscraper.org",
+        "source_type": "Other — review source",
+        "snippet": "Our 380+ meter benchmark is set by the Empire State Building with its 86 occupiable stories and 1,250-foot height to the top of its original 1931 mooring mast. In April 2007, The Skyscraper Museum presented an exhibition on the skyscraper that was to become, and still is in 2020, the world's…",
+        "published_date": "",
+        "relevance_score": 0.6087685,
+        "date_in_text": "",
+        "snippet_raw": "### SUPERTALLS\n\nInspired by the superior height of Burj Dubai, the Museum measured supertall skyscrapers according to a higher standard than the common 300 meters, as part of its 2007 exhibition World's Tallest Building: Burj Dubai. Our 380+ meter benchmark was set by the Empire State Building's 86 occupiable stories and 1,250-foot height to the top of its original 1931 mooring mast. Buildings that matched or exceeded these markers in 2007 were included in this global survey. [...] For more info",
+        "snippet_focused": true
+      }
+    ],
+    "model_response": {
+      "verdict": "FALSE",
+      "confidence": 63,
+      "explanation": "The Burj Khalifa’s height is 828 m (2,716 ft), not 1,250 m.",
+      "corrected_fact": "828 m",
+      "conflicting_values": "Source 2: 381 m / 1,250 ft; Source 3: 828 m",
+      "evidence_quality": "MEDIUM",
+      "source_notes": [
+        {
+          "url": "https://www.ctbuh.org/featured-buildings?page=5",
+          "says": "Burj Khalifa 381 m / 1,250 ft",
+          "stance": "contradicts"
+        },
+        {
+          "url": "https://matadornetwork.com/read/burj-khalifa",
+          "says": "Burj Khalifa is 2,716 feet tall or 828 meters tall",
+          "stance": "supports"
+        }
+      ],
+      "used_urls": [
+        "https://www.ctbuh.org/featured-buildings?page=5",
+        "https://matadornetwork.com/read/burj-khalifa"
+      ]
+    }
+  },
+  "amazon": {
+    "claim": {
+      "claim": "The Amazon rainforest covers about 12 million square kilometres",
+      "excerpt": "7. The Amazon rainforest covers about 12 million square kilometres.",
+      "page": 1,
+      "claim_type": "statistic"
+    },
+    "evidence": [
+      {
+        "title": "Amazon rainforest",
+        "url": "https://www.esa.int/ESA_Multimedia/Images/2021/03/Amazon_rainforest",
+        "domain": "www.esa.int",
+        "source_type": "Official / institutional",
+        "snippet": "As its name implies, the Amazonas is almost entirely covered by the Amazon rainforest – the world’s largest tropical rainforest covering an area of around six million sq km. Ahead of the International Day of Forests, the Copernicus Sentinel-2 mission takes us over part of the Amazon rainforest in…",
+        "published_date": "",
+        "relevance_score": 0.47714305,
+        "via": "authority_search",
+        "date_in_text": "",
+        "snippet_raw": "As its name implies, the Amazonas is almost entirely covered by the Amazon rainforest – the world’s largest tropical rainforest covering an area of around six million sq km. The Amazon is the world’s richest and most-varied biological reservoir, containing several million species of insects, birds, plants and other forms of life. [...] Ahead of the International Day of Forests, the Copernicus Sentinel-2 mission takes us over part of the Amazon rainforest in the Amazonas – the largest state in Br",
+        "snippet_focused": true
+      },
+      {
+        "title": "A Balancing Act for Brazil's Amazonian States - World Bank Document",
+        "url": "https://documents1.worldbank.org/curated/en/099051223180528189/pdf/P1734570eeae930e90bce9093c01a8427c3.pdf",
+        "domain": "documents1.worldbank.org",
+        "source_type": "Official / institutional",
+        "snippet": "Amazônia is home to about 28 million Brazilians in a vast area of about 5 million square kilometers, so its population density is low. And while it covers nearly 60 percent of Brazil’s ­ territory, it accounts for only about 13 percent of the population.1 It includes all of Brazil’s portion of the…",
+        "published_date": "",
+        "relevance_score": 0.37364724,
+        "via": "authority_search",
+        "date_in_text": "",
+        "snippet_raw": "of Brazil’s “Legal Amazon,” referred to here as Amazônia—encompassing Acre, Amapá, Amazonas, Pará, Rondônia, Roraima, Tocantins, Mato Grosso, and parts of Maranhão. Amazônia is home to about 28 million Brazilians in a vast area of about 5 million square kilometers, so its population density is low. And while it covers nearly 60 percent of Brazil’s ­ territory, it accounts for only about 13 percent of the population.1 It includes all of Brazil’s portion of the Amazon biome and parts of other [...",
+        "snippet_focused": true
+      },
+      {
+        "title": "Amazon rainforest - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Amazon_rainforest",
+        "domain": "en.wikipedia.org",
+        "source_type": "Reference / secondary",
+        "snippet": "The Amazon rainforest,\\[a] also called the Amazon jungle, Amazonia, or simply the Amazon, is a moist broadleaf tropical rainforest in the Amazon biome that covers most of the Amazon basin of South America. The election is significant for the Amazon because Brazil contains approximately 60% of the…",
+        "published_date": "",
+        "relevance_score": 0.5134016,
+        "date_in_text": "",
+        "snippet_raw": "The Amazon rainforest,\\[a] also called the Amazon jungle, Amazonia, or simply the Amazon, is a moist broadleaf tropical rainforest in the Amazon biome that covers most of the Amazon basin of South America. This basin encompasses 7 million km2 (2.7 million sq mi),\\ of which 6 million km2 (2.3 million sq mi) are covered by the rainforest.\\ This region includes territory belonging to nine nations and 3,344 indigenous territories. [...] Brazil's 2026 presidential election has placed competing approa",
+        "snippet_focused": true
+      },
+      {
+        "title": "Facts about the Amazon Rainforest",
+        "url": "https://worldrainforests.com/amazon/amazon-rainforest-facts.html",
+        "domain": "worldrainforests.com",
+        "source_type": "Other — review source",
+        "snippet": "At 6.9 million square kilometers (2.72 million square miles), the Amazon Basin is roughly the size of the forty-eight contiguous United States and covers some 40 percent of the South American continent. The \"Amazon rainforest\" — which defined biogeographically includes the rainforest in the…",
+        "published_date": "",
+        "relevance_score": 0.5960218,
+        "date_in_text": "",
+        "snippet_raw": "2. At 6.9 million square kilometers (2.72 million square miles), the Amazon Basin is roughly the size of the forty-eight contiguous United States and covers some 40 percent of the South American continent. The \"Amazon rainforest\" — which defined biogeographically includes the rainforest in the Guianas, which technically are outside the Amazon Basin — covers 7.8-8.2 million square km (3-3.2 million square mi), of which just over 80 percent is forested. [...] 1. The Amazon is the world's biggest r",
+        "snippet_focused": true
+      },
+      {
+        "title": "How Everything Works on Instagram: \"The Amazon rainforest covers approximately 5.5 million square kilometres, stretching across nine cou…\"",
+        "url": "https://www.instagram.com/reel/De82Zr9I-UH?hl=en",
+        "domain": "www.instagram.com",
+        "source_type": "User-generated",
+        "snippet": "Instagram: \"The Amazon rainforest covers approximately 5.5 million square kilometres, stretching across nine cou…\" The Amazon rainforest covers approximately 5.5 million square kilometres, stretching across nine countries in South America.",
+        "published_date": "",
+        "relevance_score": 0.54667765,
+        "date_in_text": "",
+        "snippet_raw": "- Author: @howeverythingworks (How Everything Works)\n- Posted: 2026-10-26T08:27:01+00:00\n- Type: clips\n- Audio: howeverythingworks\n- Likes: 6549\n- Comments: 169 [...] If you were to get lost deep inside the Amazon, finding your way out could be incredibly difficult. The rainforest is filled with dense vegetation, vast rivers and remote areas where human settlements can be hundreds of miles away. Much of it has little or no mobile phone signal, meaning a fully charged phone might not be enough to",
+        "snippet_focused": true
+      }
+    ],
+    "model_response": {
+      "verdict": "FALSE",
+      "confidence": 80,
+      "explanation": "The counted sources state the Amazon rainforest covers roughly 5–6 million sq km, not 12 million sq km.",
+      "corrected_fact": "about 6 million square kilometres",
+      "conflicting_values": "",
+      "evidence_quality": "HIGH",
+      "source_notes": [
+        {
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2021/03/Amazon_rainforest",
+          "says": "the Amazon rainforest covers an area of around six million sq km",
+          "stance": "contradicts"
+        },
+        {
+          "url": "https://documents1.worldbank.org/curated/en/099051223180528189/pdf/P1734570eeae930e90bce9093c01a8427c3.pdf",
+          "says": "covers nearly 60 percent of Brazil’s territory, it accounts for only about 13 percent of the population.1 It includes all of Brazil’s portion of the…",
+          "stance": "contradicts"
+        }
+      ],
+      "used_urls": [
+        "https://www.esa.int/ESA_Multimedia/Images/2021/03/Amazon_rainforest",
+        "https://documents1.worldbank.org/curated/en/099051223180528189/pdf/P1734570eeae930e90bce9093c01a8427c3.pdf"
+      ]
+    }
+  },
+  "world_population": {
+    "claim": {
+      "claim": "The world's population is approximately 7 billion people",
+      "excerpt": "8. The world's population is approximately 7 billion people.",
+      "page": 1,
+      "claim_type": "statistic"
+    },
+    "evidence": [
+      {
+        "title": "World Population Day: July 11, 2026",
+        "url": "https://www.census.gov/newsroom/stories/world-population-day.html",
+        "domain": "www.census.gov",
+        "source_type": "Government",
+        "snippet": "The world population reached 8 billion in 2023, and the IDB projects it will reach 8.2 billion in July 2026, 9 billion by 2039, 10 billion by 2060, and peak at 10.6 billion in 2092 before declining. The Census Bureau estimates the number of people in the world by combining past population growth…",
+        "published_date": "",
+        "relevance_score": 0.62245935,
+        "via": "authority_search",
+        "date_in_text": "July 11, 2026",
+        "snippet_raw": "The world population reached 8 billion in 2023, and the IDB projects it will reach 8.2 billion in July 2026, 9 billion by 2039, 10 billion by 2060, and peak at 10.6 billion in 2092 before declining. [...] CB26-SFS.9\n\nWorld Population Day has been observed on July 11 every year since 1990.\n\nOur World Population Clock provides a real-time estimate of the global population as well as an indication of how fast it is growing.\n\nThe Census Bureau estimates the number of people in the world by combining",
+        "snippet_focused": true
+      },
+      {
+        "title": "World Population Day | United Nations",
+        "url": "https://www.un.org/en/observances/world-population-day",
+        "domain": "www.un.org",
+        "source_type": "Official / institutional",
+        "snippet": "In 2011, the global population reached the 7 billion mark, it stands at almost 7.9 billion in 2021, and it's expected to grow to around 8.5 billion in 2030, 9.7 billion in 2050, and 10.9 billion in 2100.",
+        "published_date": "",
+        "relevance_score": 0.4889773,
+        "via": "authority_search",
+        "date_in_text": "",
+        "snippet_raw": "It took hundreds of thousands of years for the world population to grow to 1 billion – then in just another 200 years or so, it grew sevenfold. In 2011, the global population reached the 7 billion mark, it stands at almost 7.9 billion in 2021, and it's expected to grow to around 8.5 billion in 2030, 9.7 billion in 2050, and 10.9 billion in 2100.",
+        "snippet_focused": true
+      },
+      {
+        "title": "Population of the World: 8.3 Billion Live (2026 UN Data) - StoryCircuit.us",
+        "url": "https://storycircuit.us/tech/population-world-8-3-billion-2026",
+        "domain": "storycircuit.us",
+        "source_type": "Other — review source",
+        "snippet": "In 1950, the world held approximately 2.5 billion people. As of 2026 UN estimates, the world population stands at approximately 8.3 billion.",
+        "published_date": "",
+        "relevance_score": 0.7302899,
+        "date_in_text": "",
+        "snippet_raw": "The planet holds approximately 8.3 billion people in 2026, not 12 billion. Conflicting estimates circulate online, often citing outdated calculations or methodologies that don’t align with UN standards. The UN World Population Prospects 2024 revision, based on an unprecedented dataset of 1,910 censuses and 3,189 surveys, provides the most rigorous methodology available.\n\n### Current accurate count [...] In 1950, the world held approximately 2.5 billion people. By 2026, that figure has more than ",
+        "snippet_focused": true
+      },
+      {
+        "title": "World Population Clock 2026 — Live Counter (8.3 Billion and Growing)",
+        "url": "https://www.statspanda.com/live-counters/world-population-clock",
+        "domain": "www.statspanda.com",
+        "source_type": "Other — review source",
+        "snippet": "The world population is about 8.3 billion in 2026 and grows by about 69 million people a year. This clock starts from the UN Population Division's estimate for 1 July 2026 (8,300,678,396, World Population Prospects 2024) and adds the UN's projected births minus deaths, about 2.2 people a second.",
+        "published_date": "",
+        "relevance_score": 0.7163179,
+        "date_in_text": "",
+        "snippet_raw": "Mid-2026: ~8.30 billion people (UN WPP 2024)\n Mid-2025: ~8.23 billion people — net +69 million\n 5 years ago (2021): ~7.91 billion people — net +290 million\n 10 years ago (2016): ~7.46 billion people — net +740 million\n 25 years ago (2001): ~6.18 billion people — net +2.02 billion\n Births vs deaths per day: ~363,000 births minus ~174,000 deaths = ~189,000 net new people every 24 hours\n\n### StatsPanda Projections & Cross-Referenced Insights [...] The world population is about 8.3 billion in 2026 a",
+        "snippet_focused": true
+      },
+      {
+        "title": "World Population Clock 2026 — Live Counter (8.3 Billion and Growing)",
+        "url": "https://statspanda.com/live-counters/world-population-clock",
+        "domain": "statspanda.com",
+        "source_type": "Other — review source",
+        "snippet": "The world population is about 8.3 billion in 2026 and grows by about 69 million people a year. This clock starts from the UN Population Division's estimate for 1 July 2026 (8,300,678,396, World Population Prospects 2024) and adds the UN's projected births minus deaths, about 2.2 people a second.",
+        "published_date": "",
+        "relevance_score": 0.7163179,
+        "date_in_text": "",
+        "snippet_raw": "Mid-2026: ~8.30 billion people (UN WPP 2024)\n Mid-2025: ~8.23 billion people — net +69 million\n 5 years ago (2021): ~7.91 billion people — net +290 million\n 10 years ago (2016): ~7.46 billion people — net +740 million\n 25 years ago (2001): ~6.18 billion people — net +2.02 billion\n Births vs deaths per day: ~363,000 births minus ~174,000 deaths = ~189,000 net new people every 24 hours\n\n### StatsPanda Projections & Cross-Referenced Insights [...] The world population is about 8.3 billion in 2026 a",
+        "snippet_focused": true
+      }
+    ],
+    "model_response": {
+      "verdict": "FALSE",
+      "confidence": 87,
+      "explanation": "The counted sources report the world population in 2026 to be around 8.3 billion, not 7 billion.",
+      "corrected_fact": "Approximately 8.3 billion people (UN Population Division, 1 July 2026).",
+      "conflicting_values": "8.2 billion in census.gov (July 11, 2026); 8.3 Billion in storycircuit.us (date not stated); 8.3 Billion in statspanda.com (date not stated). They may differ because of measurement date, method or rounding; Verity does not treat one of them as certain.",
+      "evidence_quality": "HIGH",
+      "source_notes": [
+        {
+          "url": "https://www.census.gov/newsroom/stories/world-population-day.html",
+          "says": "The world population reached 8 billion in 2023 and is projected to reach 8.2 billion in July 2026.",
+          "stance": "contradicts"
+        },
+        {
+          "url": "https://storycircuit.us/tech/population-world-8-3-billion-2026",
+          "says": "As of 2026 UN estimates, the world population stands at approximately 8.3 billion.",
+          "stance": "contradicts"
+        },
+        {
+          "url": "https://www.statspanda.com/live-counters/world-population-clock",
+          "says": "The world population is about 8.3 billion in 2026 and grows by about 69 million people a year.",
+          "stance": "contradicts"
+        }
+      ],
+      "used_urls": [
+        "https://www.census.gov/newsroom/stories/world-population-day.html",
+        "https://storycircuit.us/tech/population-world-8-3-billion-2026",
+        "https://www.statspanda.com/live-counters/world-population-clock"
+      ]
+    }
+  }
+}

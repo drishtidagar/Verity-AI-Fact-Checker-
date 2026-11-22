@@ -1,0 +1,627 @@
+{
+ "_about": "Claims 1,3,5,6,8,9,10 copied from the user's own v1.4 live audit (verity_1 (2).json, 21 Nov 2026, 10 claims). The stored model answer is replayed through the v1.4.1 logic; no API call is made.",
+ "water": {
+  "claim": {
+   "claim": "The chemical formula of water is H2O",
+   "excerpt": "1. The chemical formula of water is H2O.",
+   "page": 1,
+   "claim_type": "other"
+  },
+  "evidence": [
+   {
+    "title": "WATER | CAMEO Chemicals | NOAA",
+    "url": "https://cameochemicals.noaa.gov/chemical/30024",
+    "domain": "cameochemicals.noaa.gov",
+    "source_type": "Government",
+    "snippet": "|  |  |\n --- |\n| Chemical Formula: |  H2O |\n\nFlash Point: data unavailable\n\nLower Explosive Limit (LEL): data unavailable\n\nUpper Explosive Limit (UEL): data unavailable\n\nAutoignition Temperature: data unavailable\n\nMelting Point: 32°F\n\nVapor Pressure: data unavailable\n\nVapor Density (Relative to Air): data unavailable\n\nSpecific Gravity: 1\n\nBoiling Point: 212°F at 760 mmHg\n\nMolecular Weight: data unavailable\n\nWater Solubility: data unavailable\n\nIonization Energy/Potential: data unavailable [...] |",
+    "published_date": "",
+    "relevance_score": 0.77475387,
+    "via": "authority_search",
+    "date_in_text": ""
+   },
+   {
+    "title": "Water",
+    "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=1E9F",
+    "domain": "webbook.nist.gov",
+    "source_type": "Government",
+    "snippet": "Jump to content\n\nNational Institute of Standards and Technology \n\n# NIST Chemistry WebBook, SRD 69\n\n Home\n Search\n  + Name\n  + Formula\n  + IUPAC identifier\n  + CAS number\n  + More options\n NIST Data\n  + SRD Program\n  + Science Data Portal\n  + Material Data Division\n About\n  + FAQ\n  + Credits\n  + More documentation\n\n# Water\n\n Formula: H2O\n Molecular weight\"): 18.0153\n IUPAC Standard InChI: InChI=1S/H2O/h1H2 [...] By formula: (Cl- • 3H2O) + H2O = (Cl- • 4H2O)\n\nBond type: Hydrogen bond (negative io",
+    "published_date": "",
+    "relevance_score": 0.7545535,
+    "via": "authority_search",
+    "date_in_text": ""
+   },
+   {
+    "title": "What is the formula of water? – Smart Water Magazine",
+    "url": "https://smartwatermagazine.com/q-a/what-formula-water",
+    "domain": "smartwatermagazine.com",
+    "source_type": "Other — review source",
+    "snippet": "The formula H₂O tells us exactly what a water molecule contains:\n\nThe subscript \"2\" indicates there are two hydrogen atoms for every one oxygen atom. This ratio is fixed – if the ratio changes, it's no longer water.\n\n| Component | Symbol | Number of atoms | Atomic weight |\n ---  --- |\n| Hydrogen | H | 2 | 1.008 × 2 = 2.016 |\n| Oxygen | O | 1 | 15.999 |\n| Water | H₂O | 3 total | 18.015 g/mol |\n\n## Structure of the water molecule [...] Smart Water Magazine\nWhat is the formula of water?\n\n# What is ",
+    "published_date": "",
+    "relevance_score": 0.8494724,
+    "date_in_text": ""
+   },
+   {
+    "title": "Water - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Water",
+    "domain": "en.wikipedia.org",
+    "source_type": "Reference / secondary",
+    "snippet": "Water is an inorganic compound with the chemical formula H2O. It is a transparent, tasteless, odorless, and nearly colorless chemical substance. It is the main constituent of Earth's streams, lakes, and oceans. Water is also the fluid of all known living organisms, in which it acts as a solvent. Water, being a polar molecule, undergoes strong intermolecular hydrogen bonding which is a large contributor to its physical and chemical properties. It is vital for all known forms of life, despite not ",
+    "published_date": "",
+    "relevance_score": 0.8449215,
+    "date_in_text": ""
+   },
+   {
+    "title": "Water Molecule : Chemical and Physical Properties | IJSRST",
+    "url": "https://ijsrst.com/IJSRST2074161",
+    "domain": "ijsrst.com",
+    "source_type": "Other — review source",
+    "snippet": "Water is a chemical compound and polar molecule, which is liquid at standard temperature and pressure. It has the chemical formula H2O, meaning that one molecule of water is composed of two hydrogen atoms and one oxygen atom. Water is found almost everywhere on earth and is required by all known life. About 70% of the Earth's surface is covered by water. Water is known to exist, in ice form, on several other bodies in the solar system and beyond, and proof that it exists (or did exist) in",
+    "published_date": "",
+    "relevance_score": 0.8348113,
+    "date_in_text": ""
+   }
+  ],
+  "model_response": {
+   "verdict": "VERIFIED",
+   "evidence_quality": "HIGH",
+   "explanation": "All supplied sources state that water’s chemical formula is H2O.",
+   "corrected_fact": "",
+   "conflicting_values": "",
+   "source_notes": [
+    {
+     "url": "https://cameochemicals.noaa.gov/chemical/30024",
+     "says": "Chemical Formula: H2O",
+     "stance": "supports"
+    },
+    {
+     "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=1E9F",
+     "says": "Formula: H2O",
+     "stance": "supports"
+    },
+    {
+     "url": "https://smartwatermagazine.com/q-a/what-formula-water",
+     "says": "The formula H₂O tells us exactly what a water molecule contains",
+     "stance": "supports"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Water",
+     "says": "Water is an inorganic compound with the chemical formula H2O",
+     "stance": "supports"
+    },
+    {
+     "url": "https://ijsrst.com/IJSRST2074161",
+     "says": "It has the chemical formula H2O",
+     "stance": "supports"
+    }
+   ],
+   "used_urls": [
+    "https://cameochemicals.noaa.gov/chemical/30024",
+    "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=1E9F",
+    "https://smartwatermagazine.com/q-a/what-formula-water",
+    "https://en.wikipedia.org/wiki/Water",
+    "https://ijsrst.com/IJSRST2074161"
+   ]
+  },
+  "v14_rating": "Strong",
+  "v14_used_urls": [
+   "https://cameochemicals.noaa.gov/chemical/30024",
+   "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=1E9F",
+   "https://smartwatermagazine.com/q-a/what-formula-water",
+   "https://en.wikipedia.org/wiki/Water",
+   "https://ijsrst.com/IJSRST2074161"
+  ],
+  "v14_not_counted": []
+ },
+ "eiffel": {
+  "claim": {
+   "claim": "The Eiffel Tower is located in Berlin, Germany",
+   "excerpt": "3. The Eiffel Tower is located in Berlin, Germany.",
+   "page": 1,
+   "claim_type": "other"
+  },
+  "evidence": [
+   {
+    "title": "Earth Hour: European Parliament to switch off its lights | Nyheter | Europaparlamentet",
+    "url": "https://www.europarl.europa.eu/news/sv/press-room/20160317IPR19848/earth-hour-european-parliament-to-switch-off-its-lights",
+    "domain": "www.europarl.europa.eu",
+    "source_type": "Official / institutional",
+    "snippet": "In 2015, 172 countries and territories joined in Earth Hour and more than 10,000 other landmarks and monuments switched off their lights. In Europe, these included the Eiffel Tower in Paris, the Brandenburg Gate in Berlin, the Acropolis in Athens, St. Peter’s Basilica in the Vatican, the Colosseum in Rome, the Alhambra in Granada and the Houses of Parliament in London.",
+    "published_date": "",
+    "relevance_score": 0.4463741,
+    "via": "authority_search",
+    "date_in_text": ""
+   },
+   {
+    "title": "Earth Hour: European Parliament to switch off its lights | News | European Parliament",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20160317IPR19848/earth-hour-european-parliament-to-switch-off-its-lights",
+    "domain": "www.europarl.europa.eu",
+    "source_type": "Official / institutional",
+    "snippet": "In 2015, 172 countries and territories joined in Earth Hour and more than 10,000 other landmarks and monuments switched off their lights. In Europe, these included the Eiffel Tower in Paris, the Brandenburg Gate in Berlin, the Acropolis in Athens, St. Peter’s Basilica in the Vatican, the Colosseum in Rome, the Alhambra in Granada and the Houses of Parliament in London.",
+    "published_date": "",
+    "relevance_score": 0.44546923,
+    "via": "authority_search",
+    "date_in_text": ""
+   },
+   {
+    "title": "Did you know that Berlin has its own Eiffel Tower?! \n\nIt's located outside the German-French cultural centre on Müllerstraße in the district of Wedding, north o",
+    "url": "https://www.facebook.com/61573932416799/videos/did-you-know-that-berlin-has-its-own-eiffel-tower-its-located-outside-the-german/2139861276961546",
+    "domain": "www.facebook.com",
+    "source_type": "User-generated",
+    "snippet": "on my trip- stay tuned for more videos about these locations and the assassination attempt against Hitler which happened at the Wolf's Lair. #tourguide #berlintourguide #wwiihistory [...] Berlin Wall fell! Freedom of movement was reinstated for Germans both in East and West after 28 years. I'm Tina, your historical and cultural guide in Berlin! #berlinhistory #berlin #berlintourguide [...] was forced to abdicate and Germany was declared a Republic. 🛑 1923: Hitler’s Beer Hall Putsch failed in Mun",
+    "published_date": "",
+    "relevance_score": 0.76960015,
+    "date_in_text": ""
+   },
+   {
+    "title": "Instagram",
+    "url": "https://www.instagram.com/reel/DbWKfhANHrG",
+    "domain": "www.instagram.com",
+    "source_type": "User-generated",
+    "snippet": "tinastoursberlin\n\nDid you know that Berlin has its own Eiffel Tower?!   \n  \nIt's located outside the German-French cultural centre on Müllerstraße in the district of Wedding, north of Berlin's city centre.   \n  \nI can confirm that Lidl croissants taste better when eaten underneath it.   \n  \n#berlin #berlinhistory #berlinguide\n\ntrimfoley\n\nEiffail to see why\n\nReply\n\nwhitlamsberlintours\n\nIt’s back! And with the funkturm you could say we have two 😎\n\nReply\n\ndannytaenzer",
+    "published_date": "",
+    "relevance_score": 0.7411123,
+    "date_in_text": ""
+   },
+   {
+    "title": "German Consulate General Houston on Facebook: \"Did you know? Berlin has its own “Eiffel Tower”? On September 3, 1926, the Berlin Funkturm officiall…\"",
+    "url": "https://www.facebook.com/GermanConsulateHouston/posts/did-you-know-berlin-has-its-own-eiffel-tower-on-september-3-1926-the-berlin-funk/1545597010927928",
+    "domain": "www.facebook.com",
+    "source_type": "User-generated",
+    "snippet": "Did you know? Berlin has its own “Eiffel Tower”? \nOn September 3, 1926, the Berlin Funkturm officially opened at the German Radio Exhibition in Westend.\nAt more than 146 meters (about 479 ft), the tower quickly became a landmark — and an important part of the history of radio and television in Germany.\nKnown affectionately as the “Langer Lulatsch” (“Long Skinny One”), it remains one of Berlin’s most recognizable sights. \nWould you go up? [...] - Author: German Consulate General Houston\n- Posted:",
+    "published_date": "",
+    "relevance_score": 0.60632366,
+    "date_in_text": "September 3, 1926"
+   }
+  ],
+  "model_response": {
+   "verdict": "FALSE",
+   "evidence_quality": "HIGH",
+   "explanation": "The official European Parliament source lists the Eiffel Tower as located in Paris, not Berlin, directly contradicting the claim.",
+   "corrected_fact": "",
+   "conflicting_values": "",
+   "source_notes": [
+    {
+     "url": "https://www.europarl.europa.eu/news/sv/press-room/20160317IPR19848/earth-hour-european-parliament-to-switch-off-its-lights",
+     "says": "In Europe, these included the Eiffel Tower in Paris, the Brandenburg Gate in Berlin, ...",
+     "stance": "contradicts"
+    }
+   ],
+   "used_urls": [
+    "https://www.europarl.europa.eu/news/sv/press-room/20160317IPR19848/earth-hour-european-parliament-to-switch-off-its-lights"
+   ]
+  },
+  "v14_rating": "Strong",
+  "v14_used_urls": [
+   "https://www.europarl.europa.eu/news/sv/press-room/20160317IPR19848/earth-hour-european-parliament-to-switch-off-its-lights"
+  ],
+  "v14_not_counted": []
+ },
+ "skeleton": {
+  "claim": {
+   "claim": "An adult human skeleton typically contains 206 bones",
+   "excerpt": "5. An adult human skeleton typically contains 206 bones.",
+   "page": 1,
+   "claim_type": "other"
+  },
+  "evidence": [
+   {
+    "title": "Divisions of the Skeleton | SEER Training",
+    "url": "https://training.seer.cancer.gov/anatomy/skeletal/divisions",
+    "domain": "training.seer.cancer.gov",
+    "source_type": "Government",
+    "snippet": "The adult human skeleton usually consists of 206 named bones. These bones can be grouped in two divisions: axial skeleton and appendicular skeleton. The 80 bones of the axial skeleton form the vertical axis of the body. They include the bones of the head, vertebral column, ribs and breastbone or sternum. The appendicular skeleton consists of 126 bones and includes the free appendages and their attachments to the axial skeleton. The free appendages are the upper and lower extremities, or limbs,",
+    "published_date": "",
+    "relevance_score": 0.8645393,
+    "date_in_text": ""
+   },
+   {
+    "title": "[FREE] The adult skeleton of most men and women contains a total of:\n\nA) 206 bones \nB) 216 bones \nC) 226 bones \nD) - brainly.com",
+    "url": "https://brainly.com/question/46078821",
+    "domain": "brainly.com",
+    "source_type": "User-generated",
+    "snippet": "## Explanation\n\nThe adult human skeleton typically contains a total of 206 bones. This number represents the final count after a process of bone fusion that occurs as a person matures from infancy to adulthood.\n\nDuring the early stages of life, humans are born with approximately 305 bones. As children grow, some of these bones fuse together, leading to a reduction in the total number of bones. By the time a person reaches adulthood, they usually have 206 bones as a result of this process. [...] ",
+    "published_date": "",
+    "relevance_score": 0.8631611,
+    "date_in_text": ""
+   },
+   {
+    "title": "Divisions of the Skeletal System | Anatomy and Physiology I",
+    "url": "https://courses.lumenlearning.com/suny-ap1/chapter/divisions-of-the-skeletal-system",
+    "domain": "courses.lumenlearning.com",
+    "source_type": "Other — review source",
+    "snippet": "The skeletal system includes all of the bones, cartilages, and ligaments of the body that support and give shape to the body and body structures. The skeleton consists of the bones of the body. For adults, there are 206 bones in the skeleton. Younger individuals have higher numbers of bones because some bones fuse together during childhood and adolescence to form an adult bone. The primary functions of the skeleton are to provide a rigid, internal structure that can support the weight of the",
+    "published_date": "",
+    "relevance_score": 0.8546422,
+    "date_in_text": ""
+   }
+  ],
+  "model_response": {
+   "verdict": "VERIFIED",
+   "evidence_quality": "HIGH",
+   "explanation": "All supplied sources state that an adult human skeleton contains 206 bones.",
+   "corrected_fact": "",
+   "conflicting_values": "",
+   "source_notes": [
+    {
+     "url": "https://training.seer.cancer.gov/anatomy/skeletal/divisions",
+     "says": "The adult human skeleton usually consists of 206 named bones.",
+     "stance": "supports"
+    },
+    {
+     "url": "https://brainly.com/question/46078821",
+     "says": "The adult human skeleton typically contains a total of 206 bones.",
+     "stance": "supports"
+    },
+    {
+     "url": "https://courses.lumenlearning.com/suny-ap1/chapter/divisions-of-the-skeletal-system",
+     "says": "For adults, there are 206 bones in the skeleton.",
+     "stance": "supports"
+    }
+   ],
+   "used_urls": [
+    "https://training.seer.cancer.gov/anatomy/skeletal/divisions",
+    "https://brainly.com/question/46078821",
+    "https://courses.lumenlearning.com/suny-ap1/chapter/divisions-of-the-skeletal-system"
+   ]
+  },
+  "v14_rating": "Strong",
+  "v14_used_urls": [
+   "https://training.seer.cancer.gov/anatomy/skeletal/divisions",
+   "https://brainly.com/question/46078821",
+   "https://courses.lumenlearning.com/suny-ap1/chapter/divisions-of-the-skeletal-system"
+  ],
+  "v14_not_counted": [
+   {
+    "url": "https://brainly.com/question/46078821",
+    "reason": "user-generated"
+   }
+  ]
+ },
+ "burj": {
+  "claim": {
+   "claim": "The Burj Khalifa is 1,250 metres tall",
+   "excerpt": "6. The Burj Khalifa is 1,250 metres tall.",
+   "page": 1,
+   "claim_type": "technical"
+  },
+  "evidence": [
+   {
+    "title": "[PDF] Validating the Structural Behavior and Response of Burj Khalifa",
+    "url": "https://global.ctbuh.org/resources/papers/download/1975-validating-the-structural-behavior-and-response-of-burj-khalifa.pdf",
+    "domain": "global.ctbuh.org",
+    "source_type": "Official / institutional",
+    "snippet": "The Burj Khalifa Project is the tallest structure ever built by man; the tower is 828 meters tall and comprises of 162 floors above grade and 3 basement levels. Early integration of aerodynamic shaping and wind engineering played a major role in the architectural massing and design of this multi-use tower, where mitigating and taming the dynamic wind effects was one of the most important design criteria established at the onset of the project design. Understanding the structural and foundation [",
+    "published_date": "",
+    "relevance_score": 0.6298884,
+    "via": "authority_search",
+    "date_in_text": ""
+   },
+   {
+    "title": "CTBUH Presents the ten tallest buildings completed in 2009",
+    "url": "https://newsletter.ctbuh.org/eblast/BurjKhalifa/BurjKhalifaHeight.html",
+    "domain": "newsletter.ctbuh.org",
+    "source_type": "Official / institutional",
+    "snippet": "| Chicago, 11th March 2010 – The Council on Tall Buildings and Urban Habitat has received and examined detailed drawings of the Burj Khalifa submitted by building owner Emaar, and can now confirm the official building height at 828.00 meters (2716.54 feet), as well as the title of “The World’s Tallest Building”. With the official completion of the building on January 4th, 2010, the Burj Khalifa surpassed the previous “World’s Tallest” (Taipei 101) by 320 meters, an unprecedented increase of [...",
+    "published_date": "",
+    "relevance_score": 0.6175703,
+    "via": "authority_search",
+    "date_in_text": "March 2010"
+   },
+   {
+    "title": "Burj Khalifa: Height, Floors, Cost | Skyscraper Day",
+    "url": "https://www.skyscraperday.com/burj-khalifa",
+    "domain": "www.skyscraperday.com",
+    "source_type": "Other — review source",
+    "snippet": "The Burj Khalifa is 828 m (2,717 ft) tall and has 163 floors. The figure is architectural height, measured from the entrance level to the top of the spire. Add the antenna and the total passes 829 m.\n\nTwo smaller numbers matter more to anyone inside. The highest occupied floor sits at 585 m, and the top 240 m hold the spire and mechanical plant rather than rooms. For how the measurement is decided, and who decides it, seethe height record page.\n\n## Where it is [...] Skip to content\n\nSkyscraperDa",
+    "published_date": "",
+    "relevance_score": 0.6263527,
+    "date_in_text": ""
+   },
+   {
+    "title": "Burj Khalifa: The tallest building in the world | Guinness World Records",
+    "url": "https://www.guinnessworldrecords.com/records/hall-of-fame/burj-khalifa-tallest-building-in-the-world",
+    "domain": "www.guinnessworldrecords.com",
+    "source_type": "Other — review source",
+    "snippet": "It actually grew by a whopping 310 metres during the design process – aproximately the height of the Eiffel Tower in France.\n\nConstruction began on 21 September 2004, with the exterior of the structure completed on 1 October 2009.\n\nThe taller a building is the greater the effects of weather, but the neo-Futurist-style Burj Khalifa was designed with a complex Y-shaped cross section to reduce the effect of wind. [...] \"It’s a very impressive building with a very unique design,\" said Talal Omar, Co",
+    "published_date": "",
+    "relevance_score": 0.61196184,
+    "date_in_text": "September 2004"
+   },
+   {
+    "title": "Burj Khalifa | The Skyscraper Museum",
+    "url": "https://www.skyscraper.org/exhibitions/worlds-tallest-building-burj-dubai",
+    "domain": "www.skyscraper.org",
+    "source_type": "Other — review source",
+    "snippet": "### SUPERTALLS\n\nInspired by the superior height of Burj Dubai, the Museum measured supertall skyscrapers according to a higher standard than the common 300 meters, as part of its 2007 exhibition World's Tallest Building: Burj Dubai. Our 380+ meter benchmark was set by the Empire State Building's 86 occupiable stories and 1,250-foot height to the top of its original 1931 mooring mast. Buildings that matched or exceeded these markers in 2007 were included in this global survey. [...] For more info",
+    "published_date": "",
+    "relevance_score": 0.6087685,
+    "date_in_text": ""
+   }
+  ],
+  "model_response": {
+   "verdict": "FALSE",
+   "evidence_quality": "HIGH",
+   "explanation": "All supplied sources state the Burj Khalifa’s height as 828 m, not 1,250 m.",
+   "corrected_fact": "828 m",
+   "conflicting_values": "",
+   "source_notes": [
+    {
+     "url": "https://global.ctbuh.org/resources/papers/download/1975-validating-the-structural-behavior-and-response-of-burj-khalifa.pdf",
+     "says": "The Burj Khalifa Project is the tallest structure ever built by man; the tower is 828 meters tall",
+     "stance": "contradicts"
+    },
+    {
+     "url": "https://newsletter.ctbuh.org/eblast/BurjKhalifa/BurjKhalifaHeight.html",
+     "says": "The official building height at 828.00 meters (2716.54 feet)",
+     "stance": "contradicts"
+    }
+   ],
+   "used_urls": [
+    "https://global.ctbuh.org/resources/papers/download/1975-validating-the-structural-behavior-and-response-of-burj-khalifa.pdf",
+    "https://newsletter.ctbuh.org/eblast/BurjKhalifa/BurjKhalifaHeight.html"
+   ]
+  },
+  "v14_rating": "Strong",
+  "v14_used_urls": [
+   "https://global.ctbuh.org/resources/papers/download/1975-validating-the-structural-behavior-and-response-of-burj-khalifa.pdf",
+   "https://newsletter.ctbuh.org/eblast/BurjKhalifa/BurjKhalifaHeight.html"
+  ],
+  "v14_not_counted": []
+ },
+ "world_population": {
+  "claim": {
+   "claim": "The world's population is approximately 7 billion people",
+   "excerpt": "8. The world's population is approximately 7 billion people.",
+   "page": 1,
+   "claim_type": "statistic"
+  },
+  "evidence": [
+   {
+    "title": "World Population Day | United Nations",
+    "url": "https://www.un.org/en/observances/world-population-day",
+    "domain": "www.un.org",
+    "source_type": "Official / institutional",
+    "snippet": "It took hundreds of thousands of years for the world population to grow to 1 billion – then in just another 200 years or so, it grew sevenfold. In 2011, the global population reached the 7 billion mark, it stands at almost 7.9 billion in 2021, and it's expected to grow to around 8.5 billion in 2030, 9.7 billion in 2050, and 10.9 billion in 2100.",
+    "published_date": "",
+    "relevance_score": 0.4889773,
+    "via": "authority_search",
+    "date_in_text": ""
+   },
+   {
+    "title": "World Population to Reach 7 Billion on 31 October | United Nations Population Fund",
+    "url": "https://www.unfpa.org/press/world-population-reach-7-billion-31-october",
+    "domain": "www.unfpa.org",
+    "source_type": "Official / institutional",
+    "snippet": "“A world of 7 billion is both a challenge and an opportunity,” said UNFPA Executive Director, Dr. Babatunde Osotimehin. “Globally, people are living longer, healthier lives and choosing to have smaller families. But reducing inequities and finding ways to ensure the well-being of people alive today – as well as the generations that follow – will require new ways of thinking and unprecedented global cooperation,” he said. [...] UNFPA, the United Nations Population Fund, is planning a series of ac",
+    "published_date": "",
+    "relevance_score": 0.44408253,
+    "via": "authority_search",
+    "date_in_text": ""
+   },
+   {
+    "title": "World population - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/World_population",
+    "domain": "en.wikipedia.org",
+    "source_type": "Reference / secondary",
+    "snippet": "Population growth in the Western world became more rapid after the introduction of vaccination and other improvements in medicine and sanitation.\\ Improved material conditions led to the population of Britain increasing from 10 million to 40 million in the 19th century.\\ The population of the United Kingdom reached 60 million in 2006.\\ The United States saw its population grow from around 5.3 million in 1800 to 106 million in 1920, exceeding 307 million in 2010.\\\n\n### 20th century [...] In world",
+    "published_date": "",
+    "relevance_score": 0.831066912,
+    "date_in_text": ""
+   },
+   {
+    "title": "World Population Clock: 8.3 Billion People (LIVE, October 2026)",
+    "url": "https://worldpopulationclock.net",
+    "domain": "worldpopulationclock.net",
+    "source_type": "Other — review source",
+    "snippet": "The transformation of the global population over the past two centuries has been extraordinary. Around 1800, humanity numbered approximately 1 billion people. Population growth then accelerated rapidly, with the world reaching 2 billion around 1930, 3 billion in 1960, 4 billion in 1974, 5 billion in 1987, 6 billion in 1999, 7 billion in 2011, and 8 billion in 2022. By 2026, the global population stands at approximately 8.3 billion. The speed at which successive billion-person milestones were [..",
+    "published_date": "",
+    "relevance_score": 0.71869314,
+    "date_in_text": "October 2026"
+   },
+   {
+    "title": "World Population Clock: 8.3 Billion People (LIVE, 2026) - Worldometer",
+    "url": "https://www.worldometers.info/world-population",
+    "domain": "www.worldometers.info",
+    "source_type": "Reference / secondary",
+    "snippet": "Obviously, the UN data is based on estimates and can't be 100% accurate, so in all honesty nobody can possibly say with any degree of certainty on which day world population reached 7 billion (or any other exact number), let alone at what time. But once an estimate is made (based on the best data and analysis available), the world population clock should be showing the same number at any given time anywhere around the world. [...] Sources:\n\n World Population Prospects: The 2024 Revision  - Unite",
+    "published_date": "",
+    "relevance_score": 0.7036513,
+    "date_in_text": ""
+   }
+  ],
+  "model_response": {
+   "verdict": "INACCURATE",
+   "evidence_quality": "MEDIUM",
+   "explanation": "The claim that the world population is approximately 7 billion is outdated; current estimates place it around 8.3 billion.",
+   "corrected_fact": "Approximately 8.3 billion (2026).",
+   "conflicting_values": "",
+   "source_notes": [
+    {
+     "url": "https://worldpopulationclock.net",
+     "says": "The global population reached 8 billion in 2022 and is about 8.3 billion in 2026.",
+     "stance": "supports"
+    },
+    {
+     "url": "https://www.un.org/en/observances/world-population-day",
+     "says": "The global population reached the 7 billion mark in 2011 and was almost 7.9 billion in 2021.",
+     "stance": "context"
+    }
+   ],
+   "used_urls": [
+    "https://worldpopulationclock.net",
+    "https://www.un.org/en/observances/world-population-day"
+   ]
+  },
+  "v14_rating": "Weak",
+  "v14_used_urls": [
+   "https://worldpopulationclock.net",
+   "https://www.un.org/en/observances/world-population-day"
+  ],
+  "v14_not_counted": [
+   {
+    "url": "https://www.un.org/en/observances/world-population-day",
+    "reason": "no direct support stated"
+   }
+  ]
+ },
+ "india": {
+  "claim": {
+   "claim": "India's population is about 1.2 billion people",
+   "excerpt": "9. India's population is about 1.2 billion people.",
+   "page": 1,
+   "claim_type": "statistic"
+  },
+  "evidence": [
+   {
+    "title": "India to overtake China as world’s most populous country in April 2023, United Nations projects | United Nations",
+    "url": "https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects",
+    "domain": "www.un.org",
+    "source_type": "Official / institutional",
+    "snippet": "24 April 2023 - China will soon cede its long-held status as the world’s most populous country. By the end of this month, India’s population is expected to reach 1,425,775,850 people, matching and then surpassing the population of mainland China. This forecast is based on the latest United Nations estimates and projections of the global population. [...] China’s population reached its peak size of 1.426 billion in 2022 and has started to fall. Projections indicate that the size of the Chinese po",
+    "published_date": "",
+    "relevance_score": 0.36116472,
+    "via": "authority_search",
+    "date_in_text": "April 2023"
+   },
+   {
+    "title": "World Population Prospects 2024: Summary of Results",
+    "url": "https://population.un.org/wpp/assets/Files/WPP2024_Summary-of-Results.pdf",
+    "domain": "population.un.org",
+    "source_type": "Official / institutional",
+    "snippet": "In addition, the population of 10 countries in this group, mostly in Eastern and South-Eastern Asia and in Latin \n\nAmerica and the Caribbean, is projected to decline by 10 per cent or more by 2100 after peaking in size. The \n\npopulation of India, which is expected to remain the world’s largest throughout the century, will likely decline by \n\n12 per cent after reaching its peak in the early 2060s at about 1.7 billion (figure 4.3). Other countries in this group",
+    "published_date": "",
+    "relevance_score": 0.34964374,
+    "via": "authority_search",
+    "date_in_text": ""
+   },
+   {
+    "title": "Key facts about India’s growing population as it surpasses China’s population | Pew Research Center",
+    "url": "https://www.pewresearch.org/short-reads/2023/02/09/key-facts-as-india-surpasses-china-as-the-worlds-most-populous-country",
+    "domain": "www.pewresearch.org",
+    "source_type": "Other — review source",
+    "snippet": "India’s population has grown by more than 1 billion people since 1950, the year the UN population data begins. The exact size of the country’s population is not easily known, given that India has not conducted a census since 2011, but it is estimated to have more than 1.4 billion people – greater than the entire population of Europe (744 million) or the Americas (1.04 billion). China, too, has more than 1.4 billion people, but while China’s population is declining, India’s continues to grow.",
+    "published_date": "",
+    "relevance_score": 0.5306469,
+    "date_in_text": ""
+   },
+   {
+    "title": "How India plans to count 1.4 billion people for its 2026 census | CNN",
+    "url": "https://www.cnn.com/2026/04/07/india/india-census-population-explainer-intl-hnk",
+    "domain": "www.cnn.com",
+    "source_type": "Other — review source",
+    "snippet": "During the last official census in 2011, India counted just over 1.2 billion people. The United Nations Department of Economic and Social Affairs now estimates it’s overtaken China to become the world’s most populous nation with 1.4 billion people.\n\nIts demographics have also undergone an epochal shift. Currently, more than 40% of India’s residents are under the age of 25, and UN data placed the country’s estimated median age in 2023 at just 28, nearly a decade younger than China’s. [...] The fi",
+    "published_date": "",
+    "relevance_score": 0.74558365,
+    "date_in_text": ""
+   },
+   {
+    "title": "India Population (2026) - Worldometer",
+    "url": "https://www.worldometers.info/world-population/india-population",
+    "domain": "www.worldometers.info",
+    "source_type": "Reference / secondary",
+    "snippet": "The current population of India is  1,481,124,730  as of Wednesday, November 4, 2026, based on Worldometer's elaboration of the latest United Nations data1.\n India 2026 population is estimated at  1,476,625,576  people at mid-year.\n India population is equivalent to  17.8%  of the  total world population .\n India ranks number  1  in the list of  countries and other entities by population .\n The population density in India is 497 per km² (1,286 people per mi²). [...] | Year | Population | Yearly ",
+    "published_date": "",
+    "relevance_score": 0.7397986,
+    "date_in_text": "November 4, 2026"
+   }
+  ],
+  "model_response": {
+   "verdict": "INACCURATE",
+   "evidence_quality": "HIGH",
+   "explanation": "The claim states India’s population is about 1.2 billion, but the most recent primary source (United Nations) estimates it at roughly 1.4 billion in 2026.",
+   "corrected_fact": "India’s population is approximately 1.4 billion people (mid‑2026).",
+   "conflicting_values": "",
+   "source_notes": [
+    {
+     "url": "https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects",
+     "says": "India’s population is expected to reach 1,425,775,850 people by the end of April 2023, and the UN continues to project it at about 1.4 billion in 2026.",
+     "stance": "supports"
+    },
+    {
+     "url": "https://www.cnn.com/2026/04/07/india/india-census-population-explainer-intl-hnk",
+     "says": "The United Nations Department of Economic and Social Affairs now estimates India’s population at 1.4 billion.",
+     "stance": "supports"
+    }
+   ],
+   "used_urls": [
+    "https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects",
+    "https://www.cnn.com/2026/04/07/india/india-census-population-explainer-intl-hnk"
+   ]
+  },
+  "v14_rating": "Strong",
+  "v14_used_urls": [
+   "https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects",
+   "https://www.cnn.com/2026/04/07/india/india-census-population-explainer-intl-hnk"
+  ],
+  "v14_not_counted": []
+ },
+ "co2": {
+  "claim": {
+   "claim": "The concentration of carbon dioxide in Earth's atmosphere is about 400 parts per million",
+   "excerpt": "10. The concentration of carbon dioxide in Earth's atmosphere is about 400 parts per million.",
+   "page": 1,
+   "claim_type": "statistic"
+  },
+  "evidence": [
+   {
+    "title": "Carbon dioxide in the atmosphere of Earth - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth",
+    "domain": "en.wikipedia.org",
+    "source_type": "Reference / secondary",
+    "snippet": "In the atmosphere of Earth, carbon dioxide (CO2) is a trace gas that plays an integral part in the greenhouse effect, carbon cycle, photosynthesis, and oceanic carbon cycle. It is one of three main greenhouse gases in the atmosphere of Earth. In 2026, the concentration of carbon dioxide in the atmosphere reached 432 ppm or 0.0432% (on a molar basis), representing a mass of 3380 gigatonnes. This is an increase of 54% since the start of the Industrial Revolution, up from 280 ppm during the 10,000 ",
+    "published_date": "",
+    "relevance_score": 0.7550956,
+    "date_in_text": ""
+   },
+   {
+    "title": "How can such a small amount of carbon dioxide in the atmosphere—only around 420 parts per million—cause so much warming? | MIT Climate Portal",
+    "url": "https://climate.mit.edu/ask-mit/how-can-such-small-amount-carbon-dioxide-atmosphere-only-around-420-parts-million-cause-so",
+    "domain": "climate.mit.edu",
+    "source_type": "Academic",
+    "snippet": "In February 2026, the National Oceanic and Atmospheric Administration announced that measurements of carbon dioxide (CO2) at their Mauna Loa Atmospheric Baseline Observatory had reached 429 parts per million (ppm).1 [...] Submit your own question to Ask MIT Climate\n\nGet the latest from Ask MIT Climate monthly in your inbox\n\nRead more Ask MIT Climate\n\nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International license (CC BY-NC-SA 4.0).\n\nFootnotes\n\n1 NASA: \"Carbon Dioxide - Earth Indi",
+    "published_date": "",
+    "relevance_score": 0.7409249,
+    "date_in_text": "February 2026"
+   },
+   {
+    "title": "Carbon Dioxide - Earth Indicator - NASA Science",
+    "url": "https://science.nasa.gov/earth/explore/earth-indicators/carbon-dioxide",
+    "domain": "science.nasa.gov",
+    "source_type": "Government",
+    "snippet": "article  8 months ago 6 min read\n\n### La NASA refuerza Artemis: añade una misión y perfecciona su arquitectura general\n\narticle  9 months ago\n\n# Carbon Dioxide - Earth Indicator\n\nKey Takeaway:   \nThe amount of carbon dioxide in Earth's atmosphere has increased sharply in the past 100 years as measured from the ground and from satellites. Since carbon dioxide is a greenhouse gas, this increase has warmed the planet.\n\n## Latest Measurement\n\n426ppm\n\n## Latest Measurement Date\n\nSeptember 2026 [...] ",
+    "published_date": "",
+    "relevance_score": 0.5289897,
+    "date_in_text": "September 2026"
+   }
+  ],
+  "model_response": {
+   "verdict": "INACCURATE",
+   "evidence_quality": "MEDIUM",
+   "explanation": "The supplied sources report CO₂ concentrations of 432 ppm in 2026 and 429 ppm in February 2026, both higher than the claimed 400 ppm.",
+   "corrected_fact": "432 ppm (as of 2026)",
+   "conflicting_values": "",
+   "source_notes": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth",
+     "says": "In 2026, the concentration of carbon dioxide in the atmosphere reached 432 ppm",
+     "stance": "supports"
+    },
+    {
+     "url": "https://climate.mit.edu/ask-mit/how-can-such-small-amount-carbon-dioxide-atmosphere-only-around-420-parts-million-cause-so",
+     "says": "In February 2026, the concentration of carbon dioxide at Mauna Loa reached 429 ppm",
+     "stance": "supports"
+    }
+   ],
+   "used_urls": [
+    "https://en.wikipedia.org/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth",
+    "https://climate.mit.edu/ask-mit/how-can-such-small-amount-carbon-dioxide-atmosphere-only-around-420-parts-million-cause-so"
+   ]
+  },
+  "v14_rating": "Moderate",
+  "v14_used_urls": [
+   "https://en.wikipedia.org/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth",
+   "https://climate.mit.edu/ask-mit/how-can-such-small-amount-carbon-dioxide-atmosphere-only-around-420-parts-million-cause-so"
+  ],
+  "v14_not_counted": []
+ }
+}

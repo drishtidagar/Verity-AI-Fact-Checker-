@@ -1,0 +1,40 @@
+Verity AI — final engineering verification
+Date: 2026-11-22
+Project version: 1.4.4
+Python: 3.14.4; Streamlit: 1.67.0; pypdf: 6.21.4
+
+Offline automated tests
+- Command: python -m unittest discover -s tests -v
+- Result: 222 tests run; 222 passed; 0 failed; 0 skipped.
+- Runtime: 42.973 seconds.
+- Coverage includes all six Streamlit routes, mocked Groq/Tavily behavior, confidence validation and serialization, source attribution and exclusions, numeric correction checks, PDF prompt-injection handling, old SQLite migration, older JSON report rendering, and all 13 claims in the newly attached report.
+- Water remains VERIFIED / Strong with NOAA and NIST counted as primary/official sources; secondary/contextual and user-generated sources remain separately labeled in the UI.
+- The attached Eiffel Tower run is downgraded to INSUFFICIENT EVIDENCE because its official coin-page title note does not establish Paris; its unsupported corrected fact is withheld. A separate earlier fixture verifies direct European Parliament attribution when that directly relevant source is present.
+- The attached Burj Khalifa explanation attributes 828 m to matadornetwork.com and explicitly reports that it is not officially verified; the prior contradictory “authoritative” wording is removed.
+- Other replay checks cover World/India population dates and secondary-only estimates, dated NASA/NOAA CO2 measurements and units, institutional evidence for Pluto, Great Wall domain independence and UGC exclusion, and Acme's private metric remaining insufficient.
+- Report replay is offline using saved evidence and mocked model responses. It is not a new PDF extraction or live search run.
+
+Python compilation
+- Command: python -m compileall -q app.py app tests
+- Result: passed (exit code 0).
+
+Imports, isolated SQLite initialization, and dependency consistency
+- Imported Streamlit, pypdf, Plotly, Requests, python-dotenv, and application service modules; initialized an isolated temporary SQLite database: passed.
+- Command: python -m pip check
+- Result: No broken requirements found (exit code 0).
+- `pip-audit` was not installed; no dependency CVE scan was performed.
+
+Streamlit startup
+- Started `app.py` headlessly using a temporary SQLite database on localhost.
+- `/_stcore/health` returned HTTP 200 with `ok`; process was stopped after the check.
+- All six routes were also exercised by the passing Streamlit AppTest suite.
+
+Backward compatibility
+- Automated test migrated a legacy SQLite database without `session_id` and retained its report.
+- Legacy JSON without current evidence/confidence fields rendered through compatibility code.
+- Current confidence/evidence fields passed JSON serialization and SQLite round-trip tests.
+
+Live API verification
+- `GROQ_API_KEY` and `TAVILY_API_KEY` were absent from the environment; `.env` and `.streamlit/secrets.toml` were absent.
+- No live Groq request, Tavily request, or live Trap PDF run was performed.
+- API behavior was tested with mocks. Offline replay does not validate current service availability, model behavior, billing, or live search quality.
