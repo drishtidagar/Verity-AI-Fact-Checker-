@@ -445,6 +445,38 @@ div[data-testid="stFileUploaderDropzone"] button * {
             background: #64748b !important;
             color: #ffffff !important;
         }
+/* FORCE DARK ALERT BOXES - VERITY AI */
+
+div[data-testid="stAlert"],
+div[data-testid="stAlert"] > div,
+div[data-testid="stAlert"] [data-testid="stMarkdownContainer"] {
+    background-color: #111a2d !important;
+    background: #111a2d !important;
+    border-color: #526b96 !important;
+    color: #ffffff !important;
+}
+
+/* Force all alert text to white */
+div[data-testid="stAlert"] p,
+div[data-testid="stAlert"] span,
+div[data-testid="stAlert"] label,
+div[data-testid="stAlert"] strong,
+div[data-testid="stAlert"] [data-testid="stMarkdownContainer"] * {
+    color: #ffffff !important;
+}
+
+/* Alert icon */
+div[data-testid="stAlert"] svg {
+    color: #93b4ff !important;
+    stroke: #93b4ff !important;
+}
+
+/* Dark notification border */
+div[data-testid="stAlert"] {
+    border: 1px solid #526b96 !important;
+    border-radius: 12px !important;
+}
+
 
         </style>
         """,
