@@ -113,7 +113,34 @@ def style():
             font-family: 'Manrope', sans-serif !important;
             letter-spacing: -0.03em;
         }
+        /* Streamlit top-right toolbar: make all icons and text white */
+[data-testid="stHeader"] button,
+[data-testid="stHeader"] [role="button"],
+[data-testid="stToolbar"] button,
+[data-testid="stToolbar"] [role="button"] {
+    color: #ffffff !important;
+}
 
+/* Toolbar SVG icons: GitHub, Star, Edit, Menu */
+[data-testid="stHeader"] svg,
+[data-testid="stToolbar"] svg {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+    stroke: #ffffff !important;
+}
+
+/* SVG paths */
+[data-testid="stHeader"] svg path,
+[data-testid="stToolbar"] svg path {
+    fill: #ffffff !important;
+    stroke: #ffffff !important;
+}
+
+/* Share text and toolbar labels */
+[data-testid="stHeader"] span,
+[data-testid="stToolbar"] span {
+    color: #ffffff !important;
+}
         /* General text */
         p, li, label, span, small,
         [data-testid="stMarkdownContainer"],
